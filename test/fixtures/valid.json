@@ -1,0 +1,148 @@
+{
+  "schema_version": 1,
+  "as_of": "2026-10-05",
+  "airlines": {
+    "cathay": {
+      "id": "cathay",
+      "name": {
+        "en": "Cathay Pacific",
+        "zh-Hant": "國泰航空"
+      },
+      "profile": {
+        "group": {
+          "text": {
+            "en": "Group text",
+            "zh-Hant": "集團結構"
+          },
+          "source_url": "https://example.com/src",
+          "as_of": "2026-10-01"
+        },
+        "hubs": [
+          {
+            "iata": "HKG",
+            "source_url": "https://example.com/src",
+            "as_of": "2026-10-01"
+          }
+        ],
+        "founded": {
+          "year": 1946,
+          "source_url": "https://example.com/src",
+          "as_of": "2026-10-01"
+        },
+        "cadet_programme": {
+          "url": "https://example.com/cadet",
+          "source_url": "https://example.com/src",
+          "as_of": "2026-10-01"
+        },
+        "milestones": [
+          {
+            "id": "m1",
+            "year": 1991,
+            "text": {
+              "en": "Milestone 1",
+              "zh-Hant": "里程碑1"
+            },
+            "source_url": "https://example.com/src",
+            "as_of": "2026-10-01"
+          },
+          {
+            "id": "m2",
+            "year": 1992,
+            "text": {
+              "en": "Milestone 2",
+              "zh-Hant": "里程碑2"
+            },
+            "source_url": "https://example.com/src",
+            "as_of": "2026-10-01"
+          },
+          {
+            "id": "m3",
+            "year": 1993,
+            "text": {
+              "en": "Milestone 3",
+              "zh-Hant": "里程碑3"
+            },
+            "source_url": "https://example.com/src",
+            "as_of": "2026-10-01"
+          },
+          {
+            "id": "m4",
+            "year": 1994,
+            "text": {
+              "en": "Milestone 4",
+              "zh-Hant": "里程碑4"
+            },
+            "source_url": "https://example.com/src",
+            "as_of": "2026-10-01"
+          },
+          {
+            "id": "m5",
+            "year": 1995,
+            "text": {
+              "en": "Milestone 5",
+              "zh-Hant": "里程碑5"
+            },
+            "source_url": "https://example.com/src",
+            "as_of": "2026-10-01"
+          }
+        ]
+      },
+      "fleet": [
+        {
+          "id": "a350-900",
+          "type": "A350",
+          "variant": "A350-900",
+          "in_service": 28,
+          "on_order": 0,
+          "first_delivery_year": 2016,
+          "source_url": "https://example.com/src",
+          "as_of": "2026-10-01"
+        }
+      ],
+      "destinations": [
+        {
+          "id": "lhr",
+          "iata": "LHR",
+          "city": {
+            "en": "London",
+            "zh-Hant": "倫敦"
+          },
+          "region": "europe",
+          "since_year": null,
+          "status": "current",
+          "source_url": "https://example.com/src",
+          "as_of": "2026-10-01"
+        }
+      ],
+      "changes": [
+        {
+          "id": "almaty",
+          "date": "2026-06-02",
+          "kind": "new-route",
+          "text": {
+            "en": "Almaty plans",
+            "zh-Hant": "阿拉木圖"
+          },
+          "source_url": "https://example.com/src"
+        }
+      ]
+    }
+  },
+  "digest": [
+    {
+      "id": "d1",
+      "category": "route",
+      "date": "2026-06-02",
+      "headline": {
+        "en": "h",
+        "zh-Hant": "標題"
+      },
+      "body": {
+        "en": "b",
+        "zh-Hant": "內文"
+      },
+      "source_url": "https://example.com/src",
+      "as_of": "2026-10-01"
+    }
+  ]
+}

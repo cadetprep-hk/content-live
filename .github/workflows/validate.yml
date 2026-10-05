@@ -1,0 +1,43 @@
+name: validate
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Fetch main's live.json as the as_of base
+        run: |
+          if [ "${{ github.event_name }}" = "pull_request" ]; then
+            ref="origin/${{ github.base_ref }}"
+          else
+            # On a push to main, compare with main as it was before this push.
+            ref="${{ github.event.before }}"
+          fi
+          if [ -n "$ref" ] && [ "$ref" != "0000000000000000000000000000000000000000" ] \
+             && git show "$ref:live.json" > "$RUNNER_TEMP/base-live.json" 2>/dev/null; then
+            echo "Base: live.json at $ref"
+          else
+            echo "No live.json on the base (first version); the as_of check will be skipped."
+            : > "$RUNNER_TEMP/base-live.json"
+          fi
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - run: npm ci
+      - run: npm run typecheck
+      - run: npm test
+      - run: npm run validate -- live.json --base "$RUNNER_TEMP/base-live.json"

@@ -1,0 +1,142 @@
+{
+  "schema_version": 1,
+  "as_of": "2026-10-05",
+  "airlines": {},
+  "digest": [
+    {
+      "id": "cathay-cargo-a350f-order-eight",
+      "category": "fleet",
+      "date": "2026-08-05",
+      "headline": {
+        "en": "Cathay Cargo increases its A350F freighter order to eight",
+        "zh-Hant": "國泰貨運把 A350F 貨機訂單增至八架"
+      },
+      "body": {
+        "en": "In its 2026 interim results, the Cathay Group said Cathay Cargo had raised its order for Airbus A350F freighters to eight aircraft. It also said a lease agreement was signed for an A330P2F converted freighter for Air Hong Kong.",
+        "zh-Hant": "國泰集團在 2026 年中期業績中表示，國泰貨運已把空中巴士 A350F 貨機訂單增至八架；集團亦表示已為香港華民航空簽訂一架 A330P2F 改裝貨機的租賃協議。"
+      },
+      "source_url": "https://news.cathaypacific.com/the-cathay-group-announces-its-2026-interim-results",
+      "as_of": "2026-09-30"
+    },
+    {
+      "id": "greater-bay-first-737-9",
+      "category": "fleet",
+      "date": "2025-11-26",
+      "headline": {
+        "en": "Greater Bay Airlines receives its first Boeing 737-9",
+        "zh-Hant": "大灣區航空接收首架波音 737-9"
+      },
+      "body": {
+        "en": "Greater Bay Airlines said its first Boeing 737-9 was delivered from Boeing's delivery centre in Seattle and arrived in Hong Kong on 22 November 2025, and had already entered service. The airline said it now flies Boeing 737-800 and 737-9 aircraft.",
+        "zh-Hant": "大灣區航空表示，其首架波音 737-9 從波音位於西雅圖的交付中心交付，並於 2025 年 11 月 22 日抵港，已投入服務。該公司表示，機隊現由波音 737-800 及 737-9 組成。"
+      },
+      "source_url": "https://www.greaterbay-airlines.com/hk/en_HK/about-us/media-room/greater-bay-airlines-celebrates-fleet-expansion-with-its-first-boeing-737-9-aircraft.html",
+      "as_of": "2026-09-30"
+    },
+    {
+      "id": "cathay-iberia-codeshares-madrid",
+      "category": "route",
+      "date": "2026-07-15",
+      "headline": {
+        "en": "Cathay Pacific adds Iberia codeshares via Madrid",
+        "zh-Hant": "國泰航空經馬德里新增與西班牙國家航空的代碼共享航班"
+      },
+      "body": {
+        "en": "Cathay Pacific announced new codeshare flights via Madrid with oneworld partner Iberia to four cities: Buenos Aires (Argentina), Fortaleza and Recife (Brazil), and Santo Domingo (Dominican Republic). It said it would add three flights a week on its non-stop Hong Kong–Madrid route from 25 October 2026, making the route daily; it said the schedules are subject to change and regulatory approval.",
+        "zh-Hant": "國泰航空宣布經馬德里與寰宇一家夥伴西班牙國家航空新增代碼共享航班，前往四個城市：阿根廷布宜諾斯艾利斯、巴西福塔雷薩及累西腓，以及多明尼加共和國聖多明各。該公司表示，將由 2026 年 10 月 25 日起在香港至馬德里直航航線每週增加三班，使該航線增至每日一班；該公司表示航班時間表或會更改，並有待監管機構批准。"
+      },
+      "source_url": "https://news.cathaypacific.com/cathay-pacific-expands-its-latin-america-coverage-via-madrid-with-new-iberia-codeshares",
+      "as_of": "2026-09-30"
+    },
+    {
+      "id": "cathay-almaty-plans",
+      "category": "route",
+      "date": "2026-06-02",
+      "headline": {
+        "en": "Cathay Pacific announces plans for Almaty flights",
+        "zh-Hant": "國泰航空宣布計劃開辦阿拉木圖航線"
+      },
+      "body": {
+        "en": "Cathay Pacific announced plans to start direct flights between Hong Kong and Almaty, Kazakhstan, in the first quarter of 2027. It said it plans three flights a week with an Airbus A330-300, and that Almaty would be its first destination in Central Asia.",
+        "zh-Hant": "國泰航空宣布計劃於 2027 年第一季開辦香港至哈薩克斯坦阿拉木圖的直航航班，並表示計劃每週三班，以空中巴士 A330-300 營運；阿拉木圖將是該公司在中亞的首個航點。"
+      },
+      "source_url": "https://news.cathaypacific.com/cathay-pacific-announces-plans-to-launch-direct-flights-to-almaty",
+      "as_of": "2026-09-30"
+    },
+    {
+      "id": "hk-express-wuxi",
+      "category": "route",
+      "date": "2026-04-02",
+      "headline": {
+        "en": "HK Express announces daily flights to Wuxi",
+        "zh-Hant": "香港快運宣布開辦每日無錫航班"
+      },
+      "body": {
+        "en": "HK Express announced a new daily direct route from Hong Kong to Wuxi Shuofang Airport, starting on 17 July 2026, subject to regulatory approval. It said that with Wuxi it would offer a total of 22 return flights a week across the Yangtze River Delta.",
+        "zh-Hant": "香港快運宣布由 2026 年 7 月 17 日起開辦香港至無錫碩放機場的每日直航航班（有待監管機構批准）；該公司表示，加上無錫航線後，其長江三角洲航線合共每週提供 22 班來回航班。"
+      },
+      "source_url": "https://www.hkexpress.com/en/About-Us/Media-Centre/HK-Express-to-Launch-New-Wuxi-Route-on-17-July",
+      "as_of": "2026-09-30"
+    },
+    {
+      "id": "hkia-career-fair-2026",
+      "category": "recruitment",
+      "date": "2026-05-23",
+      "headline": {
+        "en": "Airport career fair opens with over 4,400 jobs",
+        "zh-Hant": "機場招聘會開幕，提供逾 4,400 個職位"
+      },
+      "body": {
+        "en": "The HKIA Expo & Career Fair 2026, hosted by the Airport Authority Hong Kong and the Labour Department, opened in Terminal 2. The Airport Authority said about 40 airport companies offered over 4,400 job openings across areas such as inflight services, ground services and aircraft maintenance.",
+        "zh-Hant": "由香港機場管理局與勞工處合辦的香港國際機場 2026 年博覽及招聘會（HKIA Expo & Career Fair 2026）在二號客運大樓開幕。機管局表示，約 40 間機場公司提供逾 4,400 個職位空缺，涵蓋機上服務、地勤服務及飛機維修等範疇。"
+      },
+      "source_url": "https://www.hongkongairport.com/en/media-centre/press-release/2026/pr_1867",
+      "as_of": "2026-09-30"
+    },
+    {
+      "id": "hk-express-hkiaa-cadet-graduates",
+      "category": "recruitment",
+      "date": "2025-11-19",
+      "headline": {
+        "en": "HK Express hires 11 cadet graduates as Second Officers",
+        "zh-Hant": "香港快運聘用 11 名見習機師畢業生為二副"
+      },
+      "body": {
+        "en": "HK Express and the Hong Kong International Aviation Academy (HKIAA) announced that HK Express had hired 11 graduates from the first intake of HKIAA's Cadet Pilot Programme as Second Officers. They said HK Express was the first airline to employ HKIAA cadet pilots, and that the programme had completed eight intakes.",
+        "zh-Hant": "香港快運與香港國際航空學院宣布，香港快運已聘用 11 名學院首屆見習機師課程畢業生為二副（Second Officer）。雙方表示，香港快運是首家聘用該學院見習機師的航空公司，課程當時已完成八屆招生。"
+      },
+      "source_url": "https://www.hongkongairport.com/en/media-centre/press-release/2025/pr_1841",
+      "as_of": "2026-09-30"
+    },
+    {
+      "id": "hkia-august-2026-traffic",
+      "category": "industry",
+      "date": "2026-09-17",
+      "headline": {
+        "en": "HKIA passenger traffic up 3.5% in August",
+        "zh-Hant": "香港國際機場八月客運量上升 3.5%"
+      },
+      "body": {
+        "en": "The Airport Authority said HKIA handled 5.86 million passengers and 34,995 flight movements in August 2026, up 3.5% and 0.5% on a year earlier. Cargo fell 1.2% to 422,000 tonnes. Transfer and transit passengers recorded double-digit growth.",
+        "zh-Hant": "機管局表示，香港國際機場在 2026 年 8 月處理 586 萬人次旅客及 34,995 架次飛機起降，按年分別上升 3.5% 及 0.5%。貨運量下跌 1.2% 至 42.2 萬公噸。轉機及過境旅客錄得雙位數增長。"
+      },
+      "source_url": "https://www.hongkongairport.com/en/media-centre/press-release/2026/pr_1890",
+      "as_of": "2026-09-30"
+    },
+    {
+      "id": "hkia-t2-departures-open",
+      "category": "industry",
+      "date": "2026-05-27",
+      "headline": {
+        "en": "HKIA Terminal 2 departures open",
+        "zh-Hant": "香港國際機場二號客運大樓離港設施啟用"
+      },
+      "body": {
+        "en": "The departure facilities of HKIA's new Terminal 2 began operating on 27 May 2026. Hong Kong Airlines was the first airline to move its check-in counters from Terminal 1 to Terminal 2, and the Airport Authority said the other 14 airlines would move their check-in services in batches until 10 June.",
+        "zh-Hant": "香港國際機場新二號客運大樓的離港設施於 2026 年 5 月 27 日啟用。香港航空是首家把登機櫃位由一號客運大樓遷往二號客運大樓的航空公司；機管局表示，其餘 14 家航空公司的登機櫃位服務會分批遷移，直至 6 月 10 日。"
+      },
+      "source_url": "https://www.hongkongairport.com/en/media-centre/press-release/2026/pr_1868",
+      "as_of": "2026-09-30"
+    }
+  ]
+}
