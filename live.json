@@ -1,7 +1,3018 @@
 {
   "schema_version": 1,
-  "as_of": "2026-10-05",
-  "airlines": {},
+  "as_of": "2026-10-11",
+  "airlines": {
+    "cathay": {
+      "id": "cathay",
+      "name": {
+        "en": "Cathay Pacific",
+        "zh-Hant": "國泰航空"
+      },
+      "profile": {
+        "group": {
+          "text": {
+            "en": "Parent company of the Cathay Group; HK Express (low-cost) and Air Hong Kong (all-cargo) are its wholly owned subsidiaries.",
+            "zh-Hant": "國泰集團母公司；低成本航空公司香港快運及全貨運航空公司香港華民航空均為其全資附屬公司"
+          },
+          "source_url": "https://www.cathaypacific.com/content/dam/cx/about-us/investor-relations/interim-annual-reports/en/2026_cx_interim_report_en.pdf",
+          "as_of": "2026-10-11"
+        },
+        "hubs": [
+          {
+            "iata": "HKG",
+            "source_url": "https://flights.cathaypacific.com/en_HK/book-flights/global-network.html",
+            "as_of": "2026-10-11"
+          }
+        ],
+        "founded": {
+          "year": 1946,
+          "source_url": "https://www.cathaypacific.com/content/dam/cx/about-us/investor-relations/interim-annual-reports/en/2026_cx_interim_report_en.pdf",
+          "as_of": "2026-10-11"
+        },
+        "cadet_programme": {
+          "url": "https://careers.cathaypacific.com/en/careers/jobs/hong-kong/cadet-pilot-programme-31538",
+          "source_url": "https://careers.cathaypacific.com/en/careers/jobs/hong-kong/cadet-pilot-programme-31538",
+          "as_of": "2026-10-11"
+        },
+        "milestones": [
+          {
+            "id": "1946-first-flight",
+            "year": 1946,
+            "text": {
+              "en": "Cathay Pacific was established and flew its first flight, Sydney to Hong Kong, in a DC-3 nicknamed 'Betsy'.",
+              "zh-Hant": "國泰航空成立，以DC-3客機「Betsy」首航，由悉尼飛抵香港"
+            },
+            "source_url": "https://www.cathaypacific.com/cx/en_HK/about-us/about-our-airline/history.html",
+            "as_of": "2026-10-11"
+          },
+          {
+            "id": "1948-swire",
+            "year": 1948,
+            "text": {
+              "en": "Swire became a key shareholder.",
+              "zh-Hant": "太古成為國泰航空的主要股東"
+            },
+            "source_url": "https://www.cathaypacific.com/cx/en_HK/about-us/about-our-airline/history.html",
+            "as_of": "2026-10-11"
+          },
+          {
+            "id": "1962-jet-age",
+            "year": 1962,
+            "text": {
+              "en": "Bought its first Convair 880 jet; the fleet was fully jet-powered by 1967.",
+              "zh-Hant": "購入首架Convair 880噴射客機，1967年機隊全面噴射化"
+            },
+            "source_url": "https://www.cathaypacific.com/cx/en_HK/about-us/about-our-airline/history.html",
+            "as_of": "2026-10-11"
+          },
+          {
+            "id": "1979-first-747",
+            "year": 1979,
+            "text": {
+              "en": "Welcomed its first Boeing 747, VR-HKG.",
+              "zh-Hant": "引入首架波音747客機VR-HKG"
+            },
+            "source_url": "https://www.cathaypacific.com/cx/en_HK/about-us/about-our-airline/history.html",
+            "as_of": "2026-10-11"
+          },
+          {
+            "id": "1980-shanghai",
+            "year": 1980,
+            "text": {
+              "en": "Began passenger service to the Chinese Mainland with a first flight to Shanghai in June.",
+              "zh-Hant": "6月首航上海，開辦往中國內地的客運航班"
+            },
+            "source_url": "https://www.cathaypacific.com/cx/en_HK/about-us/about-our-airline/history.html",
+            "as_of": "2026-10-11"
+          },
+          {
+            "id": "1998-chek-lap-kok-oneworld",
+            "year": 1998,
+            "text": {
+              "en": "Operated the first commercial landing at Chek Lap Kok and established the oneworld alliance with partners.",
+              "zh-Hant": "完成赤鱲角機場首個商業航班降落，並與夥伴創立寰宇一家"
+            },
+            "source_url": "https://www.cathaypacific.com/cx/en_HK/about-us/about-our-airline/history.html",
+            "as_of": "2026-10-11"
+          },
+          {
+            "id": "2023-cathay-brand",
+            "year": 2023,
+            "text": {
+              "en": "Renamed its master brand Cathay; the cargo business became Cathay Cargo.",
+              "zh-Hant": "主品牌易名為「國泰」，貨運業務改稱國泰貨運"
+            },
+            "source_url": "https://www.cathaypacific.com/cx/en_HK/about-us/about-our-airline/history.html",
+            "as_of": "2026-10-11"
+          },
+          {
+            "id": "2026-80-years",
+            "year": 2026,
+            "text": {
+              "en": "Celebrated 80 years, with a route network of 100 global destinations.",
+              "zh-Hant": "慶祝成立80周年，航線網絡達全球100個航點"
+            },
+            "source_url": "https://www.cathaypacific.com/cx/en_HK/about-us/about-our-airline/history.html",
+            "as_of": "2026-10-11"
+          }
+        ]
+      },
+      "fleet": [
+        {
+          "id": "a321neo",
+          "type": "A321",
+          "variant": "A321neo",
+          "in_service": 16,
+          "on_order": 8,
+          "first_delivery_year": null,
+          "source_url": "https://www.cathaypacific.com/content/dam/cx/about-us/investor-relations/interim-annual-reports/en/2026_cx_interim_report_en.pdf",
+          "as_of": "2026-10-11"
+        },
+        {
+          "id": "a330-300",
+          "type": "A330",
+          "variant": "A330-300",
+          "in_service": 43,
+          "on_order": 0,
+          "first_delivery_year": null,
+          "source_url": "https://www.cathaypacific.com/content/dam/cx/about-us/investor-relations/interim-annual-reports/en/2026_cx_interim_report_en.pdf",
+          "as_of": "2026-10-11"
+        },
+        {
+          "id": "a330-900",
+          "type": "A330neo",
+          "variant": "A330-900",
+          "in_service": 0,
+          "on_order": 30,
+          "first_delivery_year": null,
+          "source_url": "https://www.cathaypacific.com/content/dam/cx/about-us/investor-relations/interim-annual-reports/en/2026_cx_interim_report_en.pdf",
+          "as_of": "2026-10-11"
+        },
+        {
+          "id": "a350-900",
+          "type": "A350",
+          "variant": "A350-900",
+          "in_service": 30,
+          "on_order": 0,
+          "first_delivery_year": null,
+          "source_url": "https://www.cathaypacific.com/content/dam/cx/about-us/investor-relations/interim-annual-reports/en/2026_cx_interim_report_en.pdf",
+          "as_of": "2026-10-11"
+        },
+        {
+          "id": "a350-1000",
+          "type": "A350",
+          "variant": "A350-1000",
+          "in_service": 18,
+          "on_order": 0,
+          "first_delivery_year": null,
+          "source_url": "https://www.cathaypacific.com/content/dam/cx/about-us/investor-relations/interim-annual-reports/en/2026_cx_interim_report_en.pdf",
+          "as_of": "2026-10-11"
+        },
+        {
+          "id": "777-300",
+          "type": "777",
+          "variant": "777-300",
+          "in_service": 17,
+          "on_order": 0,
+          "first_delivery_year": null,
+          "source_url": "https://www.cathaypacific.com/content/dam/cx/about-us/investor-relations/interim-annual-reports/en/2026_cx_interim_report_en.pdf",
+          "as_of": "2026-10-11"
+        },
+        {
+          "id": "777-300er",
+          "type": "777",
+          "variant": "777-300ER",
+          "in_service": 35,
+          "on_order": 0,
+          "first_delivery_year": null,
+          "source_url": "https://www.cathaypacific.com/content/dam/cx/about-us/investor-relations/interim-annual-reports/en/2026_cx_interim_report_en.pdf",
+          "as_of": "2026-10-11"
+        },
+        {
+          "id": "777-9",
+          "type": "777X",
+          "variant": "777-9",
+          "in_service": 0,
+          "on_order": 35,
+          "first_delivery_year": null,
+          "source_url": "https://www.cathaypacific.com/content/dam/cx/about-us/investor-relations/interim-annual-reports/en/2026_cx_interim_report_en.pdf",
+          "as_of": "2026-10-11"
+        },
+        {
+          "id": "a350f",
+          "type": "A350",
+          "variant": "A350F",
+          "in_service": 0,
+          "on_order": 8,
+          "first_delivery_year": null,
+          "source_url": "https://www.cathaypacific.com/content/dam/cx/about-us/investor-relations/interim-annual-reports/en/2026_cx_interim_report_en.pdf",
+          "as_of": "2026-10-11"
+        },
+        {
+          "id": "747-400erf",
+          "type": "747",
+          "variant": "747-400ERF",
+          "in_service": 6,
+          "on_order": 0,
+          "first_delivery_year": null,
+          "source_url": "https://www.cathaypacific.com/content/dam/cx/about-us/investor-relations/interim-annual-reports/en/2026_cx_interim_report_en.pdf",
+          "as_of": "2026-10-11"
+        },
+        {
+          "id": "747-8f",
+          "type": "747",
+          "variant": "747-8F",
+          "in_service": 14,
+          "on_order": 0,
+          "first_delivery_year": null,
+          "source_url": "https://www.cathaypacific.com/content/dam/cx/about-us/investor-relations/interim-annual-reports/en/2026_cx_interim_report_en.pdf",
+          "as_of": "2026-10-11"
+        }
+      ],
+      "destinations": [
+        {
+          "id": "beijing",
+          "iata": "BJS",
+          "city": {
+            "en": "Beijing",
+            "zh-Hant": "北京"
+          },
+          "region": "east-asia",
+          "since_year": null,
+          "status": "current",
+          "shared_with": "hk-express",
+          "source_url": "https://flights.cathaypacific.com/en_HK/book-flights/global-network.html",
+          "as_of": "2026-10-11"
+        },
+        {
+          "id": "changsha",
+          "iata": "CSX",
+          "city": {
+            "en": "Changsha",
+            "zh-Hant": "長沙"
+          },
+          "region": "east-asia",
+          "since_year": 2025,
+          "status": "new",
+          "source_url": "https://news.cathaypacific.com/cathay-pacific-s-daily-direct-flights-between-hong-kong-and-changsha-take-off",
+          "as_of": "2026-10-11"
+        },
+        {
+          "id": "changzhou",
+          "iata": "CZX",
+          "city": {
+            "en": "Changzhou",
+            "zh-Hant": "常州"
+          },
+          "region": "east-asia",
+          "since_year": null,
+          "status": "current",
+          "shared_with": "hk-express",
+          "source_url": "https://flights.cathaypacific.com/en_HK/book-flights/global-network.html",
+          "as_of": "2026-10-11"
+        },
+        {
+          "id": "chengdu",
+          "iata": "CTU",
+          "city": {
+            "en": "Chengdu",
+            "zh-Hant": "成都"
+          },
+          "region": "east-asia",
+          "since_year": null,
+          "status": "current",
+          "source_url": "https://flights.cathaypacific.com/en_HK/book-flights/global-network.html",
+          "as_of": "2026-10-11"
+        },
+        {
+          "id": "chongqing",
+          "iata": "CKG",
+          "city": {
+            "en": "Chongqing",
+            "zh-Hant": "重慶"
+          },
+          "region": "east-asia",
+          "since_year": null,
+          "status": "current",
+          "source_url": "https://flights.cathaypacific.com/en_HK/book-flights/global-network.html",
+          "as_of": "2026-10-11"
+        },
+        {
+          "id": "fuzhou",
+          "iata": "FOC",
+          "city": {
+            "en": "Fuzhou",
+            "zh-Hant": "福州"
+          },
+          "region": "east-asia",
+          "since_year": null,
+          "status": "current",
+          "source_url": "https://flights.cathaypacific.com/en_HK/book-flights/global-network.html",
+          "as_of": "2026-10-11"
+        },
+        {
+          "id": "guangzhou",
+          "iata": "CAN",
+          "city": {
+            "en": "Guangzhou",
+            "zh-Hant": "廣州"
+          },
+          "region": "east-asia",
+          "since_year": null,
+          "status": "current",
+          "source_url": "https://flights.cathaypacific.com/en_HK/book-flights/global-network.html",
+          "as_of": "2026-10-11"
+        },
+        {
+          "id": "haikou",
+          "iata": "HAK",
+          "city": {
+            "en": "Haikou",
+            "zh-Hant": "海口"
+          },
+          "region": "east-asia",
+          "since_year": null,
+          "status": "current",
+          "source_url": "https://flights.cathaypacific.com/en_HK/book-flights/global-network.html",
+          "as_of": "2026-10-11"
+        },
+        {
+          "id": "hangzhou",
+          "iata": "HGH",
+          "city": {
+            "en": "Hangzhou",
+            "zh-Hant": "杭州"
+          },
+          "region": "east-asia",
+          "since_year": null,
+          "status": "current",
+          "source_url": "https://flights.cathaypacific.com/en_HK/book-flights/global-network.html",
+          "as_of": "2026-10-11"
+        },
+        {
+          "id": "nanjing",
+          "iata": "NKG",
+          "city": {
+            "en": "Nanjing",
+            "zh-Hant": "南京"
+          },
+          "region": "east-asia",
+          "since_year": null,
+          "status": "current",
+          "source_url": "https://flights.cathaypacific.com/en_HK/book-flights/global-network.html",
+          "as_of": "2026-10-11"
+        },
+        {
+          "id": "ningbo",
+          "iata": "NGB",
+          "city": {
+            "en": "Ningbo",
+            "zh-Hant": "寧波"
+          },
+          "region": "east-asia",
+          "since_year": null,
+          "status": "current",
+          "shared_with": "hk-express",
+          "source_url": "https://flights.cathaypacific.com/en_HK/book-flights/global-network.html",
+          "as_of": "2026-10-11"
+        },
+        {
+          "id": "qingdao",
+          "iata": "TAO",
+          "city": {
+            "en": "Qingdao",
+            "zh-Hant": "青島"
+          },
+          "region": "east-asia",
+          "since_year": null,
+          "status": "current",
+          "source_url": "https://flights.cathaypacific.com/en_HK/book-flights/global-network.html",
+          "as_of": "2026-10-11"
+        },
+        {
+          "id": "shanghai",
+          "iata": "SHA",
+          "city": {
+            "en": "Shanghai",
+            "zh-Hant": "上海"
+          },
+          "region": "east-asia",
+          "since_year": null,
+          "status": "current",
+          "source_url": "https://flights.cathaypacific.com/en_HK/book-flights/global-network.html",
+          "as_of": "2026-10-11"
+        },
+        {
+          "id": "sanya",
+          "iata": "SYX",
+          "city": {
+            "en": "Sanya",
+            "zh-Hant": "三亞"
+          },
+          "region": "east-asia",
+          "since_year": null,
+          "status": "current",
+          "shared_with": "hk-express",
+          "source_url": "https://flights.cathaypacific.com/en_HK/book-flights/global-network.html",
+          "as_of": "2026-10-11"
+        },
+        {
+          "id": "urumqi",
+          "iata": "URC",
+          "city": {
+            "en": "Urumqi",
+            "zh-Hant": "烏魯木齊"
+          },
+          "region": "east-asia",
+          "since_year": null,
+          "status": "current",
+          "source_url": "https://flights.cathaypacific.com/en_HK/book-flights/global-network.html",
+          "as_of": "2026-10-11"
+        },
+        {
+          "id": "wenzhou",
+          "iata": "WNZ",
+          "city": {
+            "en": "Wenzhou",
+            "zh-Hant": "溫州"
+          },
+          "region": "east-asia",
+          "since_year": null,
+          "status": "current",
+          "source_url": "https://flights.cathaypacific.com/en_HK/book-flights/global-network.html",
+          "as_of": "2026-10-11"
+        },
+        {
+          "id": "wuhan",
+          "iata": "WUH",
+          "city": {
+            "en": "Wuhan",
+            "zh-Hant": "武漢"
+          },
+          "region": "east-asia",
+          "since_year": null,
+          "status": "current",
+          "source_url": "https://flights.cathaypacific.com/en_HK/book-flights/global-network.html",
+          "as_of": "2026-10-11"
+        },
+        {
+          "id": "wuxi",
+          "iata": "WUX",
+          "city": {
+            "en": "Wuxi",
+            "zh-Hant": "無錫"
+          },
+          "region": "east-asia",
+          "since_year": null,
+          "status": "current",
+          "shared_with": "hk-express",
+          "source_url": "https://flights.cathaypacific.com/en_HK/book-flights/global-network.html",
+          "as_of": "2026-10-11"
+        },
+        {
+          "id": "xiamen",
+          "iata": "XMN",
+          "city": {
+            "en": "Xiamen",
+            "zh-Hant": "廈門"
+          },
+          "region": "east-asia",
+          "since_year": null,
+          "status": "current",
+          "source_url": "https://flights.cathaypacific.com/en_HK/book-flights/global-network.html",
+          "as_of": "2026-10-11"
+        },
+        {
+          "id": "xi-an",
+          "iata": "XIY",
+          "city": {
+            "en": "Xi'an",
+            "zh-Hant": "西安"
+          },
+          "region": "east-asia",
+          "since_year": null,
+          "status": "current",
+          "source_url": "https://flights.cathaypacific.com/en_HK/book-flights/global-network.html",
+          "as_of": "2026-10-11"
+        },
+        {
+          "id": "yiwu",
+          "iata": "YIW",
+          "city": {
+            "en": "Yiwu",
+            "zh-Hant": "義烏"
+          },
+          "region": "east-asia",
+          "since_year": null,
+          "status": "current",
+          "shared_with": "hk-express",
+          "source_url": "https://flights.cathaypacific.com/en_HK/book-flights/global-network.html",
+          "as_of": "2026-10-11"
+        },
+        {
+          "id": "zhengzhou",
+          "iata": "CGO",
+          "city": {
+            "en": "Zhengzhou",
+            "zh-Hant": "鄭州"
+          },
+          "region": "east-asia",
+          "since_year": null,
+          "status": "current",
+          "source_url": "https://flights.cathaypacific.com/en_HK/book-flights/global-network.html",
+          "as_of": "2026-10-11"
+        },
+        {
+          "id": "kaohsiung",
+          "iata": "KHH",
+          "city": {
+            "en": "Kaohsiung",
+            "zh-Hant": "高雄"
+          },
+          "region": "east-asia",
+          "since_year": null,
+          "status": "current",
+          "shared_with": "hk-express",
+          "source_url": "https://flights.cathaypacific.com/en_HK/book-flights/global-network.html",
+          "as_of": "2026-10-11"
+        },
+        {
+          "id": "taichung",
+          "iata": "RMQ",
+          "city": {
+            "en": "Taichung",
+            "zh-Hant": "台中"
+          },
+          "region": "east-asia",
+          "since_year": null,
+          "status": "current",
+          "shared_with": "hk-express",
+          "source_url": "https://flights.cathaypacific.com/en_HK/book-flights/global-network.html",
+          "as_of": "2026-10-11"
+        },
+        {
+          "id": "taipei",
+          "iata": "TPE",
+          "city": {
+            "en": "Taipei",
+            "zh-Hant": "台北"
+          },
+          "region": "east-asia",
+          "since_year": null,
+          "status": "current",
+          "shared_with": "hk-express",
+          "source_url": "https://flights.cathaypacific.com/en_HK/book-flights/global-network.html",
+          "as_of": "2026-10-11"
+        },
+        {
+          "id": "johannesburg",
+          "iata": "JNB",
+          "city": {
+            "en": "Johannesburg",
+            "zh-Hant": "約翰內斯堡"
+          },
+          "region": "africa",
+          "since_year": null,
+          "status": "current",
+          "source_url": "https://flights.cathaypacific.com/en_HK/book-flights/global-network.html",
+          "as_of": "2026-10-11"
+        },
+        {
+          "id": "toronto",
+          "iata": "YTO",
+          "city": {
+            "en": "Toronto",
+            "zh-Hant": "多倫多"
+          },
+          "region": "north-america",
+          "since_year": null,
+          "status": "current",
+          "source_url": "https://flights.cathaypacific.com/en_HK/book-flights/global-network.html",
+          "as_of": "2026-10-11"
+        },
+        {
+          "id": "vancouver",
+          "iata": "YVR",
+          "city": {
+            "en": "Vancouver",
+            "zh-Hant": "溫哥華"
+          },
+          "region": "north-america",
+          "since_year": null,
+          "status": "current",
+          "source_url": "https://flights.cathaypacific.com/en_HK/book-flights/global-network.html",
+          "as_of": "2026-10-11"
+        },
+        {
+          "id": "boston",
+          "iata": "BOS",
+          "city": {
+            "en": "Boston",
+            "zh-Hant": "波士頓"
+          },
+          "region": "north-america",
+          "since_year": null,
+          "status": "current",
+          "source_url": "https://flights.cathaypacific.com/en_HK/book-flights/global-network.html",
+          "as_of": "2026-10-11"
+        },
+        {
+          "id": "chicago",
+          "iata": "CHI",
+          "city": {
+            "en": "Chicago",
+            "zh-Hant": "芝加哥"
+          },
+          "region": "north-america",
+          "since_year": null,
+          "status": "current",
+          "source_url": "https://flights.cathaypacific.com/en_HK/book-flights/global-network.html",
+          "as_of": "2026-10-11"
+        },
+        {
+          "id": "dallas",
+          "iata": "DFW",
+          "city": {
+            "en": "Dallas",
+            "zh-Hant": "達拉斯"
+          },
+          "region": "north-america",
+          "since_year": null,
+          "status": "current",
+          "source_url": "https://flights.cathaypacific.com/en_HK/book-flights/global-network.html",
+          "as_of": "2026-10-11"
+        },
+        {
+          "id": "los-angeles",
+          "iata": "LAX",
+          "city": {
+            "en": "Los Angeles",
+            "zh-Hant": "洛杉磯"
+          },
+          "region": "north-america",
+          "since_year": null,
+          "status": "current",
+          "source_url": "https://flights.cathaypacific.com/en_HK/book-flights/global-network.html",
+          "as_of": "2026-10-11"
+        },
+        {
+          "id": "new-york",
+          "iata": "NYC",
+          "city": {
+            "en": "New York",
+            "zh-Hant": "紐約"
+          },
+          "region": "north-america",
+          "since_year": null,
+          "status": "current",
+          "source_url": "https://flights.cathaypacific.com/en_HK/book-flights/global-network.html",
+          "as_of": "2026-10-11"
+        },
+        {
+          "id": "san-francisco",
+          "iata": "SFO",
+          "city": {
+            "en": "San Francisco",
+            "zh-Hant": "三藩市"
+          },
+          "region": "north-america",
+          "since_year": null,
+          "status": "current",
+          "source_url": "https://flights.cathaypacific.com/en_HK/book-flights/global-network.html",
+          "as_of": "2026-10-11"
+        },
+        {
+          "id": "seattle",
+          "iata": "SEA",
+          "city": {
+            "en": "Seattle",
+            "zh-Hant": "西雅圖"
+          },
+          "region": "north-america",
+          "since_year": null,
+          "status": "new",
+          "source_url": "https://news.cathaypacific.com/cathay-pacific-connects-hong-kong-and-seattle-with-a-five-times-weekly-direct-service",
+          "as_of": "2026-10-11"
+        },
+        {
+          "id": "dhaka",
+          "iata": "DAC",
+          "city": {
+            "en": "Dhaka",
+            "zh-Hant": "達卡"
+          },
+          "region": "south-asia",
+          "since_year": null,
+          "status": "current",
+          "source_url": "https://flights.cathaypacific.com/en_HK/book-flights/global-network.html",
+          "as_of": "2026-10-11"
+        },
+        {
+          "id": "phnom-penh",
+          "iata": "KTI",
+          "city": {
+            "en": "Phnom Penh",
+            "zh-Hant": "金邊"
+          },
+          "region": "southeast-asia",
+          "since_year": null,
+          "status": "current",
+          "source_url": "https://flights.cathaypacific.com/en_HK/book-flights/global-network.html",
+          "as_of": "2026-10-11"
+        },
+        {
+          "id": "bengaluru",
+          "iata": "BLR",
+          "city": {
+            "en": "Bengaluru",
+            "zh-Hant": "班加羅爾"
+          },
+          "region": "south-asia",
+          "since_year": null,
+          "status": "current",
+          "source_url": "https://flights.cathaypacific.com/en_HK/book-flights/global-network.html",
+          "as_of": "2026-10-11"
+        },
+        {
+          "id": "chennai",
+          "iata": "MAA",
+          "city": {
+            "en": "Chennai",
+            "zh-Hant": "真奈"
+          },
+          "region": "south-asia",
+          "since_year": null,
+          "status": "current",
+          "source_url": "https://flights.cathaypacific.com/en_HK/book-flights/global-network.html",
+          "as_of": "2026-10-11"
+        },
+        {
+          "id": "delhi",
+          "iata": "DEL",
+          "city": {
+            "en": "Delhi",
+            "zh-Hant": "德里"
+          },
+          "region": "south-asia",
+          "since_year": null,
+          "status": "current",
+          "source_url": "https://flights.cathaypacific.com/en_HK/book-flights/global-network.html",
+          "as_of": "2026-10-11"
+        },
+        {
+          "id": "hyderabad",
+          "iata": "HYD",
+          "city": {
+            "en": "Hyderabad",
+            "zh-Hant": "海得拉巴"
+          },
+          "region": "south-asia",
+          "since_year": null,
+          "status": "current",
+          "source_url": "https://flights.cathaypacific.com/en_HK/book-flights/global-network.html",
+          "as_of": "2026-10-11"
+        },
+        {
+          "id": "mumbai",
+          "iata": "BOM",
+          "city": {
+            "en": "Mumbai",
+            "zh-Hant": "孟買"
+          },
+          "region": "south-asia",
+          "since_year": null,
+          "status": "current",
+          "source_url": "https://flights.cathaypacific.com/en_HK/book-flights/global-network.html",
+          "as_of": "2026-10-11"
+        },
+        {
+          "id": "denpasar-bali",
+          "iata": "DPS",
+          "city": {
+            "en": "Denpasar (Bali)",
+            "zh-Hant": "登巴薩（峇里島）"
+          },
+          "region": "southeast-asia",
+          "since_year": null,
+          "status": "current",
+          "source_url": "https://flights.cathaypacific.com/en_HK/book-flights/global-network.html",
+          "as_of": "2026-10-11"
+        },
+        {
+          "id": "jakarta",
+          "iata": "JKT",
+          "city": {
+            "en": "Jakarta",
+            "zh-Hant": "雅加達"
+          },
+          "region": "southeast-asia",
+          "since_year": null,
+          "status": "current",
+          "source_url": "https://flights.cathaypacific.com/en_HK/book-flights/global-network.html",
+          "as_of": "2026-10-11"
+        },
+        {
+          "id": "surabaya",
+          "iata": "SUB",
+          "city": {
+            "en": "Surabaya",
+            "zh-Hant": "泗水"
+          },
+          "region": "southeast-asia",
+          "since_year": null,
+          "status": "current",
+          "source_url": "https://flights.cathaypacific.com/en_HK/book-flights/global-network.html",
+          "as_of": "2026-10-11"
+        },
+        {
+          "id": "fukuoka",
+          "iata": "FUK",
+          "city": {
+            "en": "Fukuoka",
+            "zh-Hant": "福岡"
+          },
+          "region": "east-asia",
+          "since_year": null,
+          "status": "current",
+          "shared_with": "hk-express",
+          "source_url": "https://flights.cathaypacific.com/en_HK/book-flights/global-network.html",
+          "as_of": "2026-10-11"
+        },
+        {
+          "id": "hiroshima",
+          "iata": "HIJ",
+          "city": {
+            "en": "Hiroshima",
+            "zh-Hant": "廣島"
+          },
+          "region": "east-asia",
+          "since_year": null,
+          "status": "current",
+          "shared_with": "hk-express",
+          "source_url": "https://flights.cathaypacific.com/en_HK/book-flights/global-network.html",
+          "as_of": "2026-10-11"
+        },
+        {
+          "id": "ishigaki",
+          "iata": "ISG",
+          "city": {
+            "en": "Ishigaki",
+            "zh-Hant": "石垣島"
+          },
+          "region": "east-asia",
+          "since_year": null,
+          "status": "current",
+          "shared_with": "hk-express",
+          "source_url": "https://flights.cathaypacific.com/en_HK/book-flights/global-network.html",
+          "as_of": "2026-10-11"
+        },
+        {
+          "id": "komatsu",
+          "iata": "KMQ",
+          "city": {
+            "en": "Komatsu",
+            "zh-Hant": "小松"
+          },
+          "region": "east-asia",
+          "since_year": null,
+          "status": "current",
+          "shared_with": "hk-express",
+          "source_url": "https://flights.cathaypacific.com/en_HK/book-flights/global-network.html",
+          "as_of": "2026-10-11"
+        },
+        {
+          "id": "nagoya",
+          "iata": "NGO",
+          "city": {
+            "en": "Nagoya",
+            "zh-Hant": "名古屋"
+          },
+          "region": "east-asia",
+          "since_year": null,
+          "status": "current",
+          "shared_with": "hk-express",
+          "source_url": "https://flights.cathaypacific.com/en_HK/book-flights/global-network.html",
+          "as_of": "2026-10-11"
+        },
+        {
+          "id": "okinawa",
+          "iata": "OKA",
+          "city": {
+            "en": "Okinawa",
+            "zh-Hant": "沖繩"
+          },
+          "region": "east-asia",
+          "since_year": null,
+          "status": "current",
+          "shared_with": "hk-express",
+          "source_url": "https://flights.cathaypacific.com/en_HK/book-flights/global-network.html",
+          "as_of": "2026-10-11"
+        },
+        {
+          "id": "osaka",
+          "iata": "OSA",
+          "city": {
+            "en": "Osaka",
+            "zh-Hant": "大阪"
+          },
+          "region": "east-asia",
+          "since_year": null,
+          "status": "current",
+          "shared_with": "hk-express",
+          "source_url": "https://flights.cathaypacific.com/en_HK/book-flights/global-network.html",
+          "as_of": "2026-10-11"
+        },
+        {
+          "id": "sapporo",
+          "iata": "SPK",
+          "city": {
+            "en": "Sapporo",
+            "zh-Hant": "札幌"
+          },
+          "region": "east-asia",
+          "since_year": null,
+          "status": "current",
+          "source_url": "https://flights.cathaypacific.com/en_HK/book-flights/global-network.html",
+          "as_of": "2026-10-11"
+        },
+        {
+          "id": "sendai",
+          "iata": "SDJ",
+          "city": {
+            "en": "Sendai",
+            "zh-Hant": "仙台"
+          },
+          "region": "east-asia",
+          "since_year": null,
+          "status": "current",
+          "shared_with": "hk-express",
+          "source_url": "https://flights.cathaypacific.com/en_HK/book-flights/global-network.html",
+          "as_of": "2026-10-11"
+        },
+        {
+          "id": "takamatsu",
+          "iata": "TAK",
+          "city": {
+            "en": "Takamatsu",
+            "zh-Hant": "高松"
+          },
+          "region": "east-asia",
+          "since_year": null,
+          "status": "current",
+          "shared_with": "hk-express",
+          "source_url": "https://flights.cathaypacific.com/en_HK/book-flights/global-network.html",
+          "as_of": "2026-10-11"
+        },
+        {
+          "id": "tokyo",
+          "iata": "TYO",
+          "city": {
+            "en": "Tokyo",
+            "zh-Hant": "東京"
+          },
+          "region": "east-asia",
+          "since_year": null,
+          "status": "current",
+          "shared_with": "hk-express",
+          "source_url": "https://flights.cathaypacific.com/en_HK/book-flights/global-network.html",
+          "as_of": "2026-10-11"
+        },
+        {
+          "id": "almaty",
+          "iata": "ALA",
+          "city": {
+            "en": "Almaty",
+            "zh-Hant": "阿拉木圖"
+          },
+          "region": "central-asia",
+          "since_year": null,
+          "status": "new",
+          "source_url": "https://news.cathaypacific.com/cathay-pacific-announces-plans-to-launch-direct-flights-to-almaty",
+          "as_of": "2026-10-11"
+        },
+        {
+          "id": "busan",
+          "iata": "PUS",
+          "city": {
+            "en": "Busan",
+            "zh-Hant": "釜山"
+          },
+          "region": "east-asia",
+          "since_year": null,
+          "status": "current",
+          "shared_with": "hk-express",
+          "source_url": "https://flights.cathaypacific.com/en_HK/book-flights/global-network.html",
+          "as_of": "2026-10-11"
+        },
+        {
+          "id": "daegu",
+          "iata": "TAE",
+          "city": {
+            "en": "Daegu",
+            "zh-Hant": "大邱"
+          },
+          "region": "east-asia",
+          "since_year": null,
+          "status": "current",
+          "shared_with": "hk-express",
+          "source_url": "https://flights.cathaypacific.com/en_HK/book-flights/global-network.html",
+          "as_of": "2026-10-11"
+        },
+        {
+          "id": "jeju",
+          "iata": "CJU",
+          "city": {
+            "en": "Jeju",
+            "zh-Hant": "濟州"
+          },
+          "region": "east-asia",
+          "since_year": null,
+          "status": "current",
+          "shared_with": "hk-express",
+          "source_url": "https://flights.cathaypacific.com/en_HK/book-flights/global-network.html",
+          "as_of": "2026-10-11"
+        },
+        {
+          "id": "seoul",
+          "iata": "SEL",
+          "city": {
+            "en": "Seoul",
+            "zh-Hant": "首爾"
+          },
+          "region": "east-asia",
+          "since_year": null,
+          "status": "current",
+          "shared_with": "hk-express",
+          "source_url": "https://flights.cathaypacific.com/en_HK/book-flights/global-network.html",
+          "as_of": "2026-10-11"
+        },
+        {
+          "id": "kota-kinabalu",
+          "iata": "BKI",
+          "city": {
+            "en": "Kota Kinabalu",
+            "zh-Hant": "亞庇"
+          },
+          "region": "southeast-asia",
+          "since_year": null,
+          "status": "current",
+          "shared_with": "hk-express",
+          "source_url": "https://flights.cathaypacific.com/en_HK/book-flights/global-network.html",
+          "as_of": "2026-10-11"
+        },
+        {
+          "id": "kuala-lumpur",
+          "iata": "KUL",
+          "city": {
+            "en": "Kuala Lumpur",
+            "zh-Hant": "吉隆坡"
+          },
+          "region": "southeast-asia",
+          "since_year": null,
+          "status": "current",
+          "shared_with": "hk-express",
+          "source_url": "https://flights.cathaypacific.com/en_HK/book-flights/global-network.html",
+          "as_of": "2026-10-11"
+        },
+        {
+          "id": "penang",
+          "iata": "PEN",
+          "city": {
+            "en": "Penang",
+            "zh-Hant": "檳城"
+          },
+          "region": "southeast-asia",
+          "since_year": null,
+          "status": "current",
+          "shared_with": "hk-express",
+          "source_url": "https://flights.cathaypacific.com/en_HK/book-flights/global-network.html",
+          "as_of": "2026-10-11"
+        },
+        {
+          "id": "kathmandu",
+          "iata": "KTM",
+          "city": {
+            "en": "Kathmandu",
+            "zh-Hant": "加德滿都"
+          },
+          "region": "south-asia",
+          "since_year": null,
+          "status": "current",
+          "source_url": "https://flights.cathaypacific.com/en_HK/book-flights/global-network.html",
+          "as_of": "2026-10-11"
+        },
+        {
+          "id": "cebu",
+          "iata": "CEB",
+          "city": {
+            "en": "Cebu",
+            "zh-Hant": "宿霧"
+          },
+          "region": "southeast-asia",
+          "since_year": null,
+          "status": "current",
+          "source_url": "https://flights.cathaypacific.com/en_HK/book-flights/global-network.html",
+          "as_of": "2026-10-11"
+        },
+        {
+          "id": "clark",
+          "iata": "CRK",
+          "city": {
+            "en": "Clark",
+            "zh-Hant": "克拉克"
+          },
+          "region": "southeast-asia",
+          "since_year": null,
+          "status": "current",
+          "shared_with": "hk-express",
+          "source_url": "https://flights.cathaypacific.com/en_HK/book-flights/global-network.html",
+          "as_of": "2026-10-11"
+        },
+        {
+          "id": "manila",
+          "iata": "MNL",
+          "city": {
+            "en": "Manila",
+            "zh-Hant": "馬尼拉"
+          },
+          "region": "southeast-asia",
+          "since_year": null,
+          "status": "current",
+          "shared_with": "hk-express",
+          "source_url": "https://flights.cathaypacific.com/en_HK/book-flights/global-network.html",
+          "as_of": "2026-10-11"
+        },
+        {
+          "id": "singapore",
+          "iata": "SIN",
+          "city": {
+            "en": "Singapore",
+            "zh-Hant": "新加坡"
+          },
+          "region": "southeast-asia",
+          "since_year": null,
+          "status": "current",
+          "source_url": "https://flights.cathaypacific.com/en_HK/book-flights/global-network.html",
+          "as_of": "2026-10-11"
+        },
+        {
+          "id": "colombo",
+          "iata": "CMB",
+          "city": {
+            "en": "Colombo",
+            "zh-Hant": "科倫坡"
+          },
+          "region": "south-asia",
+          "since_year": null,
+          "status": "current",
+          "source_url": "https://flights.cathaypacific.com/en_HK/book-flights/global-network.html",
+          "as_of": "2026-10-11"
+        },
+        {
+          "id": "bangkok",
+          "iata": "BKK",
+          "city": {
+            "en": "Bangkok",
+            "zh-Hant": "曼谷"
+          },
+          "region": "southeast-asia",
+          "since_year": null,
+          "status": "current",
+          "shared_with": "hk-express",
+          "source_url": "https://flights.cathaypacific.com/en_HK/book-flights/global-network.html",
+          "as_of": "2026-10-11"
+        },
+        {
+          "id": "chiang-mai",
+          "iata": "CNX",
+          "city": {
+            "en": "Chiang Mai",
+            "zh-Hant": "清邁"
+          },
+          "region": "southeast-asia",
+          "since_year": null,
+          "status": "current",
+          "shared_with": "hk-express",
+          "source_url": "https://flights.cathaypacific.com/en_HK/book-flights/global-network.html",
+          "as_of": "2026-10-11"
+        },
+        {
+          "id": "phuket",
+          "iata": "HKT",
+          "city": {
+            "en": "Phuket",
+            "zh-Hant": "布吉"
+          },
+          "region": "southeast-asia",
+          "since_year": null,
+          "status": "current",
+          "shared_with": "hk-express",
+          "source_url": "https://flights.cathaypacific.com/en_HK/book-flights/global-network.html",
+          "as_of": "2026-10-11"
+        },
+        {
+          "id": "hanoi",
+          "iata": "HAN",
+          "city": {
+            "en": "Hanoi",
+            "zh-Hant": "河內"
+          },
+          "region": "southeast-asia",
+          "since_year": null,
+          "status": "current",
+          "source_url": "https://flights.cathaypacific.com/en_HK/book-flights/global-network.html",
+          "as_of": "2026-10-11"
+        },
+        {
+          "id": "ho-chi-minh-city",
+          "iata": "SGN",
+          "city": {
+            "en": "Ho Chi Minh City",
+            "zh-Hant": "胡志明市"
+          },
+          "region": "southeast-asia",
+          "since_year": null,
+          "status": "current",
+          "source_url": "https://flights.cathaypacific.com/en_HK/book-flights/global-network.html",
+          "as_of": "2026-10-11"
+        },
+        {
+          "id": "phu-quoc",
+          "iata": "PQC",
+          "city": {
+            "en": "Phu Quoc",
+            "zh-Hant": "富國島"
+          },
+          "region": "southeast-asia",
+          "since_year": null,
+          "status": "current",
+          "shared_with": "hk-express",
+          "source_url": "https://flights.cathaypacific.com/en_HK/book-flights/global-network.html",
+          "as_of": "2026-10-11"
+        },
+        {
+          "id": "adelaide",
+          "iata": "ADL",
+          "city": {
+            "en": "Adelaide",
+            "zh-Hant": "阿德萊德"
+          },
+          "region": "oceania",
+          "since_year": 1992,
+          "status": "resumed",
+          "source_url": "https://news.cathaypacific.com/cathay-pacific-s-service-to-adelaide-takes-off",
+          "as_of": "2026-10-11"
+        },
+        {
+          "id": "brisbane",
+          "iata": "BNE",
+          "city": {
+            "en": "Brisbane",
+            "zh-Hant": "布里斯本"
+          },
+          "region": "oceania",
+          "since_year": null,
+          "status": "current",
+          "source_url": "https://flights.cathaypacific.com/en_HK/book-flights/global-network.html",
+          "as_of": "2026-10-11"
+        },
+        {
+          "id": "melbourne",
+          "iata": "MEL",
+          "city": {
+            "en": "Melbourne",
+            "zh-Hant": "墨爾本"
+          },
+          "region": "oceania",
+          "since_year": null,
+          "status": "current",
+          "source_url": "https://flights.cathaypacific.com/en_HK/book-flights/global-network.html",
+          "as_of": "2026-10-11"
+        },
+        {
+          "id": "perth",
+          "iata": "PER",
+          "city": {
+            "en": "Perth",
+            "zh-Hant": "珀斯"
+          },
+          "region": "oceania",
+          "since_year": null,
+          "status": "current",
+          "source_url": "https://flights.cathaypacific.com/en_HK/book-flights/global-network.html",
+          "as_of": "2026-10-11"
+        },
+        {
+          "id": "sydney",
+          "iata": "SYD",
+          "city": {
+            "en": "Sydney",
+            "zh-Hant": "悉尼"
+          },
+          "region": "oceania",
+          "since_year": null,
+          "status": "current",
+          "source_url": "https://flights.cathaypacific.com/en_HK/book-flights/global-network.html",
+          "as_of": "2026-10-11"
+        },
+        {
+          "id": "auckland",
+          "iata": "AKL",
+          "city": {
+            "en": "Auckland",
+            "zh-Hant": "奧克蘭"
+          },
+          "region": "oceania",
+          "since_year": null,
+          "status": "current",
+          "source_url": "https://flights.cathaypacific.com/en_HK/book-flights/global-network.html",
+          "as_of": "2026-10-11"
+        },
+        {
+          "id": "christchurch",
+          "iata": "CHC",
+          "city": {
+            "en": "Christchurch",
+            "zh-Hant": "基督城"
+          },
+          "region": "oceania",
+          "since_year": null,
+          "status": "current",
+          "source_url": "https://flights.cathaypacific.com/en_HK/book-flights/global-network.html",
+          "as_of": "2026-10-11"
+        },
+        {
+          "id": "brussels",
+          "iata": "BRU",
+          "city": {
+            "en": "Brussels",
+            "zh-Hant": "布魯塞爾"
+          },
+          "region": "europe",
+          "since_year": null,
+          "status": "current",
+          "source_url": "https://flights.cathaypacific.com/en_HK/book-flights/global-network.html",
+          "as_of": "2026-10-11"
+        },
+        {
+          "id": "paris",
+          "iata": "PAR",
+          "city": {
+            "en": "Paris",
+            "zh-Hant": "巴黎"
+          },
+          "region": "europe",
+          "since_year": null,
+          "status": "current",
+          "source_url": "https://flights.cathaypacific.com/en_HK/book-flights/global-network.html",
+          "as_of": "2026-10-11"
+        },
+        {
+          "id": "frankfurt",
+          "iata": "FRA",
+          "city": {
+            "en": "Frankfurt",
+            "zh-Hant": "法蘭克福"
+          },
+          "region": "europe",
+          "since_year": null,
+          "status": "current",
+          "source_url": "https://flights.cathaypacific.com/en_HK/book-flights/global-network.html",
+          "as_of": "2026-10-11"
+        },
+        {
+          "id": "munich",
+          "iata": "MUC",
+          "city": {
+            "en": "Munich",
+            "zh-Hant": "慕尼黑"
+          },
+          "region": "europe",
+          "since_year": null,
+          "status": "current",
+          "source_url": "https://flights.cathaypacific.com/en_HK/book-flights/global-network.html",
+          "as_of": "2026-10-11"
+        },
+        {
+          "id": "milan",
+          "iata": "MIL",
+          "city": {
+            "en": "Milan",
+            "zh-Hant": "米蘭"
+          },
+          "region": "europe",
+          "since_year": null,
+          "status": "current",
+          "source_url": "https://flights.cathaypacific.com/en_HK/book-flights/global-network.html",
+          "as_of": "2026-10-11"
+        },
+        {
+          "id": "rome",
+          "iata": "ROM",
+          "city": {
+            "en": "Rome",
+            "zh-Hant": "羅馬"
+          },
+          "region": "europe",
+          "since_year": null,
+          "status": "current",
+          "source_url": "https://flights.cathaypacific.com/en_HK/book-flights/global-network.html",
+          "as_of": "2026-10-11"
+        },
+        {
+          "id": "amsterdam",
+          "iata": "AMS",
+          "city": {
+            "en": "Amsterdam",
+            "zh-Hant": "阿姆斯特丹"
+          },
+          "region": "europe",
+          "since_year": null,
+          "status": "current",
+          "source_url": "https://flights.cathaypacific.com/en_HK/book-flights/global-network.html",
+          "as_of": "2026-10-11"
+        },
+        {
+          "id": "barcelona",
+          "iata": "BCN",
+          "city": {
+            "en": "Barcelona",
+            "zh-Hant": "巴塞羅那"
+          },
+          "region": "europe",
+          "since_year": null,
+          "status": "current",
+          "source_url": "https://flights.cathaypacific.com/en_HK/book-flights/global-network.html",
+          "as_of": "2026-10-11"
+        },
+        {
+          "id": "madrid",
+          "iata": "MAD",
+          "city": {
+            "en": "Madrid",
+            "zh-Hant": "馬德里"
+          },
+          "region": "europe",
+          "since_year": null,
+          "status": "current",
+          "source_url": "https://flights.cathaypacific.com/en_HK/book-flights/global-network.html",
+          "as_of": "2026-10-11"
+        },
+        {
+          "id": "zurich",
+          "iata": "ZRH",
+          "city": {
+            "en": "Zurich",
+            "zh-Hant": "蘇黎世"
+          },
+          "region": "europe",
+          "since_year": null,
+          "status": "current",
+          "source_url": "https://flights.cathaypacific.com/en_HK/book-flights/global-network.html",
+          "as_of": "2026-10-11"
+        },
+        {
+          "id": "london",
+          "iata": "LON",
+          "city": {
+            "en": "London",
+            "zh-Hant": "倫敦"
+          },
+          "region": "europe",
+          "since_year": null,
+          "status": "current",
+          "source_url": "https://flights.cathaypacific.com/en_HK/book-flights/global-network.html",
+          "as_of": "2026-10-11"
+        },
+        {
+          "id": "manchester",
+          "iata": "MAN",
+          "city": {
+            "en": "Manchester",
+            "zh-Hant": "曼徹斯特"
+          },
+          "region": "europe",
+          "since_year": null,
+          "status": "current",
+          "source_url": "https://flights.cathaypacific.com/en_HK/book-flights/global-network.html",
+          "as_of": "2026-10-11"
+        },
+        {
+          "id": "riyadh",
+          "iata": "RUH",
+          "city": {
+            "en": "Riyadh",
+            "zh-Hant": "利雅得"
+          },
+          "region": "middle-east",
+          "since_year": null,
+          "status": "current",
+          "source_url": "https://flights.cathaypacific.com/en_HK/book-flights/global-network.html",
+          "as_of": "2026-10-11"
+        },
+        {
+          "id": "dubai",
+          "iata": "DXB",
+          "city": {
+            "en": "Dubai",
+            "zh-Hant": "杜拜"
+          },
+          "region": "middle-east",
+          "since_year": null,
+          "status": "current",
+          "source_url": "https://flights.cathaypacific.com/en_HK/book-flights/global-network.html",
+          "as_of": "2026-10-11"
+        }
+      ],
+      "changes": [
+        {
+          "id": "2025-11-04-changsha",
+          "date": "2025-11-04",
+          "kind": "new-route",
+          "text": {
+            "en": "Cathay Pacific launched daily non-stop flights between Hong Kong and Changsha.",
+            "zh-Hant": "國泰航空開辦香港至長沙每日直航"
+          },
+          "source_url": "https://news.cathaypacific.com/cathay-pacific-s-daily-direct-flights-between-hong-kong-and-changsha-take-off",
+          "as_of": "2026-10-11"
+        },
+        {
+          "id": "2025-11-12-adelaide",
+          "date": "2025-11-12",
+          "kind": "resumed",
+          "text": {
+            "en": "Cathay Pacific returned to Adelaide with a thrice-weekly seasonal service.",
+            "zh-Hant": "國泰航空恢復香港至阿德萊德季節性航班，每周三班"
+          },
+          "source_url": "https://news.cathaypacific.com/cathay-pacific-s-service-to-adelaide-takes-off",
+          "as_of": "2026-10-11"
+        },
+        {
+          "id": "2026-03-30-seattle",
+          "date": "2026-03-30",
+          "kind": "new-route",
+          "text": {
+            "en": "Cathay Pacific launched a five-times-weekly non-stop service between Hong Kong and Seattle.",
+            "zh-Hant": "國泰航空開辦香港至西雅圖直航，每周五班"
+          },
+          "source_url": "https://news.cathaypacific.com/cathay-pacific-connects-hong-kong-and-seattle-with-a-five-times-weekly-direct-service",
+          "as_of": "2026-10-11"
+        },
+        {
+          "id": "2026-05-27-a350f-order",
+          "date": "2026-05-27",
+          "kind": "order",
+          "text": {
+            "en": "Cathay Cargo exercised purchase rights for two more Airbus A350F freighters, taking its order to eight.",
+            "zh-Hant": "國泰貨運行使購買權增購兩架空中巴士A350F貨機，訂單增至八架"
+          },
+          "source_url": "https://news.cathaypacific.com/cathay-cargo-further-expands-its-airbus-a350f-freighter-orders-to-eight",
+          "as_of": "2026-10-11"
+        },
+        {
+          "id": "2026-06-02-almaty",
+          "date": "2026-06-02",
+          "kind": "new-route",
+          "text": {
+            "en": "Cathay Pacific announced plans to fly three times a week to Almaty from the first quarter of 2027.",
+            "zh-Hant": "國泰航空宣布計劃於2027年第一季開辦往阿拉木圖航班，每周三班"
+          },
+          "source_url": "https://news.cathaypacific.com/cathay-pacific-announces-plans-to-launch-direct-flights-to-almaty",
+          "as_of": "2026-10-11"
+        }
+      ]
+    },
+    "hk-express": {
+      "id": "hk-express",
+      "name": {
+        "en": "HK Express",
+        "zh-Hant": "香港快運"
+      },
+      "profile": {
+        "group": {
+          "text": {
+            "en": "Low-cost airline based in Hong Kong; a wholly owned subsidiary of Cathay Pacific Airways in the Cathay Group.",
+            "zh-Hant": "以香港為基地的低成本航空公司，國泰集團成員，為國泰航空的全資附屬公司"
+          },
+          "source_url": "https://www.cathaypacific.com/content/dam/cx/about-us/investor-relations/interim-annual-reports/en/2026_cx_interim_report_en.pdf",
+          "as_of": "2026-10-11"
+        },
+        "hubs": [
+          {
+            "iata": "HKG",
+            "source_url": "https://www.hkexpress.com/en-HK/About-Us/Media-Centre/HK-Express-T2-Commencement",
+            "as_of": "2026-10-11"
+          }
+        ],
+        "founded": null,
+        "cadet_programme": null,
+        "milestones": [
+          {
+            "id": "2013-low-cost-carrier",
+            "year": 2013,
+            "text": {
+              "en": "Became Hong Kong's sole low-cost carrier on 27 October 2013.",
+              "zh-Hant": "2013年10月27日起成為香港唯一的低成本航空公司"
+            },
+            "source_url": "https://www.hkexpress.com/en-HK/About-Us/10anniversary",
+            "as_of": "2026-10-11"
+          },
+          {
+            "id": "2023-first-a321neo",
+            "year": 2023,
+            "text": {
+              "en": "Took delivery of its first Airbus A321neo.",
+              "zh-Hant": "接收首架空中巴士A321neo客機"
+            },
+            "source_url": "https://www.hkexpress.com/en-HK/About-Us/Media-Centre/HK-Express-Welcomes-First-A321-neo-Amid-Air-Travel-Rebound",
+            "as_of": "2026-10-11"
+          },
+          {
+            "id": "2024-beijing-daxing",
+            "year": 2024,
+            "text": {
+              "en": "Inaugurated its route to Beijing Daxing International Airport.",
+              "zh-Hant": "開辦往北京大興國際機場的航線"
+            },
+            "source_url": "https://www.hkexpress.com/en-HK/About-Us/Media-Centre/HK-Express-Inaugurates-New-Route-to-Beijing-Daxing-Today",
+            "as_of": "2026-10-11"
+          },
+          {
+            "id": "2024-tenth-a321neo",
+            "year": 2024,
+            "text": {
+              "en": "Welcomed its 10th Airbus A321neo.",
+              "zh-Hant": "接收第10架空中巴士A321neo客機"
+            },
+            "source_url": "https://www.hkexpress.com/en-HK/About-Us/Media-Centre/HK-Express-Welcomes-Its-10th-A321neo-Aircraft",
+            "as_of": "2026-10-11"
+          },
+          {
+            "id": "2025-first-hkiaa-cadets",
+            "year": 2025,
+            "text": {
+              "en": "Became the first airline to hire Hong Kong International Aviation Academy cadet pilot graduates, as Second Officers.",
+              "zh-Hant": "首家聘用香港國際航空學院學員機師課程畢業生出任二副的航空公司"
+            },
+            "source_url": "https://www.hkexpress.com/en-HK/About-Us/Media-Centre/HK-Express-Becomes-First-Local-Airline-to-Hire-11-Graduates-of-the-Inaugural-Cadet-Pilot-Programme",
+            "as_of": "2026-10-11"
+          },
+          {
+            "id": "2026-best-low-cost-carrier",
+            "year": 2026,
+            "text": {
+              "en": "Named World's Best Low-Cost Carrier 2026 by AirlineRatings.",
+              "zh-Hant": "獲AirlineRatings評為2026年全球最佳低成本航空公司"
+            },
+            "source_url": "https://www.hkexpress.com/en-HK/About-Us/Media-Centre/HK-Express-Named-Worlds-Best-Low-Cost-Carrier-2026-by-AirlineRatings",
+            "as_of": "2026-10-11"
+          },
+          {
+            "id": "2026-terminal-2",
+            "year": 2026,
+            "text": {
+              "en": "Commenced operations at Terminal 2 of Hong Kong International Airport.",
+              "zh-Hant": "於香港國際機場二號客運大樓開始營運"
+            },
+            "source_url": "https://www.hkexpress.com/en-HK/About-Us/Media-Centre/HK-Express-T2-Commencement",
+            "as_of": "2026-10-11"
+          }
+        ]
+      },
+      "fleet": [
+        {
+          "id": "a320-200",
+          "type": "A320",
+          "variant": "A320-200",
+          "in_service": 6,
+          "on_order": 0,
+          "first_delivery_year": null,
+          "source_url": "https://www.cathaypacific.com/content/dam/cx/about-us/investor-relations/interim-annual-reports/en/2026_cx_interim_report_en.pdf",
+          "as_of": "2026-10-11"
+        },
+        {
+          "id": "a320-200neo",
+          "type": "A320",
+          "variant": "A320-200neo",
+          "in_service": 10,
+          "on_order": 8,
+          "first_delivery_year": null,
+          "source_url": "https://www.cathaypacific.com/content/dam/cx/about-us/investor-relations/interim-annual-reports/en/2026_cx_interim_report_en.pdf",
+          "as_of": "2026-10-11"
+        },
+        {
+          "id": "a321-200",
+          "type": "A321",
+          "variant": "A321-200",
+          "in_service": 10,
+          "on_order": 0,
+          "first_delivery_year": null,
+          "source_url": "https://www.cathaypacific.com/content/dam/cx/about-us/investor-relations/interim-annual-reports/en/2026_cx_interim_report_en.pdf",
+          "as_of": "2026-10-11"
+        },
+        {
+          "id": "a321-200neo",
+          "type": "A321",
+          "variant": "A321-200neo",
+          "in_service": 16,
+          "on_order": 16,
+          "first_delivery_year": null,
+          "source_url": "https://www.cathaypacific.com/content/dam/cx/about-us/investor-relations/interim-annual-reports/en/2026_cx_interim_report_en.pdf",
+          "as_of": "2026-10-11"
+        }
+      ],
+      "destinations": [
+        {
+          "id": "beijing",
+          "iata": "PKX",
+          "city": {
+            "en": "Beijing (Daxing)",
+            "zh-Hant": "北京（大興）"
+          },
+          "region": "east-asia",
+          "since_year": null,
+          "status": "current",
+          "source_url": "https://www.hkexpress.com/en-HK/Explore/Route-Map",
+          "as_of": "2026-10-11"
+        },
+        {
+          "id": "seoul",
+          "iata": "SEL",
+          "city": {
+            "en": "Seoul",
+            "zh-Hant": "首爾"
+          },
+          "region": "east-asia",
+          "since_year": null,
+          "status": "current",
+          "source_url": "https://www.hkexpress.com/en-HK/Explore/Route-Map",
+          "as_of": "2026-10-11"
+        },
+        {
+          "id": "daegu",
+          "iata": "TAE",
+          "city": {
+            "en": "Daegu",
+            "zh-Hant": "大邱"
+          },
+          "region": "east-asia",
+          "since_year": null,
+          "status": "current",
+          "source_url": "https://www.hkexpress.com/en-HK/Explore/Route-Map",
+          "as_of": "2026-10-11"
+        },
+        {
+          "id": "busan",
+          "iata": "PUS",
+          "city": {
+            "en": "Busan",
+            "zh-Hant": "釜山"
+          },
+          "region": "east-asia",
+          "since_year": null,
+          "status": "current",
+          "source_url": "https://www.hkexpress.com/en-HK/Explore/Route-Map",
+          "as_of": "2026-10-11"
+        },
+        {
+          "id": "jeju",
+          "iata": "CJU",
+          "city": {
+            "en": "Jeju",
+            "zh-Hant": "濟州"
+          },
+          "region": "east-asia",
+          "since_year": null,
+          "status": "current",
+          "source_url": "https://www.hkexpress.com/en-HK/Explore/Route-Map",
+          "as_of": "2026-10-11"
+        },
+        {
+          "id": "sendai",
+          "iata": "SDJ",
+          "city": {
+            "en": "Sendai",
+            "zh-Hant": "仙台"
+          },
+          "region": "east-asia",
+          "since_year": null,
+          "status": "current",
+          "source_url": "https://www.hkexpress.com/en-HK/Explore/Route-Map",
+          "as_of": "2026-10-11"
+        },
+        {
+          "id": "komatsu",
+          "iata": "KMQ",
+          "city": {
+            "en": "Komatsu",
+            "zh-Hant": "小松"
+          },
+          "region": "east-asia",
+          "since_year": null,
+          "status": "current",
+          "source_url": "https://www.hkexpress.com/en-HK/Explore/Route-Map",
+          "as_of": "2026-10-11"
+        },
+        {
+          "id": "tokyo",
+          "iata": "TYO",
+          "city": {
+            "en": "Tokyo (Haneda / Narita)",
+            "zh-Hant": "東京（羽田／成田）"
+          },
+          "region": "east-asia",
+          "since_year": null,
+          "status": "current",
+          "source_url": "https://www.hkexpress.com/en-HK/Explore/Route-Map",
+          "as_of": "2026-10-11"
+        },
+        {
+          "id": "hiroshima",
+          "iata": "HIJ",
+          "city": {
+            "en": "Hiroshima",
+            "zh-Hant": "廣島"
+          },
+          "region": "east-asia",
+          "since_year": null,
+          "status": "current",
+          "source_url": "https://www.hkexpress.com/en-HK/Explore/Route-Map",
+          "as_of": "2026-10-11"
+        },
+        {
+          "id": "osaka",
+          "iata": "OSA",
+          "city": {
+            "en": "Osaka",
+            "zh-Hant": "大阪"
+          },
+          "region": "east-asia",
+          "since_year": null,
+          "status": "current",
+          "source_url": "https://www.hkexpress.com/en-HK/Explore/Route-Map",
+          "as_of": "2026-10-11"
+        },
+        {
+          "id": "nagoya",
+          "iata": "NGO",
+          "city": {
+            "en": "Nagoya",
+            "zh-Hant": "名古屋"
+          },
+          "region": "east-asia",
+          "since_year": null,
+          "status": "current",
+          "source_url": "https://www.hkexpress.com/en-HK/Explore/Route-Map",
+          "as_of": "2026-10-11"
+        },
+        {
+          "id": "takamatsu",
+          "iata": "TAK",
+          "city": {
+            "en": "Takamatsu",
+            "zh-Hant": "高松"
+          },
+          "region": "east-asia",
+          "since_year": null,
+          "status": "current",
+          "source_url": "https://www.hkexpress.com/en-HK/Explore/Route-Map",
+          "as_of": "2026-10-11"
+        },
+        {
+          "id": "fukuoka",
+          "iata": "FUK",
+          "city": {
+            "en": "Fukuoka",
+            "zh-Hant": "福岡"
+          },
+          "region": "east-asia",
+          "since_year": null,
+          "status": "current",
+          "source_url": "https://www.hkexpress.com/en-HK/Explore/Route-Map",
+          "as_of": "2026-10-11"
+        },
+        {
+          "id": "okinawa",
+          "iata": "OKA",
+          "city": {
+            "en": "Okinawa",
+            "zh-Hant": "沖繩"
+          },
+          "region": "east-asia",
+          "since_year": null,
+          "status": "current",
+          "source_url": "https://www.hkexpress.com/en-HK/Explore/Route-Map",
+          "as_of": "2026-10-11"
+        },
+        {
+          "id": "ishigaki",
+          "iata": "ISG",
+          "city": {
+            "en": "Ishigaki",
+            "zh-Hant": "石垣"
+          },
+          "region": "east-asia",
+          "since_year": null,
+          "status": "current",
+          "source_url": "https://www.hkexpress.com/en-HK/Explore/Route-Map",
+          "as_of": "2026-10-11"
+        },
+        {
+          "id": "hefei",
+          "iata": "HFE",
+          "city": {
+            "en": "Hefei",
+            "zh-Hant": "合肥"
+          },
+          "region": "east-asia",
+          "since_year": null,
+          "status": "new",
+          "source_url": "https://www.hkexpress.com/en-HK/About-Us/Media-Centre/HK-Express-Launches-New-Hefei-Route-on-3-December",
+          "as_of": "2026-10-11"
+        },
+        {
+          "id": "changzhou",
+          "iata": "CZX",
+          "city": {
+            "en": "Changzhou",
+            "zh-Hant": "常州"
+          },
+          "region": "east-asia",
+          "since_year": null,
+          "status": "current",
+          "source_url": "https://www.hkexpress.com/en-HK/Explore/Route-Map",
+          "as_of": "2026-10-11"
+        },
+        {
+          "id": "wuxi",
+          "iata": "WUX",
+          "city": {
+            "en": "Wuxi",
+            "zh-Hant": "無錫"
+          },
+          "region": "east-asia",
+          "since_year": 2026,
+          "status": "new",
+          "source_url": "https://www.hkexpress.com/en-HK/About-Us/Media-Centre/HK-Express-Officially-Launches----New-Hong-Kong-Wuxi-Route",
+          "as_of": "2026-10-11"
+        },
+        {
+          "id": "ningbo",
+          "iata": "NGB",
+          "city": {
+            "en": "Ningbo",
+            "zh-Hant": "寧波"
+          },
+          "region": "east-asia",
+          "since_year": null,
+          "status": "current",
+          "source_url": "https://www.hkexpress.com/en-HK/Explore/Route-Map",
+          "as_of": "2026-10-11"
+        },
+        {
+          "id": "yiwu",
+          "iata": "YIW",
+          "city": {
+            "en": "Yiwu",
+            "zh-Hant": "義烏"
+          },
+          "region": "east-asia",
+          "since_year": null,
+          "status": "current",
+          "source_url": "https://www.hkexpress.com/en-HK/Explore/Route-Map",
+          "as_of": "2026-10-11"
+        },
+        {
+          "id": "taipei",
+          "iata": "TPE",
+          "city": {
+            "en": "Taipei",
+            "zh-Hant": "台北"
+          },
+          "region": "east-asia",
+          "since_year": null,
+          "status": "current",
+          "source_url": "https://www.hkexpress.com/en-HK/Explore/Route-Map",
+          "as_of": "2026-10-11"
+        },
+        {
+          "id": "taichung",
+          "iata": "RMQ",
+          "city": {
+            "en": "Taichung",
+            "zh-Hant": "台中"
+          },
+          "region": "east-asia",
+          "since_year": null,
+          "status": "current",
+          "source_url": "https://www.hkexpress.com/en-HK/Explore/Route-Map",
+          "as_of": "2026-10-11"
+        },
+        {
+          "id": "kaohsiung",
+          "iata": "KHH",
+          "city": {
+            "en": "Kaohsiung",
+            "zh-Hant": "高雄"
+          },
+          "region": "east-asia",
+          "since_year": null,
+          "status": "current",
+          "source_url": "https://www.hkexpress.com/en-HK/Explore/Route-Map",
+          "as_of": "2026-10-11"
+        },
+        {
+          "id": "sanya",
+          "iata": "SYX",
+          "city": {
+            "en": "Sanya",
+            "zh-Hant": "三亞"
+          },
+          "region": "east-asia",
+          "since_year": null,
+          "status": "current",
+          "source_url": "https://www.hkexpress.com/en-HK/Explore/Route-Map",
+          "as_of": "2026-10-11"
+        },
+        {
+          "id": "hanoi",
+          "iata": "HAN",
+          "city": {
+            "en": "Hanoi",
+            "zh-Hant": "河內"
+          },
+          "region": "southeast-asia",
+          "since_year": null,
+          "status": "current",
+          "source_url": "https://www.hkexpress.com/en-HK/Explore/Route-Map",
+          "as_of": "2026-10-11"
+        },
+        {
+          "id": "chiang-mai",
+          "iata": "CNX",
+          "city": {
+            "en": "Chiang Mai",
+            "zh-Hant": "清邁"
+          },
+          "region": "southeast-asia",
+          "since_year": null,
+          "status": "current",
+          "source_url": "https://www.hkexpress.com/en-HK/Explore/Route-Map",
+          "as_of": "2026-10-11"
+        },
+        {
+          "id": "bangkok",
+          "iata": "BKK",
+          "city": {
+            "en": "Bangkok",
+            "zh-Hant": "曼谷"
+          },
+          "region": "southeast-asia",
+          "since_year": null,
+          "status": "current",
+          "source_url": "https://www.hkexpress.com/en-HK/Explore/Route-Map",
+          "as_of": "2026-10-11"
+        },
+        {
+          "id": "da-nang",
+          "iata": "DAD",
+          "city": {
+            "en": "Da Nang",
+            "zh-Hant": "峴港"
+          },
+          "region": "southeast-asia",
+          "since_year": null,
+          "status": "current",
+          "source_url": "https://www.hkexpress.com/en-HK/Explore/Route-Map",
+          "as_of": "2026-10-11"
+        },
+        {
+          "id": "phu-quoc",
+          "iata": "PQC",
+          "city": {
+            "en": "Phu Quoc",
+            "zh-Hant": "富國島"
+          },
+          "region": "southeast-asia",
+          "since_year": null,
+          "status": "current",
+          "source_url": "https://www.hkexpress.com/en-HK/Explore/Route-Map",
+          "as_of": "2026-10-11"
+        },
+        {
+          "id": "phuket",
+          "iata": "HKT",
+          "city": {
+            "en": "Phuket",
+            "zh-Hant": "布吉"
+          },
+          "region": "southeast-asia",
+          "since_year": null,
+          "status": "current",
+          "source_url": "https://www.hkexpress.com/en-HK/Explore/Route-Map",
+          "as_of": "2026-10-11"
+        },
+        {
+          "id": "penang",
+          "iata": "PEN",
+          "city": {
+            "en": "Penang",
+            "zh-Hant": "檳城"
+          },
+          "region": "southeast-asia",
+          "since_year": null,
+          "status": "current",
+          "source_url": "https://www.hkexpress.com/en-HK/Explore/Route-Map",
+          "as_of": "2026-10-11"
+        },
+        {
+          "id": "kuala-lumpur",
+          "iata": "SZB",
+          "city": {
+            "en": "Kuala Lumpur (Subang)",
+            "zh-Hant": "吉隆坡（梳邦）"
+          },
+          "region": "southeast-asia",
+          "since_year": null,
+          "status": "current",
+          "source_url": "https://www.hkexpress.com/en-HK/Explore/Route-Map",
+          "as_of": "2026-10-11"
+        },
+        {
+          "id": "kota-kinabalu",
+          "iata": "BKI",
+          "city": {
+            "en": "Kota Kinabalu (Sabah)",
+            "zh-Hant": "亞庇（沙巴）"
+          },
+          "region": "southeast-asia",
+          "since_year": 2025,
+          "status": "new",
+          "source_url": "https://www.hkexpress.com/en-HK/About-Us/Media-Centre/HK-Express-Officially-Launches-New-Kota-Kinabalu_Sabah_Route",
+          "as_of": "2026-10-11"
+        },
+        {
+          "id": "clark",
+          "iata": "CRK",
+          "city": {
+            "en": "Clark",
+            "zh-Hant": "克拉克"
+          },
+          "region": "southeast-asia",
+          "since_year": null,
+          "status": "current",
+          "source_url": "https://www.hkexpress.com/en-HK/Explore/Route-Map",
+          "as_of": "2026-10-11"
+        },
+        {
+          "id": "manila",
+          "iata": "MNL",
+          "city": {
+            "en": "Manila",
+            "zh-Hant": "馬尼拉"
+          },
+          "region": "southeast-asia",
+          "since_year": null,
+          "status": "current",
+          "source_url": "https://www.hkexpress.com/en-HK/Explore/Route-Map",
+          "as_of": "2026-10-11"
+        }
+      ],
+      "changes": [
+        {
+          "id": "2025-11-27-kota-kinabalu",
+          "date": "2025-11-27",
+          "kind": "new-route",
+          "text": {
+            "en": "HK Express launched a new route between Hong Kong and Kota Kinabalu (Sabah).",
+            "zh-Hant": "香港快運開辦香港至亞庇（沙巴）新航線"
+          },
+          "source_url": "https://www.hkexpress.com/en-HK/About-Us/Media-Centre/HK-Express-Officially-Launches-New-Kota-Kinabalu_Sabah_Route",
+          "as_of": "2026-10-11"
+        },
+        {
+          "id": "2026-07-17-wuxi",
+          "date": "2026-07-17",
+          "kind": "new-route",
+          "text": {
+            "en": "HK Express launched daily direct flights between Hong Kong and Wuxi.",
+            "zh-Hant": "香港快運開辦香港至無錫每日直航"
+          },
+          "source_url": "https://www.hkexpress.com/en-HK/About-Us/Media-Centre/HK-Express-Officially-Launches----New-Hong-Kong-Wuxi-Route",
+          "as_of": "2026-10-11"
+        },
+        {
+          "id": "2026-09-30-hefei",
+          "date": "2026-09-30",
+          "kind": "new-route",
+          "text": {
+            "en": "HK Express announced a new Hefei route from 3 December 2026, with four flights a week.",
+            "zh-Hant": "香港快運宣布2026年12月3日起開辦合肥航線，每周四班"
+          },
+          "source_url": "https://www.hkexpress.com/en-HK/About-Us/Media-Centre/HK-Express-Launches-New-Hefei-Route-on-3-December",
+          "as_of": "2026-10-11"
+        }
+      ]
+    },
+    "greater-bay": {
+      "id": "greater-bay",
+      "name": {
+        "en": "Greater Bay Airlines",
+        "zh-Hant": "大灣區航空"
+      },
+      "profile": {
+        "group": {
+          "text": {
+            "en": "Greater Bay Airlines Company Limited, incorporated and headquartered in Hong Kong, with Hong Kong as its principal place of business",
+            "zh-Hant": "大灣區航空公司總部設於香港，在香港註冊並以香港為主要經營地"
+          },
+          "source_url": "https://www.greaterbay-airlines.com/hk/en_HK/about-us/media-room/Greater-Bay-Airlines-Announces-Order-for-15-737-9-Airplanes.html",
+          "as_of": "2026-10-11"
+        },
+        "hubs": [
+          {
+            "iata": "HKG",
+            "source_url": "https://www.greaterbay-airlines.com/hk/en_HK/about-us/media-room/greater-bay-airlines-starts-scheduled-service-to-surabaya-indonesia.html",
+            "as_of": "2026-10-11"
+          }
+        ],
+        "founded": null,
+        "cadet_programme": null,
+        "milestones": [
+          {
+            "id": "first-aircraft-2021",
+            "year": 2021,
+            "text": {
+              "en": "Received its first aircraft (September 2021)",
+              "zh-Hant": "2021年9月接收首架飛機"
+            },
+            "source_url": "https://www.greaterbay-airlines.com/content/dam/gba/hk/pdf/20220221_GBA_PressRelease_Eng.pdf",
+            "as_of": "2026-10-11"
+          },
+          {
+            "id": "aoc-2021",
+            "year": 2021,
+            "text": {
+              "en": "Received its Air Operator's Certificate from the Civil Aviation Department",
+              "zh-Hant": "獲香港民航處發出航空營運人證書"
+            },
+            "source_url": "https://www.greaterbay-airlines.com/content/dam/gba/hk/pdf/20220221_GBA_PressRelease_Eng.pdf",
+            "as_of": "2026-10-11"
+          },
+          {
+            "id": "atla-licence-2022",
+            "year": 2022,
+            "text": {
+              "en": "Licensed by the Air Transport Licensing Authority for scheduled services on 104 routes",
+              "zh-Hant": "獲航空運輸牌照局發牌，可經營104條定期航線"
+            },
+            "source_url": "https://www.greaterbay-airlines.com/content/dam/gba/hk/pdf/20220221_GBA_PressRelease_Eng.pdf",
+            "as_of": "2026-10-11"
+          },
+          {
+            "id": "first-service-2022",
+            "year": 2022,
+            "text": {
+              "en": "Commenced scheduled service in July 2022",
+              "zh-Hant": "2022年7月開始提供定期航班服務"
+            },
+            "source_url": "https://www.greaterbay-airlines.com/hk/en_HK/about-us/media-room/Greater-Bay-Airlines-Announces-Order-for-15-737-9-Airplanes.html",
+            "as_of": "2026-10-11"
+          },
+          {
+            "id": "boeing-order-2023",
+            "year": 2023,
+            "text": {
+              "en": "Ordered 15 Boeing 737-9s, with a commitment for at least five 787s",
+              "zh-Hant": "訂購15架波音737-9，並承諾購買不少於5架787"
+            },
+            "source_url": "https://www.greaterbay-airlines.com/hk/en_HK/about-us/media-room/Greater-Bay-Airlines-Announces-Order-for-15-737-9-Airplanes.html",
+            "as_of": "2026-10-11"
+          },
+          {
+            "id": "iata-member-2024",
+            "year": 2024,
+            "text": {
+              "en": "Became an IATA member after completing the IOSA audit",
+              "zh-Hant": "完成IOSA認證後成為國際航空運輸協會會員"
+            },
+            "source_url": "https://www.greaterbay-airlines.com/hk/en_HK/about-us/media-room/greater-bay-airlines-joins-iata-as-airline-member.html",
+            "as_of": "2026-10-11"
+          },
+          {
+            "id": "first-737-9-2025",
+            "year": 2025,
+            "text": {
+              "en": "First Boeing 737-9 delivered and entered service",
+              "zh-Hant": "首架波音737-9客機交付並投入服務"
+            },
+            "source_url": "https://www.greaterbay-airlines.com/hk/en_HK/about-us/media-room/greater-bay-airlines-celebrates-fleet-expansion-with-its-first-boeing-737-9-aircraft.html",
+            "as_of": "2026-10-11"
+          },
+          {
+            "id": "terminal-2-2026",
+            "year": 2026,
+            "text": {
+              "en": "Moved check-in at HKIA from Terminal 1 to the new Terminal 2",
+              "zh-Hant": "香港國際機場登記服務由一號客運大樓遷往二號客運大樓"
+            },
+            "source_url": "https://www.greaterbay-airlines.com/hk/en_HK/about-us/media-room/greater-bay-airlines-relocates-to-terminal-2-smoothly.html",
+            "as_of": "2026-10-11"
+          }
+        ]
+      },
+      "fleet": [
+        {
+          "id": "b737-800",
+          "type": "737",
+          "variant": "737-800",
+          "in_service": null,
+          "on_order": null,
+          "first_delivery_year": null,
+          "source_url": "https://www.greaterbay-airlines.com/hk/en_HK/about-us/media-room/greater-bay-airlines-starts-scheduled-service-to-surabaya-indonesia.html",
+          "as_of": "2026-10-11"
+        },
+        {
+          "id": "b737-9",
+          "type": "737",
+          "variant": "737-9",
+          "in_service": null,
+          "on_order": null,
+          "first_delivery_year": 2025,
+          "source_url": "https://www.greaterbay-airlines.com/hk/en_HK/about-us/media-room/greater-bay-airlines-celebrates-fleet-expansion-with-its-first-boeing-737-9-aircraft.html",
+          "as_of": "2026-10-11"
+        }
+      ],
+      "destinations": [
+        {
+          "id": "bkk",
+          "iata": "BKK",
+          "city": {
+            "en": "Bangkok",
+            "zh-Hant": "曼谷"
+          },
+          "region": "southeast-asia",
+          "since_year": null,
+          "status": "current",
+          "source_url": "https://www.greaterbay-airlines.com/hk/en_HK/book/flying-with-us/flight-schedule.html",
+          "as_of": "2026-10-11"
+        },
+        {
+          "id": "mnl",
+          "iata": "MNL",
+          "city": {
+            "en": "Manila",
+            "zh-Hant": "馬尼拉"
+          },
+          "region": "southeast-asia",
+          "since_year": null,
+          "status": "current",
+          "source_url": "https://www.greaterbay-airlines.com/hk/en_HK/book/flying-with-us/flight-schedule.html",
+          "as_of": "2026-10-11"
+        },
+        {
+          "id": "mle",
+          "iata": "MLE",
+          "city": {
+            "en": "Male",
+            "zh-Hant": "馬累"
+          },
+          "region": "south-asia",
+          "since_year": null,
+          "status": "current",
+          "source_url": "https://www.greaterbay-airlines.com/hk/en_HK/book/flying-with-us/flight-schedule.html",
+          "as_of": "2026-10-11"
+        },
+        {
+          "id": "tpe",
+          "iata": "TPE",
+          "city": {
+            "en": "Taipei",
+            "zh-Hant": "台北"
+          },
+          "region": "east-asia",
+          "since_year": null,
+          "status": "current",
+          "source_url": "https://www.greaterbay-airlines.com/hk/en_HK/book/flying-with-us/flight-schedule.html",
+          "as_of": "2026-10-11"
+        },
+        {
+          "id": "nrt",
+          "iata": "NRT",
+          "city": {
+            "en": "Tokyo",
+            "zh-Hant": "東京"
+          },
+          "region": "east-asia",
+          "since_year": null,
+          "status": "current",
+          "source_url": "https://www.greaterbay-airlines.com/hk/en_HK/book/flying-with-us/flight-schedule.html",
+          "as_of": "2026-10-11"
+        },
+        {
+          "id": "kix",
+          "iata": "KIX",
+          "city": {
+            "en": "Osaka",
+            "zh-Hant": "大阪"
+          },
+          "region": "east-asia",
+          "since_year": null,
+          "status": "current",
+          "source_url": "https://www.greaterbay-airlines.com/hk/en_HK/book/flying-with-us/flight-schedule.html",
+          "as_of": "2026-10-11"
+        },
+        {
+          "id": "fuk",
+          "iata": "FUK",
+          "city": {
+            "en": "Fukuoka",
+            "zh-Hant": "福岡"
+          },
+          "region": "east-asia",
+          "since_year": null,
+          "status": "current",
+          "source_url": "https://www.greaterbay-airlines.com/hk/en_HK/book/flying-with-us/flight-schedule.html",
+          "as_of": "2026-10-11"
+        },
+        {
+          "id": "cts",
+          "iata": "CTS",
+          "city": {
+            "en": "Sapporo",
+            "zh-Hant": "札幌"
+          },
+          "region": "east-asia",
+          "since_year": null,
+          "status": "current",
+          "source_url": "https://www.greaterbay-airlines.com/hk/en_HK/book/flying-with-us/flight-schedule.html",
+          "as_of": "2026-10-11"
+        },
+        {
+          "id": "sdj",
+          "iata": "SDJ",
+          "city": {
+            "en": "Sendai",
+            "zh-Hant": "仙台"
+          },
+          "region": "east-asia",
+          "since_year": null,
+          "status": "current",
+          "source_url": "https://www.greaterbay-airlines.com/hk/en_HK/book/flying-with-us/flight-schedule.html",
+          "as_of": "2026-10-11"
+        },
+        {
+          "id": "hsn",
+          "iata": "HSN",
+          "city": {
+            "en": "Zhoushan",
+            "zh-Hant": "舟山"
+          },
+          "region": "east-asia",
+          "since_year": null,
+          "status": "current",
+          "source_url": "https://www.greaterbay-airlines.com/hk/en_HK/book/flying-with-us/flight-schedule.html",
+          "as_of": "2026-10-11"
+        },
+        {
+          "id": "yih",
+          "iata": "YIH",
+          "city": {
+            "en": "Yichang",
+            "zh-Hant": "宜昌"
+          },
+          "region": "east-asia",
+          "since_year": null,
+          "status": "current",
+          "source_url": "https://www.greaterbay-airlines.com/hk/en_HK/book/flying-with-us/flight-schedule.html",
+          "as_of": "2026-10-11"
+        },
+        {
+          "id": "dyg",
+          "iata": "DYG",
+          "city": {
+            "en": "Zhangjiajie",
+            "zh-Hant": "張家界"
+          },
+          "region": "east-asia",
+          "since_year": null,
+          "status": "current",
+          "source_url": "https://www.greaterbay-airlines.com/hk/en_HK/book/flying-with-us/flight-schedule.html",
+          "as_of": "2026-10-11"
+        },
+        {
+          "id": "kwl",
+          "iata": "KWL",
+          "city": {
+            "en": "Guilin",
+            "zh-Hant": "桂林"
+          },
+          "region": "east-asia",
+          "since_year": null,
+          "status": "current",
+          "source_url": "https://www.greaterbay-airlines.com/hk/en_HK/book/flying-with-us/flight-schedule.html",
+          "as_of": "2026-10-11"
+        },
+        {
+          "id": "dat",
+          "iata": "DAT",
+          "city": {
+            "en": "Datong",
+            "zh-Hant": "大同"
+          },
+          "region": "east-asia",
+          "since_year": null,
+          "status": "current",
+          "source_url": "https://www.greaterbay-airlines.com/hk/en_HK/book/flying-with-us/flight-schedule.html",
+          "as_of": "2026-10-11"
+        },
+        {
+          "id": "dnh",
+          "iata": "DNH",
+          "city": {
+            "en": "Dunhuang",
+            "zh-Hant": "敦煌"
+          },
+          "region": "east-asia",
+          "since_year": null,
+          "status": "current",
+          "source_url": "https://www.greaterbay-airlines.com/hk/en_HK/book/flying-with-us/flight-schedule.html",
+          "as_of": "2026-10-11"
+        },
+        {
+          "id": "enh",
+          "iata": "ENH",
+          "city": {
+            "en": "Enshi",
+            "zh-Hant": "恩施"
+          },
+          "region": "east-asia",
+          "since_year": null,
+          "status": "current",
+          "source_url": "https://www.greaterbay-airlines.com/hk/en_HK/book/flying-with-us/flight-schedule.html",
+          "as_of": "2026-10-11"
+        },
+        {
+          "id": "dad",
+          "iata": "DAD",
+          "city": {
+            "en": "Da Nang",
+            "zh-Hant": "峴港"
+          },
+          "region": "southeast-asia",
+          "since_year": 2025,
+          "status": "new",
+          "source_url": "https://www.greaterbay-airlines.com/hk/en_HK/about-us/media-room/greater-bay-airlines-to-run-seasonal-service-to-da-nang-for-the-christmas-and-new-year-holiday-peak.html",
+          "as_of": "2026-10-11"
+        },
+        {
+          "id": "het",
+          "iata": "HET",
+          "city": {
+            "en": "Hohhot",
+            "zh-Hant": "呼和浩特"
+          },
+          "region": "east-asia",
+          "since_year": 2026,
+          "status": "new",
+          "source_url": "https://www.greaterbay-airlines.com/hk/en_HK/about-us/media-room/greater-bay-airlines-commences-scheduled-service-to-hohhot.html",
+          "as_of": "2026-10-11"
+        },
+        {
+          "id": "oka",
+          "iata": "OKA",
+          "city": {
+            "en": "Okinawa",
+            "zh-Hant": "沖繩"
+          },
+          "region": "east-asia",
+          "since_year": 2026,
+          "status": "new",
+          "source_url": "https://www.greaterbay-airlines.com/hk/en_HK/about-us/media-room/greater-bay-airlines-to-introduce-seasonal-service-to-okinawa-between-july-and-october.html",
+          "as_of": "2026-10-11"
+        },
+        {
+          "id": "urc",
+          "iata": "URC",
+          "city": {
+            "en": "Urumqi",
+            "zh-Hant": "烏魯木齊"
+          },
+          "region": "east-asia",
+          "since_year": 2026,
+          "status": "new",
+          "source_url": "https://www.greaterbay-airlines.com/hk/en_HK/about-us/media-room/greater-bay-airlines-introduces-seasonal-service-to-urumqi-this-autumn.html",
+          "as_of": "2026-10-11"
+        },
+        {
+          "id": "ckg",
+          "iata": "CKG",
+          "city": {
+            "en": "Chongqing",
+            "zh-Hant": "重慶"
+          },
+          "region": "east-asia",
+          "since_year": 2026,
+          "status": "new",
+          "source_url": "https://www.greaterbay-airlines.com/hk/en_HK/about-us/media-room/greater-bay-airlines-to-launch-seasonal-service-to-chongqing-in-september-and-october.html",
+          "as_of": "2026-10-11"
+        },
+        {
+          "id": "kmg",
+          "iata": "KMG",
+          "city": {
+            "en": "Kunming",
+            "zh-Hant": "昆明"
+          },
+          "region": "east-asia",
+          "since_year": 2026,
+          "status": "new",
+          "source_url": "https://www.greaterbay-airlines.com/hk/en_HK/about-us/media-room/greater-bay-airlines-to-operate-seasonal-flights-to-kunming-in-september-and-october.html",
+          "as_of": "2026-10-11"
+        },
+        {
+          "id": "sub",
+          "iata": "SUB",
+          "city": {
+            "en": "Surabaya",
+            "zh-Hant": "泗水"
+          },
+          "region": "southeast-asia",
+          "since_year": 2026,
+          "status": "new",
+          "source_url": "https://www.greaterbay-airlines.com/hk/en_HK/about-us/media-room/greater-bay-airlines-starts-scheduled-service-to-surabaya-indonesia.html",
+          "as_of": "2026-10-11"
+        }
+      ],
+      "changes": [
+        {
+          "id": "da-nang-2025",
+          "date": "2025-10-28",
+          "kind": "new-route",
+          "text": {
+            "en": "Seasonal Da Nang service, 17 December 2025 to 3 January 2026, 10 round trips",
+            "zh-Hant": "12月17日至1月3日新增峴港季節性航班，合共10班"
+          },
+          "source_url": "https://www.greaterbay-airlines.com/hk/en_HK/about-us/media-room/greater-bay-airlines-to-run-seasonal-service-to-da-nang-for-the-christmas-and-new-year-holiday-peak.html",
+          "as_of": "2026-10-11"
+        },
+        {
+          "id": "maldives-2025",
+          "date": "2025-10-31",
+          "kind": "new-route",
+          "text": {
+            "en": "Seasonal daily Male (Maldives) service, 8 to 25 February 2026",
+            "zh-Hant": "2026年2月8日至25日推出馬爾代夫馬累季節性航班，每日1班"
+          },
+          "source_url": "https://www.greaterbay-airlines.com/hk/en_HK/about-us/media-room/greater-bay-airlines-launches-seasonal-flights-to-the-maldives-during-lunar-new-year-holiday.html",
+          "as_of": "2026-10-11"
+        },
+        {
+          "id": "first-737-9-2025",
+          "date": "2025-11-26",
+          "kind": "fleet-delivery",
+          "text": {
+            "en": "First Boeing 737-9 delivered (arrived 22 November 2025) and in service",
+            "zh-Hant": "首架波音737-9客機交付（11月22日抵港）並投入服務"
+          },
+          "source_url": "https://www.greaterbay-airlines.com/hk/en_HK/about-us/media-room/greater-bay-airlines-celebrates-fleet-expansion-with-its-first-boeing-737-9-aircraft.html",
+          "as_of": "2026-10-11"
+        },
+        {
+          "id": "kuala-lumpur-2025",
+          "date": "2025-12-24",
+          "kind": "new-route",
+          "text": {
+            "en": "Seasonal Kuala Lumpur service, 13 to 24 February 2026, 12 round trips",
+            "zh-Hant": "2026年2月13日至24日推出吉隆坡季節性航班，合共12班"
+          },
+          "source_url": "https://www.greaterbay-airlines.com/hk/en_HK/about-us/media-room/greater-bay-airlines-to-launch-seasonal-service-to-kuala-lumpur-for-lunar-new-year.html",
+          "as_of": "2026-10-11"
+        },
+        {
+          "id": "hohhot-2026",
+          "date": "2026-02-07",
+          "kind": "new-route",
+          "text": {
+            "en": "Scheduled Hohhot service began on 6 February 2026, four flights a week",
+            "zh-Hant": "呼和浩特定期航班2月6日投入服務，每星期4班"
+          },
+          "source_url": "https://www.greaterbay-airlines.com/hk/en_HK/about-us/media-room/greater-bay-airlines-commences-scheduled-service-to-hohhot.html",
+          "as_of": "2026-10-11"
+        },
+        {
+          "id": "phuket-2026",
+          "date": "2026-02-09",
+          "kind": "new-route",
+          "text": {
+            "en": "Seasonal Phuket service, 29 March to 13 April 2026, 12 round trips",
+            "zh-Hant": "3月29日至4月13日推出布吉季節性航班，合共12班"
+          },
+          "source_url": "https://www.greaterbay-airlines.com/hk/en_HK/about-us/media-room/greater-bay-airlines-to-operate-phuket-seasonal-flights-in-march-and-april.html",
+          "as_of": "2026-10-11"
+        },
+        {
+          "id": "okinawa-2026",
+          "date": "2026-05-14",
+          "kind": "new-route",
+          "text": {
+            "en": "Seasonal daily Okinawa (Naha) service, 11 July to 24 October 2026",
+            "zh-Hant": "7月11日至10月24日推出沖繩（那霸）季節性航班，每日1班"
+          },
+          "source_url": "https://www.greaterbay-airlines.com/hk/en_HK/about-us/media-room/greater-bay-airlines-to-introduce-seasonal-service-to-okinawa-between-july-and-october.html",
+          "as_of": "2026-10-11"
+        },
+        {
+          "id": "urumqi-2026",
+          "date": "2026-06-04",
+          "kind": "new-route",
+          "text": {
+            "en": "Seasonal Urumqi service, 3 September to 7 October 2026, three flights a week",
+            "zh-Hant": "9月3日至10月7日推出烏魯木齊季節性航班，每周三班"
+          },
+          "source_url": "https://www.greaterbay-airlines.com/hk/en_HK/about-us/media-room/greater-bay-airlines-introduces-seasonal-service-to-urumqi-this-autumn.html",
+          "as_of": "2026-10-11"
+        },
+        {
+          "id": "chongqing-2026",
+          "date": "2026-06-15",
+          "kind": "new-route",
+          "text": {
+            "en": "Seasonal Chongqing service, 4 September to 16 October 2026, three flights a week",
+            "zh-Hant": "9月4日至10月16日推出重慶季節性航班，每星期三班"
+          },
+          "source_url": "https://www.greaterbay-airlines.com/hk/en_HK/about-us/media-room/greater-bay-airlines-to-launch-seasonal-service-to-chongqing-in-september-and-october.html",
+          "as_of": "2026-10-11"
+        },
+        {
+          "id": "kunming-2026",
+          "date": "2026-06-24",
+          "kind": "new-route",
+          "text": {
+            "en": "Seasonal Kunming service, 3 September to 22 October 2026, three flights a week",
+            "zh-Hant": "9月3日至10月22日推出昆明季節性航班，每星期三班"
+          },
+          "source_url": "https://www.greaterbay-airlines.com/hk/en_HK/about-us/media-room/greater-bay-airlines-to-operate-seasonal-flights-to-kunming-in-september-and-october.html",
+          "as_of": "2026-10-11"
+        },
+        {
+          "id": "surabaya-2026",
+          "date": "2026-09-26",
+          "kind": "new-route",
+          "text": {
+            "en": "Scheduled Surabaya service began on 25 September 2026, its first Indonesian route, four flights a week",
+            "zh-Hant": "泗水定期航班9月25日投入服務，為首條印尼航線，每星期4班"
+          },
+          "source_url": "https://www.greaterbay-airlines.com/hk/en_HK/about-us/media-room/greater-bay-airlines-starts-scheduled-service-to-surabaya-indonesia.html",
+          "as_of": "2026-10-11"
+        }
+      ]
+    },
+    "hk-airlines": {
+      "id": "hk-airlines",
+      "name": {
+        "en": "Hong Kong Airlines",
+        "zh-Hant": "香港航空"
+      },
+      "profile": {
+        "group": {
+          "text": {
+            "en": "Hong Kong Airlines Limited, renamed from CR Airways Limited in 2006",
+            "zh-Hant": "香港航空有限公司，2006年由「中富航空有限公司」更名"
+          },
+          "source_url": "https://www.hongkongairlines.com/en_HK/footer/about-hk-airlines/corporatemilestone",
+          "as_of": "2026-10-11"
+        },
+        "hubs": [
+          {
+            "iata": "HKG",
+            "source_url": "https://www.hongkongairlines.com/ta/ta?lanid=105&cid=a5b1c839-dcb6-4ed3-b646-edd07fb6c5a6&from=single&selectSingle=",
+            "as_of": "2026-10-11"
+          }
+        ],
+        "founded": {
+          "year": 2006,
+          "source_url": "https://www.hongkongairlines.com/en_HK/footer/about-hk-airlines/overview",
+          "as_of": "2026-10-11"
+        },
+        "cadet_programme": null,
+        "milestones": [
+          {
+            "id": "renamed-2006",
+            "year": 2006,
+            "text": {
+              "en": "CR Airways Limited renamed Hong Kong Airlines Limited; first Boeing 737 introduced",
+              "zh-Hant": "「中富航空有限公司」更名為「香港航空有限公司」，引入首架波音737客機"
+            },
+            "source_url": "https://www.hongkongairlines.com/en_HK/footer/about-hk-airlines/corporatemilestone",
+            "as_of": "2026-10-11"
+          },
+          {
+            "id": "first-a330-2010",
+            "year": 2010,
+            "text": {
+              "en": "Fleet reached 10 aircraft with the first Airbus A330 passenger aircraft",
+              "zh-Hant": "營運機隊增至10架，並引入首架空中巴士A330客機"
+            },
+            "source_url": "https://www.hongkongairlines.com/en_HK/footer/about-hk-airlines/corporatemilestone",
+            "as_of": "2026-10-11"
+          },
+          {
+            "id": "skytrax-2011",
+            "year": 2011,
+            "text": {
+              "en": "Rated four-star by Skytrax for the first time",
+              "zh-Hant": "首次獲Skytrax評定為四星級航空公司"
+            },
+            "source_url": "https://www.hongkongairlines.com/en_HK/footer/about-hk-airlines/corporatemilestone",
+            "as_of": "2026-10-11"
+          },
+          {
+            "id": "all-airbus-2013",
+            "year": 2013,
+            "text": {
+              "en": "Began operating an all-Airbus fleet",
+              "zh-Hant": "以全空中巴士機隊營運"
+            },
+            "source_url": "https://www.hongkongairlines.com/en_HK/footer/about-hk-airlines/corporatemilestone",
+            "as_of": "2026-10-11"
+          },
+          {
+            "id": "a350-cadet-2017",
+            "year": 2017,
+            "text": {
+              "en": "Introduced its first Airbus A350 and launched a cadet pilot training programme",
+              "zh-Hant": "引入首架空中巴士A350客機，推出首屆見習機師培訓計劃"
+            },
+            "source_url": "https://www.hongkongairlines.com/en_HK/footer/about-hk-airlines/corporatemilestone",
+            "as_of": "2026-10-11"
+          },
+          {
+            "id": "training-academy-2019",
+            "year": 2019,
+            "text": {
+              "en": "Official opening of the HKA Training Academy",
+              "zh-Hant": "香港航空飛行培訓中心揭幕啟用"
+            },
+            "source_url": "https://www.hongkongairlines.com/en_HK/footer/about-hk-airlines/corporatemilestone",
+            "as_of": "2026-10-11"
+          },
+          {
+            "id": "first-a321-2024",
+            "year": 2024,
+            "text": {
+              "en": "First Airbus A321 joined the fleet",
+              "zh-Hant": "首架空中巴士A321加入機隊"
+            },
+            "source_url": "https://www.hongkongairlines.com/en_HK/footer/about-hk-airlines/corporatemilestone",
+            "as_of": "2026-10-11"
+          },
+          {
+            "id": "long-haul-2025",
+            "year": 2025,
+            "text": {
+              "en": "Returned to long-haul markets with services to Sydney and Melbourne",
+              "zh-Hant": "重返國際長途航線市場，開通悉尼、墨爾本"
+            },
+            "source_url": "https://www.hongkongairlines.com/en_HK/footer/about-hk-airlines/corporatemilestone",
+            "as_of": "2026-10-11"
+          }
+        ]
+      },
+      "fleet": [
+        {
+          "id": "a320-200",
+          "type": "A320",
+          "variant": "A320-200",
+          "in_service": 17,
+          "on_order": null,
+          "first_delivery_year": null,
+          "source_url": "https://www.hongkongairlines.com/en_HK/footer/about-hk-airlines/ourfleet",
+          "as_of": "2026-10-11"
+        },
+        {
+          "id": "a321-200",
+          "type": "A321",
+          "variant": "A321-200",
+          "in_service": 3,
+          "on_order": null,
+          "first_delivery_year": null,
+          "source_url": "https://www.hongkongairlines.com/en_HK/footer/about-hk-airlines/ourfleet",
+          "as_of": "2026-10-11"
+        },
+        {
+          "id": "a330-300",
+          "type": "A330",
+          "variant": "A330-300",
+          "in_service": 5,
+          "on_order": null,
+          "first_delivery_year": null,
+          "source_url": "https://www.hongkongairlines.com/en_HK/footer/about-hk-airlines/ourfleet",
+          "as_of": "2026-10-11"
+        }
+      ],
+      "destinations": [
+        {
+          "id": "han",
+          "iata": "HAN",
+          "city": {
+            "en": "Hanoi",
+            "zh-Hant": "河內"
+          },
+          "region": "southeast-asia",
+          "since_year": null,
+          "status": "resumed",
+          "source_url": "https://www.hongkongairlines.com/ta/ta?lanid=105&cid=927e1c24-f04d-414e-b569-e2a95af257c4&from=single&selectSingle=",
+          "as_of": "2026-10-11"
+        },
+        {
+          "id": "mel",
+          "iata": "MEL",
+          "city": {
+            "en": "Melbourne",
+            "zh-Hant": "墨爾本"
+          },
+          "region": "oceania",
+          "since_year": 2025,
+          "status": "new",
+          "source_url": "https://www.hongkongairlines.com/ta/ta?lanid=105&cid=4e35279a-08a1-4b61-a30d-2dd0ce2c7bd4&from=single&selectSingle=",
+          "as_of": "2026-10-11"
+        },
+        {
+          "id": "lhw",
+          "iata": "LHW",
+          "city": {
+            "en": "Lanzhou",
+            "zh-Hant": "蘭州"
+          },
+          "region": "east-asia",
+          "since_year": 2026,
+          "status": "new",
+          "source_url": "https://www.hongkongairlines.com/ta/ta?lanid=105&cid=dbaa2804-2be7-4aab-9f4b-1fa36e252ee9&from=single&selectSingle=",
+          "as_of": "2026-10-11"
+        },
+        {
+          "id": "urc",
+          "iata": "URC",
+          "city": {
+            "en": "Urumqi",
+            "zh-Hant": "烏魯木齊"
+          },
+          "region": "east-asia",
+          "since_year": 2026,
+          "status": "new",
+          "source_url": "https://www.hongkongairlines.com/ta/ta?lanid=105&cid=a5b1c839-dcb6-4ed3-b646-edd07fb6c5a6&from=single&selectSingle=",
+          "as_of": "2026-10-11"
+        }
+      ],
+      "changes": [
+        {
+          "id": "hanoi-resumed-2025",
+          "date": "2025-10-31",
+          "kind": "resumed",
+          "text": {
+            "en": "Daily Hong Kong–Hanoi service to resume from 19 December 2025",
+            "zh-Hant": "2025年12月19日起恢復每日一班香港至河內直航"
+          },
+          "source_url": "https://www.hongkongairlines.com/ta/ta?lanid=105&cid=927e1c24-f04d-414e-b569-e2a95af257c4&from=single&selectSingle=",
+          "as_of": "2026-10-11"
+        },
+        {
+          "id": "melbourne-2025",
+          "date": "2025-12-16",
+          "kind": "new-route",
+          "text": {
+            "en": "Melbourne service launched on 12 December, three flights a week (A330)",
+            "zh-Hant": "墨爾本直航12日開通，每週三班，以A330營運"
+          },
+          "source_url": "https://www.hongkongairlines.com/ta/ta?lanid=105&cid=4e35279a-08a1-4b61-a30d-2dd0ce2c7bd4&from=single&selectSingle=",
+          "as_of": "2026-10-11"
+        },
+        {
+          "id": "lanzhou-2026",
+          "date": "2026-05-26",
+          "kind": "new-route",
+          "text": {
+            "en": "Hong Kong–Lanzhou service launched on 26 May 2026, once a week",
+            "zh-Hant": "香港至蘭州直航5月26日啟航，每週一班"
+          },
+          "source_url": "https://www.hongkongairlines.com/ta/ta?lanid=105&cid=dbaa2804-2be7-4aab-9f4b-1fa36e252ee9&from=single&selectSingle=",
+          "as_of": "2026-10-11"
+        },
+        {
+          "id": "urumqi-2026",
+          "date": "2026-08-31",
+          "kind": "new-route",
+          "text": {
+            "en": "Urumqi service launched on 29 August, twice weekly (A330)",
+            "zh-Hant": "香港至烏魯木齊直航8月29日啟航，每週兩班，以A330營運"
+          },
+          "source_url": "https://www.hongkongairlines.com/ta/ta?lanid=105&cid=a5b1c839-dcb6-4ed3-b646-edd07fb6c5a6&from=single&selectSingle=",
+          "as_of": "2026-10-11"
+        }
+      ]
+    }
+  },
   "digest": [
     {
       "id": "cathay-cargo-a350f-order-eight",
