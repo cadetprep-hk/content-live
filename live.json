@@ -12,7 +12,7 @@
         "group": {
           "text": {
             "en": "Parent company of the Cathay Group; HK Express (low-cost) and Air Hong Kong (all-cargo) are its wholly owned subsidiaries.",
-            "zh-Hant": "國泰集團母公司；低成本航空公司香港快運及全貨運航空公司香港華民航空均為其全資附屬公司"
+            "zh-Hant": "國泰集團母公司；低成本航空公司 HK Express 及全貨運航空公司香港華民航空均為其全資附屬公司"
           },
           "source_url": "https://www.cathaypacific.com/content/dam/cx/about-us/investor-relations/interim-annual-reports/en/2026_cx_interim_report_en.pdf",
           "as_of": "2026-10-11"
@@ -233,6 +233,7 @@
         {
           "id": "beijing",
           "iata": "BJS",
+          "code_source": "editor",
           "city": {
             "en": "Beijing",
             "zh-Hant": "北京"
@@ -247,6 +248,7 @@
         {
           "id": "changsha",
           "iata": "CSX",
+          "code_source": "iata",
           "city": {
             "en": "Changsha",
             "zh-Hant": "長沙"
@@ -260,6 +262,7 @@
         {
           "id": "changzhou",
           "iata": "CZX",
+          "code_source": "editor",
           "city": {
             "en": "Changzhou",
             "zh-Hant": "常州"
@@ -274,6 +277,7 @@
         {
           "id": "chengdu",
           "iata": "CTU",
+          "code_source": "editor",
           "city": {
             "en": "Chengdu",
             "zh-Hant": "成都"
@@ -287,6 +291,7 @@
         {
           "id": "chongqing",
           "iata": "CKG",
+          "code_source": "editor",
           "city": {
             "en": "Chongqing",
             "zh-Hant": "重慶"
@@ -300,6 +305,7 @@
         {
           "id": "fuzhou",
           "iata": "FOC",
+          "code_source": "editor",
           "city": {
             "en": "Fuzhou",
             "zh-Hant": "福州"
@@ -313,6 +319,7 @@
         {
           "id": "guangzhou",
           "iata": "CAN",
+          "code_source": "editor",
           "city": {
             "en": "Guangzhou",
             "zh-Hant": "廣州"
@@ -326,6 +333,7 @@
         {
           "id": "haikou",
           "iata": "HAK",
+          "code_source": "editor",
           "city": {
             "en": "Haikou",
             "zh-Hant": "海口"
@@ -339,6 +347,7 @@
         {
           "id": "hangzhou",
           "iata": "HGH",
+          "code_source": "editor",
           "city": {
             "en": "Hangzhou",
             "zh-Hant": "杭州"
@@ -352,6 +361,7 @@
         {
           "id": "nanjing",
           "iata": "NKG",
+          "code_source": "editor",
           "city": {
             "en": "Nanjing",
             "zh-Hant": "南京"
@@ -365,6 +375,7 @@
         {
           "id": "ningbo",
           "iata": "NGB",
+          "code_source": "editor",
           "city": {
             "en": "Ningbo",
             "zh-Hant": "寧波"
@@ -379,6 +390,7 @@
         {
           "id": "qingdao",
           "iata": "TAO",
+          "code_source": "editor",
           "city": {
             "en": "Qingdao",
             "zh-Hant": "青島"
@@ -392,6 +404,7 @@
         {
           "id": "shanghai",
           "iata": "SHA",
+          "code_source": "editor",
           "city": {
             "en": "Shanghai",
             "zh-Hant": "上海"
@@ -405,6 +418,7 @@
         {
           "id": "sanya",
           "iata": "SYX",
+          "code_source": "editor",
           "city": {
             "en": "Sanya",
             "zh-Hant": "三亞"
@@ -419,6 +433,7 @@
         {
           "id": "urumqi",
           "iata": "URC",
+          "code_source": "editor",
           "city": {
             "en": "Urumqi",
             "zh-Hant": "烏魯木齊"
@@ -432,6 +447,7 @@
         {
           "id": "wenzhou",
           "iata": "WNZ",
+          "code_source": "editor",
           "city": {
             "en": "Wenzhou",
             "zh-Hant": "溫州"
@@ -445,6 +461,7 @@
         {
           "id": "wuhan",
           "iata": "WUH",
+          "code_source": "editor",
           "city": {
             "en": "Wuhan",
             "zh-Hant": "武漢"
@@ -458,6 +475,7 @@
         {
           "id": "wuxi",
           "iata": "WUX",
+          "code_source": "editor",
           "city": {
             "en": "Wuxi",
             "zh-Hant": "無錫"
@@ -472,6 +490,7 @@
         {
           "id": "xiamen",
           "iata": "XMN",
+          "code_source": "editor",
           "city": {
             "en": "Xiamen",
             "zh-Hant": "廈門"
@@ -485,6 +504,7 @@
         {
           "id": "xi-an",
           "iata": "XIY",
+          "code_source": "editor",
           "city": {
             "en": "Xi'an",
             "zh-Hant": "西安"
@@ -498,6 +518,7 @@
         {
           "id": "yiwu",
           "iata": "YIW",
+          "code_source": "editor",
           "city": {
             "en": "Yiwu",
             "zh-Hant": "義烏"
@@ -512,6 +533,7 @@
         {
           "id": "zhengzhou",
           "iata": "CGO",
+          "code_source": "editor",
           "city": {
             "en": "Zhengzhou",
             "zh-Hant": "鄭州"
@@ -525,6 +547,7 @@
         {
           "id": "kaohsiung",
           "iata": "KHH",
+          "code_source": "editor",
           "city": {
             "en": "Kaohsiung",
             "zh-Hant": "高雄"
@@ -539,6 +562,7 @@
         {
           "id": "taichung",
           "iata": "RMQ",
+          "code_source": "editor",
           "city": {
             "en": "Taichung",
             "zh-Hant": "台中"
@@ -553,6 +577,7 @@
         {
           "id": "taipei",
           "iata": "TPE",
+          "code_source": "editor",
           "city": {
             "en": "Taipei",
             "zh-Hant": "台北"
@@ -567,6 +592,7 @@
         {
           "id": "johannesburg",
           "iata": "JNB",
+          "code_source": "editor",
           "city": {
             "en": "Johannesburg",
             "zh-Hant": "約翰內斯堡"
@@ -580,6 +606,7 @@
         {
           "id": "toronto",
           "iata": "YTO",
+          "code_source": "editor",
           "city": {
             "en": "Toronto",
             "zh-Hant": "多倫多"
@@ -593,6 +620,7 @@
         {
           "id": "vancouver",
           "iata": "YVR",
+          "code_source": "editor",
           "city": {
             "en": "Vancouver",
             "zh-Hant": "溫哥華"
@@ -606,6 +634,7 @@
         {
           "id": "boston",
           "iata": "BOS",
+          "code_source": "editor",
           "city": {
             "en": "Boston",
             "zh-Hant": "波士頓"
@@ -619,6 +648,7 @@
         {
           "id": "chicago",
           "iata": "CHI",
+          "code_source": "editor",
           "city": {
             "en": "Chicago",
             "zh-Hant": "芝加哥"
@@ -632,6 +662,7 @@
         {
           "id": "dallas",
           "iata": "DFW",
+          "code_source": "editor",
           "city": {
             "en": "Dallas",
             "zh-Hant": "達拉斯"
@@ -645,6 +676,7 @@
         {
           "id": "los-angeles",
           "iata": "LAX",
+          "code_source": "editor",
           "city": {
             "en": "Los Angeles",
             "zh-Hant": "洛杉磯"
@@ -658,6 +690,7 @@
         {
           "id": "new-york",
           "iata": "NYC",
+          "code_source": "editor",
           "city": {
             "en": "New York",
             "zh-Hant": "紐約"
@@ -671,6 +704,7 @@
         {
           "id": "san-francisco",
           "iata": "SFO",
+          "code_source": "editor",
           "city": {
             "en": "San Francisco",
             "zh-Hant": "三藩市"
@@ -684,6 +718,7 @@
         {
           "id": "seattle",
           "iata": "SEA",
+          "code_source": "iata",
           "city": {
             "en": "Seattle",
             "zh-Hant": "西雅圖"
@@ -697,6 +732,7 @@
         {
           "id": "dhaka",
           "iata": "DAC",
+          "code_source": "editor",
           "city": {
             "en": "Dhaka",
             "zh-Hant": "達卡"
@@ -710,6 +746,7 @@
         {
           "id": "phnom-penh",
           "iata": "KTI",
+          "code_source": "editor",
           "city": {
             "en": "Phnom Penh",
             "zh-Hant": "金邊"
@@ -723,6 +760,7 @@
         {
           "id": "bengaluru",
           "iata": "BLR",
+          "code_source": "editor",
           "city": {
             "en": "Bengaluru",
             "zh-Hant": "班加羅爾"
@@ -736,6 +774,7 @@
         {
           "id": "chennai",
           "iata": "MAA",
+          "code_source": "editor",
           "city": {
             "en": "Chennai",
             "zh-Hant": "真奈"
@@ -749,6 +788,7 @@
         {
           "id": "delhi",
           "iata": "DEL",
+          "code_source": "editor",
           "city": {
             "en": "Delhi",
             "zh-Hant": "德里"
@@ -762,6 +802,7 @@
         {
           "id": "hyderabad",
           "iata": "HYD",
+          "code_source": "editor",
           "city": {
             "en": "Hyderabad",
             "zh-Hant": "海得拉巴"
@@ -775,6 +816,7 @@
         {
           "id": "mumbai",
           "iata": "BOM",
+          "code_source": "editor",
           "city": {
             "en": "Mumbai",
             "zh-Hant": "孟買"
@@ -788,6 +830,7 @@
         {
           "id": "denpasar-bali",
           "iata": "DPS",
+          "code_source": "editor",
           "city": {
             "en": "Denpasar (Bali)",
             "zh-Hant": "登巴薩（峇里島）"
@@ -801,6 +844,7 @@
         {
           "id": "jakarta",
           "iata": "JKT",
+          "code_source": "editor",
           "city": {
             "en": "Jakarta",
             "zh-Hant": "雅加達"
@@ -814,6 +858,7 @@
         {
           "id": "surabaya",
           "iata": "SUB",
+          "code_source": "editor",
           "city": {
             "en": "Surabaya",
             "zh-Hant": "泗水"
@@ -827,6 +872,7 @@
         {
           "id": "fukuoka",
           "iata": "FUK",
+          "code_source": "editor",
           "city": {
             "en": "Fukuoka",
             "zh-Hant": "福岡"
@@ -841,6 +887,7 @@
         {
           "id": "hiroshima",
           "iata": "HIJ",
+          "code_source": "editor",
           "city": {
             "en": "Hiroshima",
             "zh-Hant": "廣島"
@@ -855,6 +902,7 @@
         {
           "id": "ishigaki",
           "iata": "ISG",
+          "code_source": "editor",
           "city": {
             "en": "Ishigaki",
             "zh-Hant": "石垣島"
@@ -869,6 +917,7 @@
         {
           "id": "komatsu",
           "iata": "KMQ",
+          "code_source": "editor",
           "city": {
             "en": "Komatsu",
             "zh-Hant": "小松"
@@ -883,6 +932,7 @@
         {
           "id": "nagoya",
           "iata": "NGO",
+          "code_source": "editor",
           "city": {
             "en": "Nagoya",
             "zh-Hant": "名古屋"
@@ -897,6 +947,7 @@
         {
           "id": "okinawa",
           "iata": "OKA",
+          "code_source": "editor",
           "city": {
             "en": "Okinawa",
             "zh-Hant": "沖繩"
@@ -911,6 +962,7 @@
         {
           "id": "osaka",
           "iata": "OSA",
+          "code_source": "editor",
           "city": {
             "en": "Osaka",
             "zh-Hant": "大阪"
@@ -925,6 +977,7 @@
         {
           "id": "sapporo",
           "iata": "SPK",
+          "code_source": "editor",
           "city": {
             "en": "Sapporo",
             "zh-Hant": "札幌"
@@ -938,6 +991,7 @@
         {
           "id": "sendai",
           "iata": "SDJ",
+          "code_source": "editor",
           "city": {
             "en": "Sendai",
             "zh-Hant": "仙台"
@@ -952,6 +1006,7 @@
         {
           "id": "takamatsu",
           "iata": "TAK",
+          "code_source": "editor",
           "city": {
             "en": "Takamatsu",
             "zh-Hant": "高松"
@@ -966,6 +1021,7 @@
         {
           "id": "tokyo",
           "iata": "TYO",
+          "code_source": "editor",
           "city": {
             "en": "Tokyo",
             "zh-Hant": "東京"
@@ -980,19 +1036,22 @@
         {
           "id": "almaty",
           "iata": "ALA",
+          "code_source": "editor",
           "city": {
             "en": "Almaty",
             "zh-Hant": "阿拉木圖"
           },
           "region": "central-asia",
           "since_year": null,
-          "status": "new",
+          "status": "upcoming",
+          "start_date": "2027-Q1",
           "source_url": "https://news.cathaypacific.com/cathay-pacific-announces-plans-to-launch-direct-flights-to-almaty",
           "as_of": "2026-10-11"
         },
         {
           "id": "busan",
           "iata": "PUS",
+          "code_source": "editor",
           "city": {
             "en": "Busan",
             "zh-Hant": "釜山"
@@ -1007,6 +1066,7 @@
         {
           "id": "daegu",
           "iata": "TAE",
+          "code_source": "editor",
           "city": {
             "en": "Daegu",
             "zh-Hant": "大邱"
@@ -1021,6 +1081,7 @@
         {
           "id": "jeju",
           "iata": "CJU",
+          "code_source": "editor",
           "city": {
             "en": "Jeju",
             "zh-Hant": "濟州"
@@ -1035,6 +1096,7 @@
         {
           "id": "seoul",
           "iata": "SEL",
+          "code_source": "editor",
           "city": {
             "en": "Seoul",
             "zh-Hant": "首爾"
@@ -1049,6 +1111,7 @@
         {
           "id": "kota-kinabalu",
           "iata": "BKI",
+          "code_source": "editor",
           "city": {
             "en": "Kota Kinabalu",
             "zh-Hant": "亞庇"
@@ -1063,6 +1126,7 @@
         {
           "id": "kuala-lumpur",
           "iata": "KUL",
+          "code_source": "editor",
           "city": {
             "en": "Kuala Lumpur",
             "zh-Hant": "吉隆坡"
@@ -1077,6 +1141,7 @@
         {
           "id": "penang",
           "iata": "PEN",
+          "code_source": "editor",
           "city": {
             "en": "Penang",
             "zh-Hant": "檳城"
@@ -1091,6 +1156,7 @@
         {
           "id": "kathmandu",
           "iata": "KTM",
+          "code_source": "editor",
           "city": {
             "en": "Kathmandu",
             "zh-Hant": "加德滿都"
@@ -1104,6 +1170,7 @@
         {
           "id": "cebu",
           "iata": "CEB",
+          "code_source": "editor",
           "city": {
             "en": "Cebu",
             "zh-Hant": "宿霧"
@@ -1117,6 +1184,7 @@
         {
           "id": "clark",
           "iata": "CRK",
+          "code_source": "editor",
           "city": {
             "en": "Clark",
             "zh-Hant": "克拉克"
@@ -1131,6 +1199,7 @@
         {
           "id": "manila",
           "iata": "MNL",
+          "code_source": "editor",
           "city": {
             "en": "Manila",
             "zh-Hant": "馬尼拉"
@@ -1145,6 +1214,7 @@
         {
           "id": "singapore",
           "iata": "SIN",
+          "code_source": "editor",
           "city": {
             "en": "Singapore",
             "zh-Hant": "新加坡"
@@ -1158,6 +1228,7 @@
         {
           "id": "colombo",
           "iata": "CMB",
+          "code_source": "editor",
           "city": {
             "en": "Colombo",
             "zh-Hant": "科倫坡"
@@ -1171,6 +1242,7 @@
         {
           "id": "bangkok",
           "iata": "BKK",
+          "code_source": "editor",
           "city": {
             "en": "Bangkok",
             "zh-Hant": "曼谷"
@@ -1185,6 +1257,7 @@
         {
           "id": "chiang-mai",
           "iata": "CNX",
+          "code_source": "editor",
           "city": {
             "en": "Chiang Mai",
             "zh-Hant": "清邁"
@@ -1199,6 +1272,7 @@
         {
           "id": "phuket",
           "iata": "HKT",
+          "code_source": "editor",
           "city": {
             "en": "Phuket",
             "zh-Hant": "布吉"
@@ -1213,6 +1287,7 @@
         {
           "id": "hanoi",
           "iata": "HAN",
+          "code_source": "editor",
           "city": {
             "en": "Hanoi",
             "zh-Hant": "河內"
@@ -1226,6 +1301,7 @@
         {
           "id": "ho-chi-minh-city",
           "iata": "SGN",
+          "code_source": "editor",
           "city": {
             "en": "Ho Chi Minh City",
             "zh-Hant": "胡志明市"
@@ -1239,6 +1315,7 @@
         {
           "id": "phu-quoc",
           "iata": "PQC",
+          "code_source": "editor",
           "city": {
             "en": "Phu Quoc",
             "zh-Hant": "富國島"
@@ -1253,6 +1330,7 @@
         {
           "id": "adelaide",
           "iata": "ADL",
+          "code_source": "iata",
           "city": {
             "en": "Adelaide",
             "zh-Hant": "阿德萊德"
@@ -1266,6 +1344,7 @@
         {
           "id": "brisbane",
           "iata": "BNE",
+          "code_source": "editor",
           "city": {
             "en": "Brisbane",
             "zh-Hant": "布里斯本"
@@ -1279,6 +1358,7 @@
         {
           "id": "melbourne",
           "iata": "MEL",
+          "code_source": "editor",
           "city": {
             "en": "Melbourne",
             "zh-Hant": "墨爾本"
@@ -1292,6 +1372,7 @@
         {
           "id": "perth",
           "iata": "PER",
+          "code_source": "editor",
           "city": {
             "en": "Perth",
             "zh-Hant": "珀斯"
@@ -1305,6 +1386,7 @@
         {
           "id": "sydney",
           "iata": "SYD",
+          "code_source": "editor",
           "city": {
             "en": "Sydney",
             "zh-Hant": "悉尼"
@@ -1318,6 +1400,7 @@
         {
           "id": "auckland",
           "iata": "AKL",
+          "code_source": "editor",
           "city": {
             "en": "Auckland",
             "zh-Hant": "奧克蘭"
@@ -1331,6 +1414,7 @@
         {
           "id": "christchurch",
           "iata": "CHC",
+          "code_source": "editor",
           "city": {
             "en": "Christchurch",
             "zh-Hant": "基督城"
@@ -1344,6 +1428,7 @@
         {
           "id": "brussels",
           "iata": "BRU",
+          "code_source": "editor",
           "city": {
             "en": "Brussels",
             "zh-Hant": "布魯塞爾"
@@ -1357,6 +1442,7 @@
         {
           "id": "paris",
           "iata": "PAR",
+          "code_source": "editor",
           "city": {
             "en": "Paris",
             "zh-Hant": "巴黎"
@@ -1370,6 +1456,7 @@
         {
           "id": "frankfurt",
           "iata": "FRA",
+          "code_source": "editor",
           "city": {
             "en": "Frankfurt",
             "zh-Hant": "法蘭克福"
@@ -1383,6 +1470,7 @@
         {
           "id": "munich",
           "iata": "MUC",
+          "code_source": "editor",
           "city": {
             "en": "Munich",
             "zh-Hant": "慕尼黑"
@@ -1396,6 +1484,7 @@
         {
           "id": "milan",
           "iata": "MIL",
+          "code_source": "editor",
           "city": {
             "en": "Milan",
             "zh-Hant": "米蘭"
@@ -1409,6 +1498,7 @@
         {
           "id": "rome",
           "iata": "ROM",
+          "code_source": "editor",
           "city": {
             "en": "Rome",
             "zh-Hant": "羅馬"
@@ -1422,6 +1512,7 @@
         {
           "id": "amsterdam",
           "iata": "AMS",
+          "code_source": "editor",
           "city": {
             "en": "Amsterdam",
             "zh-Hant": "阿姆斯特丹"
@@ -1435,6 +1526,7 @@
         {
           "id": "barcelona",
           "iata": "BCN",
+          "code_source": "editor",
           "city": {
             "en": "Barcelona",
             "zh-Hant": "巴塞羅那"
@@ -1448,6 +1540,7 @@
         {
           "id": "madrid",
           "iata": "MAD",
+          "code_source": "editor",
           "city": {
             "en": "Madrid",
             "zh-Hant": "馬德里"
@@ -1461,6 +1554,7 @@
         {
           "id": "zurich",
           "iata": "ZRH",
+          "code_source": "editor",
           "city": {
             "en": "Zurich",
             "zh-Hant": "蘇黎世"
@@ -1474,6 +1568,7 @@
         {
           "id": "london",
           "iata": "LON",
+          "code_source": "editor",
           "city": {
             "en": "London",
             "zh-Hant": "倫敦"
@@ -1487,6 +1582,7 @@
         {
           "id": "manchester",
           "iata": "MAN",
+          "code_source": "editor",
           "city": {
             "en": "Manchester",
             "zh-Hant": "曼徹斯特"
@@ -1500,6 +1596,7 @@
         {
           "id": "riyadh",
           "iata": "RUH",
+          "code_source": "editor",
           "city": {
             "en": "Riyadh",
             "zh-Hant": "利雅得"
@@ -1513,6 +1610,7 @@
         {
           "id": "dubai",
           "iata": "DXB",
+          "code_source": "editor",
           "city": {
             "en": "Dubai",
             "zh-Hant": "杜拜"
@@ -1641,7 +1739,7 @@
       "id": "hk-express",
       "name": {
         "en": "HK Express",
-        "zh-Hant": "香港快運"
+        "zh-Hant": "HK Express"
       },
       "profile": {
         "group": {
@@ -1780,6 +1878,7 @@
         {
           "id": "beijing",
           "iata": "PKX",
+          "code_source": "editor",
           "city": {
             "en": "Beijing (Daxing)",
             "zh-Hant": "北京（大興）"
@@ -1793,6 +1892,7 @@
         {
           "id": "seoul",
           "iata": "SEL",
+          "code_source": "editor",
           "city": {
             "en": "Seoul",
             "zh-Hant": "首爾"
@@ -1806,6 +1906,7 @@
         {
           "id": "daegu",
           "iata": "TAE",
+          "code_source": "editor",
           "city": {
             "en": "Daegu",
             "zh-Hant": "大邱"
@@ -1819,6 +1920,7 @@
         {
           "id": "busan",
           "iata": "PUS",
+          "code_source": "editor",
           "city": {
             "en": "Busan",
             "zh-Hant": "釜山"
@@ -1832,6 +1934,7 @@
         {
           "id": "jeju",
           "iata": "CJU",
+          "code_source": "editor",
           "city": {
             "en": "Jeju",
             "zh-Hant": "濟州"
@@ -1845,6 +1948,7 @@
         {
           "id": "sendai",
           "iata": "SDJ",
+          "code_source": "editor",
           "city": {
             "en": "Sendai",
             "zh-Hant": "仙台"
@@ -1858,6 +1962,7 @@
         {
           "id": "komatsu",
           "iata": "KMQ",
+          "code_source": "editor",
           "city": {
             "en": "Komatsu",
             "zh-Hant": "小松"
@@ -1871,6 +1976,7 @@
         {
           "id": "tokyo",
           "iata": "TYO",
+          "code_source": "editor",
           "city": {
             "en": "Tokyo (Haneda / Narita)",
             "zh-Hant": "東京（羽田／成田）"
@@ -1884,6 +1990,7 @@
         {
           "id": "hiroshima",
           "iata": "HIJ",
+          "code_source": "editor",
           "city": {
             "en": "Hiroshima",
             "zh-Hant": "廣島"
@@ -1897,6 +2004,7 @@
         {
           "id": "osaka",
           "iata": "OSA",
+          "code_source": "editor",
           "city": {
             "en": "Osaka",
             "zh-Hant": "大阪"
@@ -1910,6 +2018,7 @@
         {
           "id": "nagoya",
           "iata": "NGO",
+          "code_source": "editor",
           "city": {
             "en": "Nagoya",
             "zh-Hant": "名古屋"
@@ -1923,6 +2032,7 @@
         {
           "id": "takamatsu",
           "iata": "TAK",
+          "code_source": "editor",
           "city": {
             "en": "Takamatsu",
             "zh-Hant": "高松"
@@ -1936,6 +2046,7 @@
         {
           "id": "fukuoka",
           "iata": "FUK",
+          "code_source": "editor",
           "city": {
             "en": "Fukuoka",
             "zh-Hant": "福岡"
@@ -1949,6 +2060,7 @@
         {
           "id": "okinawa",
           "iata": "OKA",
+          "code_source": "editor",
           "city": {
             "en": "Okinawa",
             "zh-Hant": "沖繩"
@@ -1962,6 +2074,7 @@
         {
           "id": "ishigaki",
           "iata": "ISG",
+          "code_source": "editor",
           "city": {
             "en": "Ishigaki",
             "zh-Hant": "石垣"
@@ -1975,19 +2088,22 @@
         {
           "id": "hefei",
           "iata": "HFE",
+          "code_source": "iata",
           "city": {
             "en": "Hefei",
             "zh-Hant": "合肥"
           },
           "region": "east-asia",
           "since_year": null,
-          "status": "new",
+          "status": "upcoming",
+          "start_date": "2026-12-03",
           "source_url": "https://www.hkexpress.com/en-HK/About-Us/Media-Centre/HK-Express-Launches-New-Hefei-Route-on-3-December",
           "as_of": "2026-10-11"
         },
         {
           "id": "changzhou",
           "iata": "CZX",
+          "code_source": "editor",
           "city": {
             "en": "Changzhou",
             "zh-Hant": "常州"
@@ -2001,6 +2117,7 @@
         {
           "id": "wuxi",
           "iata": "WUX",
+          "code_source": "iata",
           "city": {
             "en": "Wuxi",
             "zh-Hant": "無錫"
@@ -2014,6 +2131,7 @@
         {
           "id": "ningbo",
           "iata": "NGB",
+          "code_source": "editor",
           "city": {
             "en": "Ningbo",
             "zh-Hant": "寧波"
@@ -2027,6 +2145,7 @@
         {
           "id": "yiwu",
           "iata": "YIW",
+          "code_source": "editor",
           "city": {
             "en": "Yiwu",
             "zh-Hant": "義烏"
@@ -2040,6 +2159,7 @@
         {
           "id": "taipei",
           "iata": "TPE",
+          "code_source": "editor",
           "city": {
             "en": "Taipei",
             "zh-Hant": "台北"
@@ -2053,6 +2173,7 @@
         {
           "id": "taichung",
           "iata": "RMQ",
+          "code_source": "editor",
           "city": {
             "en": "Taichung",
             "zh-Hant": "台中"
@@ -2066,6 +2187,7 @@
         {
           "id": "kaohsiung",
           "iata": "KHH",
+          "code_source": "editor",
           "city": {
             "en": "Kaohsiung",
             "zh-Hant": "高雄"
@@ -2079,6 +2201,7 @@
         {
           "id": "sanya",
           "iata": "SYX",
+          "code_source": "editor",
           "city": {
             "en": "Sanya",
             "zh-Hant": "三亞"
@@ -2092,6 +2215,7 @@
         {
           "id": "hanoi",
           "iata": "HAN",
+          "code_source": "editor",
           "city": {
             "en": "Hanoi",
             "zh-Hant": "河內"
@@ -2105,6 +2229,7 @@
         {
           "id": "chiang-mai",
           "iata": "CNX",
+          "code_source": "editor",
           "city": {
             "en": "Chiang Mai",
             "zh-Hant": "清邁"
@@ -2118,6 +2243,7 @@
         {
           "id": "bangkok",
           "iata": "BKK",
+          "code_source": "editor",
           "city": {
             "en": "Bangkok",
             "zh-Hant": "曼谷"
@@ -2131,6 +2257,7 @@
         {
           "id": "da-nang",
           "iata": "DAD",
+          "code_source": "editor",
           "city": {
             "en": "Da Nang",
             "zh-Hant": "峴港"
@@ -2144,6 +2271,7 @@
         {
           "id": "phu-quoc",
           "iata": "PQC",
+          "code_source": "editor",
           "city": {
             "en": "Phu Quoc",
             "zh-Hant": "富國島"
@@ -2157,6 +2285,7 @@
         {
           "id": "phuket",
           "iata": "HKT",
+          "code_source": "editor",
           "city": {
             "en": "Phuket",
             "zh-Hant": "布吉"
@@ -2170,6 +2299,7 @@
         {
           "id": "penang",
           "iata": "PEN",
+          "code_source": "editor",
           "city": {
             "en": "Penang",
             "zh-Hant": "檳城"
@@ -2183,6 +2313,7 @@
         {
           "id": "kuala-lumpur",
           "iata": "SZB",
+          "code_source": "editor",
           "city": {
             "en": "Kuala Lumpur (Subang)",
             "zh-Hant": "吉隆坡（梳邦）"
@@ -2196,6 +2327,7 @@
         {
           "id": "kota-kinabalu",
           "iata": "BKI",
+          "code_source": "iata",
           "city": {
             "en": "Kota Kinabalu (Sabah)",
             "zh-Hant": "亞庇（沙巴）"
@@ -2209,6 +2341,7 @@
         {
           "id": "clark",
           "iata": "CRK",
+          "code_source": "editor",
           "city": {
             "en": "Clark",
             "zh-Hant": "克拉克"
@@ -2222,6 +2355,7 @@
         {
           "id": "manila",
           "iata": "MNL",
+          "code_source": "editor",
           "city": {
             "en": "Manila",
             "zh-Hant": "馬尼拉"
@@ -2240,7 +2374,7 @@
           "kind": "new-route",
           "text": {
             "en": "HK Express launched a new route between Hong Kong and Kota Kinabalu (Sabah).",
-            "zh-Hant": "香港快運開辦香港至亞庇（沙巴）新航線"
+            "zh-Hant": "HK Express 開辦香港至亞庇（沙巴）新航線"
           },
           "source_url": "https://www.hkexpress.com/en-HK/About-Us/Media-Centre/HK-Express-Officially-Launches-New-Kota-Kinabalu_Sabah_Route",
           "as_of": "2026-10-11"
@@ -2251,7 +2385,7 @@
           "kind": "new-route",
           "text": {
             "en": "HK Express launched daily direct flights between Hong Kong and Wuxi.",
-            "zh-Hant": "香港快運開辦香港至無錫每日直航"
+            "zh-Hant": "HK Express 開辦香港至無錫每日直航"
           },
           "source_url": "https://www.hkexpress.com/en-HK/About-Us/Media-Centre/HK-Express-Officially-Launches----New-Hong-Kong-Wuxi-Route",
           "as_of": "2026-10-11"
@@ -2262,7 +2396,7 @@
           "kind": "new-route",
           "text": {
             "en": "HK Express announced a new Hefei route from 3 December 2026, with four flights a week.",
-            "zh-Hant": "香港快運宣布2026年12月3日起開辦合肥航線，每周四班"
+            "zh-Hant": "HK Express 宣布2026年12月3日起開辦合肥航線，每周四班"
           },
           "source_url": "https://www.hkexpress.com/en-HK/About-Us/Media-Centre/HK-Express-Launches-New-Hefei-Route-on-3-December",
           "as_of": "2026-10-11"
@@ -2273,7 +2407,7 @@
           "kind": "cancelled",
           "text": {
             "en": "HK Express suspended Hualien from January 2026 and Guiyang from May 2026 (2026 interim report).",
-            "zh-Hant": "香港快運由2026年1月起暫停花蓮航線，5月起暫停貴陽航線（2026年中期報告）"
+            "zh-Hant": "HK Express 由2026年1月起暫停花蓮航線，5月起暫停貴陽航線（2026年中期報告）"
           },
           "source_url": "https://www.cathaypacific.com/content/dam/cx/about-us/investor-relations/interim-annual-reports/en/2026_cx_interim_report_en.pdf",
           "as_of": "2026-10-11"
@@ -2284,7 +2418,7 @@
           "kind": "cancelled",
           "text": {
             "en": "HK Express suspended Nha Trang from January 2026 (2026 interim report).",
-            "zh-Hant": "香港快運由2026年1月起暫停芽莊航線（2026年中期報告）"
+            "zh-Hant": "HK Express 由2026年1月起暫停芽莊航線（2026年中期報告）"
           },
           "source_url": "https://www.cathaypacific.com/content/dam/cx/about-us/investor-relations/interim-annual-reports/en/2026_cx_interim_report_en.pdf",
           "as_of": "2026-10-11"
@@ -2424,6 +2558,7 @@
         {
           "id": "bkk",
           "iata": "BKK",
+          "code_source": "schedule",
           "city": {
             "en": "Bangkok",
             "zh-Hant": "曼谷"
@@ -2437,6 +2572,7 @@
         {
           "id": "mnl",
           "iata": "MNL",
+          "code_source": "schedule",
           "city": {
             "en": "Manila",
             "zh-Hant": "馬尼拉"
@@ -2450,6 +2586,7 @@
         {
           "id": "mle",
           "iata": "MLE",
+          "code_source": "iata",
           "city": {
             "en": "Male",
             "zh-Hant": "馬累"
@@ -2463,6 +2600,7 @@
         {
           "id": "tpe",
           "iata": "TPE",
+          "code_source": "schedule",
           "city": {
             "en": "Taipei",
             "zh-Hant": "台北"
@@ -2476,6 +2614,7 @@
         {
           "id": "nrt",
           "iata": "NRT",
+          "code_source": "schedule",
           "city": {
             "en": "Tokyo",
             "zh-Hant": "東京"
@@ -2489,6 +2628,7 @@
         {
           "id": "kix",
           "iata": "KIX",
+          "code_source": "schedule",
           "city": {
             "en": "Osaka",
             "zh-Hant": "大阪"
@@ -2502,6 +2642,7 @@
         {
           "id": "fuk",
           "iata": "FUK",
+          "code_source": "schedule",
           "city": {
             "en": "Fukuoka",
             "zh-Hant": "福岡"
@@ -2515,6 +2656,7 @@
         {
           "id": "cts",
           "iata": "CTS",
+          "code_source": "schedule",
           "city": {
             "en": "Sapporo",
             "zh-Hant": "札幌"
@@ -2528,6 +2670,7 @@
         {
           "id": "sdj",
           "iata": "SDJ",
+          "code_source": "schedule",
           "city": {
             "en": "Sendai",
             "zh-Hant": "仙台"
@@ -2541,6 +2684,7 @@
         {
           "id": "hsn",
           "iata": "HSN",
+          "code_source": "schedule",
           "city": {
             "en": "Zhoushan",
             "zh-Hant": "舟山"
@@ -2554,6 +2698,7 @@
         {
           "id": "yih",
           "iata": "YIH",
+          "code_source": "schedule",
           "city": {
             "en": "Yichang",
             "zh-Hant": "宜昌"
@@ -2567,6 +2712,7 @@
         {
           "id": "dyg",
           "iata": "DYG",
+          "code_source": "schedule",
           "city": {
             "en": "Zhangjiajie",
             "zh-Hant": "張家界"
@@ -2580,6 +2726,7 @@
         {
           "id": "kwl",
           "iata": "KWL",
+          "code_source": "schedule",
           "city": {
             "en": "Guilin",
             "zh-Hant": "桂林"
@@ -2593,6 +2740,7 @@
         {
           "id": "dat",
           "iata": "DAT",
+          "code_source": "schedule",
           "city": {
             "en": "Datong",
             "zh-Hant": "大同"
@@ -2606,6 +2754,7 @@
         {
           "id": "dnh",
           "iata": "DNH",
+          "code_source": "schedule",
           "city": {
             "en": "Dunhuang",
             "zh-Hant": "敦煌"
@@ -2619,6 +2768,7 @@
         {
           "id": "enh",
           "iata": "ENH",
+          "code_source": "schedule",
           "city": {
             "en": "Enshi",
             "zh-Hant": "恩施"
@@ -2632,6 +2782,7 @@
         {
           "id": "dad",
           "iata": "DAD",
+          "code_source": "iata",
           "city": {
             "en": "Da Nang",
             "zh-Hant": "峴港"
@@ -2645,6 +2796,7 @@
         {
           "id": "het",
           "iata": "HET",
+          "code_source": "iata",
           "city": {
             "en": "Hohhot",
             "zh-Hant": "呼和浩特"
@@ -2658,6 +2810,7 @@
         {
           "id": "oka",
           "iata": "OKA",
+          "code_source": "iata",
           "city": {
             "en": "Okinawa",
             "zh-Hant": "沖繩"
@@ -2671,6 +2824,7 @@
         {
           "id": "urc",
           "iata": "URC",
+          "code_source": "iata",
           "city": {
             "en": "Urumqi",
             "zh-Hant": "烏魯木齊"
@@ -2684,6 +2838,7 @@
         {
           "id": "ckg",
           "iata": "CKG",
+          "code_source": "iata",
           "city": {
             "en": "Chongqing",
             "zh-Hant": "重慶"
@@ -2697,6 +2852,7 @@
         {
           "id": "kmg",
           "iata": "KMG",
+          "code_source": "iata",
           "city": {
             "en": "Kunming",
             "zh-Hant": "昆明"
@@ -2710,6 +2866,7 @@
         {
           "id": "sub",
           "iata": "SUB",
+          "code_source": "iata",
           "city": {
             "en": "Surabaya",
             "zh-Hant": "泗水"
@@ -2718,6 +2875,19 @@
           "since_year": 2026,
           "status": "new",
           "source_url": "https://www.greaterbay-airlines.com/hk/en_HK/about-us/media-room/greater-bay-airlines-starts-scheduled-service-to-surabaya-indonesia.html",
+          "as_of": "2026-10-11"
+        },
+        {
+          "id": "palau",
+          "iata": null,
+          "city": {
+            "en": "Palau",
+            "zh-Hant": "帛琉"
+          },
+          "region": "oceania",
+          "since_year": null,
+          "status": "current",
+          "source_url": "https://www.greaterbay-airlines.com/hk/en_HK/book/flying-with-us/route-map.html",
           "as_of": "2026-10-11"
         }
       ],
@@ -2992,6 +3162,7 @@
         {
           "id": "han",
           "iata": "HAN",
+          "code_source": "iata",
           "city": {
             "en": "Hanoi",
             "zh-Hant": "河內"
@@ -3005,6 +3176,7 @@
         {
           "id": "mel",
           "iata": "MEL",
+          "code_source": "iata",
           "city": {
             "en": "Melbourne",
             "zh-Hant": "墨爾本"
@@ -3018,6 +3190,7 @@
         {
           "id": "lhw",
           "iata": "LHW",
+          "code_source": "iata",
           "city": {
             "en": "Lanzhou",
             "zh-Hant": "蘭州"
@@ -3031,6 +3204,7 @@
         {
           "id": "urc",
           "iata": "URC",
+          "code_source": "iata",
           "city": {
             "en": "Urumqi",
             "zh-Hant": "烏魯木齊"
@@ -3038,6 +3212,202 @@
           "region": "east-asia",
           "since_year": 2026,
           "status": "new",
+          "source_url": "https://www.hongkongairlines.com/ta/ta?lanid=105&cid=a5b1c839-dcb6-4ed3-b646-edd07fb6c5a6&from=single&selectSingle=",
+          "as_of": "2026-10-11"
+        },
+        {
+          "id": "xnn",
+          "iata": "XNN",
+          "code_source": "editor",
+          "city": {
+            "en": "Xining",
+            "zh-Hant": "西寧"
+          },
+          "region": "east-asia",
+          "since_year": null,
+          "status": "current",
+          "source_url": "https://www.hongkongairlines.com/ta/ta?lanid=105&cid=dbaa2804-2be7-4aab-9f4b-1fa36e252ee9&from=single&selectSingle=",
+          "as_of": "2026-10-11"
+        },
+        {
+          "id": "hld",
+          "iata": "HLD",
+          "code_source": "editor",
+          "city": {
+            "en": "Hulunbuir",
+            "zh-Hant": "呼倫貝爾"
+          },
+          "region": "east-asia",
+          "since_year": null,
+          "status": "current",
+          "source_url": "https://www.hongkongairlines.com/ta/ta?lanid=105&cid=dbaa2804-2be7-4aab-9f4b-1fa36e252ee9&from=single&selectSingle=",
+          "as_of": "2026-10-11"
+        },
+        {
+          "id": "ljg",
+          "iata": "LJG",
+          "code_source": "editor",
+          "city": {
+            "en": "Lijiang",
+            "zh-Hant": "麗江"
+          },
+          "region": "east-asia",
+          "since_year": null,
+          "status": "current",
+          "source_url": "https://www.hongkongairlines.com/ta/ta?lanid=105&cid=9f64b294-4096-48f7-b838-55cf7c24c5ba&from=single&selectSingle=",
+          "as_of": "2026-10-11"
+        },
+        {
+          "id": "ctu",
+          "iata": "CTU",
+          "code_source": "editor",
+          "city": {
+            "en": "Chengdu",
+            "zh-Hant": "成都"
+          },
+          "region": "east-asia",
+          "since_year": null,
+          "status": "current",
+          "source_url": "https://www.hongkongairlines.com/ta/ta?lanid=105&cid=6070d639-4898-4860-a8ff-da690c611f59&from=single&selectSingle=",
+          "as_of": "2026-10-11"
+        },
+        {
+          "id": "sha",
+          "iata": "SHA",
+          "code_source": "editor",
+          "city": {
+            "en": "Shanghai",
+            "zh-Hant": "上海"
+          },
+          "region": "east-asia",
+          "since_year": null,
+          "status": "current",
+          "source_url": "https://www.hongkongairlines.com/ta/ta?lanid=105&cid=8d6548d7-3f40-4e9b-a529-826a9ec297d7&from=single&selectSingle=",
+          "as_of": "2026-10-11"
+        },
+        {
+          "id": "nrt",
+          "iata": "NRT",
+          "code_source": "iata",
+          "city": {
+            "en": "Tokyo",
+            "zh-Hant": "東京"
+          },
+          "region": "east-asia",
+          "since_year": null,
+          "status": "current",
+          "source_url": "https://www.hongkongairlines.com/ta/ta?lanid=105&cid=16131af4-88a9-419a-8fef-82053cce6e30&from=single&selectSingle=",
+          "as_of": "2026-10-11"
+        },
+        {
+          "id": "kix",
+          "iata": "KIX",
+          "code_source": "iata",
+          "city": {
+            "en": "Osaka",
+            "zh-Hant": "大阪"
+          },
+          "region": "east-asia",
+          "since_year": null,
+          "status": "current",
+          "source_url": "https://www.hongkongairlines.com/ta/ta?lanid=105&cid=16131af4-88a9-419a-8fef-82053cce6e30&from=single&selectSingle=",
+          "as_of": "2026-10-11"
+        },
+        {
+          "id": "cts",
+          "iata": "CTS",
+          "code_source": "iata",
+          "city": {
+            "en": "Sapporo",
+            "zh-Hant": "札幌"
+          },
+          "region": "east-asia",
+          "since_year": null,
+          "status": "current",
+          "source_url": "https://www.hongkongairlines.com/ta/ta?lanid=105&cid=5ef97fce-cc3e-4135-b45c-83b846b4ba08&from=single&selectSingle=",
+          "as_of": "2026-10-11"
+        },
+        {
+          "id": "fuk",
+          "iata": "FUK",
+          "code_source": "iata",
+          "city": {
+            "en": "Fukuoka",
+            "zh-Hant": "福岡"
+          },
+          "region": "east-asia",
+          "since_year": null,
+          "status": "current",
+          "source_url": "https://www.hongkongairlines.com/ta/ta?lanid=105&cid=5ef97fce-cc3e-4135-b45c-83b846b4ba08&from=single&selectSingle=",
+          "as_of": "2026-10-11"
+        },
+        {
+          "id": "oka",
+          "iata": "OKA",
+          "code_source": "iata",
+          "city": {
+            "en": "Okinawa",
+            "zh-Hant": "沖繩"
+          },
+          "region": "east-asia",
+          "since_year": null,
+          "status": "current",
+          "source_url": "https://www.hongkongairlines.com/ta/ta?lanid=105&cid=5ef97fce-cc3e-4135-b45c-83b846b4ba08&from=single&selectSingle=",
+          "as_of": "2026-10-11"
+        },
+        {
+          "id": "bkk",
+          "iata": "BKK",
+          "code_source": "iata",
+          "city": {
+            "en": "Bangkok",
+            "zh-Hant": "曼谷"
+          },
+          "region": "southeast-asia",
+          "since_year": null,
+          "status": "current",
+          "source_url": "https://www.hongkongairlines.com/ta/ta?lanid=105&cid=16131af4-88a9-419a-8fef-82053cce6e30&from=single&selectSingle=",
+          "as_of": "2026-10-11"
+        },
+        {
+          "id": "dad",
+          "iata": "DAD",
+          "code_source": "editor",
+          "city": {
+            "en": "Da Nang",
+            "zh-Hant": "峴港"
+          },
+          "region": "southeast-asia",
+          "since_year": null,
+          "status": "current",
+          "source_url": "https://www.hongkongairlines.com/ta/ta?lanid=105&cid=927e1c24-f04d-414e-b569-e2a95af257c4&from=single&selectSingle=",
+          "as_of": "2026-10-11"
+        },
+        {
+          "id": "syd",
+          "iata": "SYD",
+          "code_source": "editor",
+          "city": {
+            "en": "Sydney",
+            "zh-Hant": "悉尼"
+          },
+          "region": "oceania",
+          "since_year": 2025,
+          "status": "current",
+          "source_url": "https://www.hongkongairlines.com/ta/ta?lanid=105&cid=4e35279a-08a1-4b61-a30d-2dd0ce2c7bd4&from=single&selectSingle=",
+          "as_of": "2026-10-11"
+        },
+        {
+          "id": "yvr",
+          "iata": "YVR",
+          "code_source": "editor",
+          "city": {
+            "en": "Vancouver",
+            "zh-Hant": "溫哥華"
+          },
+          "region": "north-america",
+          "since_year": null,
+          "status": "current",
           "source_url": "https://www.hongkongairlines.com/ta/ta?lanid=105&cid=a5b1c839-dcb6-4ed3-b646-edd07fb6c5a6&from=single&selectSingle=",
           "as_of": "2026-10-11"
         }
@@ -3087,7 +3457,8 @@
           "source_url": "https://www.hongkongairlines.com/ta/ta?lanid=105&cid=a5b1c839-dcb6-4ed3-b646-edd07fb6c5a6&from=single&selectSingle=",
           "as_of": "2026-10-11"
         }
-      ]
+      ],
+      "destinations_partial": true
     }
   },
   "digest": [
@@ -3157,11 +3528,11 @@
       "date": "2026-04-02",
       "headline": {
         "en": "HK Express announces daily flights to Wuxi",
-        "zh-Hant": "香港快運宣布開辦每日無錫航班"
+        "zh-Hant": "HK Express 宣布開辦每日無錫航班"
       },
       "body": {
         "en": "HK Express announced a new daily direct route from Hong Kong to Wuxi Shuofang Airport, starting on 17 July 2026, subject to regulatory approval. It said that with Wuxi it would offer a total of 22 return flights a week across the Yangtze River Delta.",
-        "zh-Hant": "香港快運宣布由 2026 年 7 月 17 日起開辦香港至無錫碩放機場的每日直航航班（有待監管機構批准）；該公司表示，加上無錫航線後，其長江三角洲航線合共每週提供 22 班來回航班。"
+        "zh-Hant": "HK Express 宣布由 2026 年 7 月 17 日起開辦香港至無錫碩放機場的每日直航航班（有待監管機構批准）；該公司表示，加上無錫航線後，其長江三角洲航線合共每週提供 22 班來回航班。"
       },
       "source_url": "https://www.hkexpress.com/en/About-Us/Media-Centre/HK-Express-to-Launch-New-Wuxi-Route-on-17-July",
       "as_of": "2026-09-30"
@@ -3187,11 +3558,11 @@
       "date": "2025-11-19",
       "headline": {
         "en": "HK Express hires 11 cadet graduates as Second Officers",
-        "zh-Hant": "香港快運聘用 11 名見習機師畢業生為二副"
+        "zh-Hant": "HK Express 聘用 11 名見習機師畢業生為二副"
       },
       "body": {
         "en": "HK Express and the Hong Kong International Aviation Academy (HKIAA) announced that HK Express had hired 11 graduates from the first intake of HKIAA's Cadet Pilot Programme as Second Officers. They said HK Express was the first airline to employ HKIAA cadet pilots, and that the programme had completed eight intakes.",
-        "zh-Hant": "香港快運與香港國際航空學院宣布，香港快運已聘用 11 名學院首屆見習機師課程畢業生為二副（Second Officer）。雙方表示，香港快運是首家聘用該學院見習機師的航空公司，課程當時已完成八屆招生。"
+        "zh-Hant": "HK Express 與香港國際航空學院宣布，HK Express 已聘用 11 名學院首屆見習機師課程畢業生為二副（Second Officer）。雙方表示，HK Express 是首家聘用該學院見習機師的航空公司，課程當時已完成八屆招生。"
       },
       "source_url": "https://www.hongkongairport.com/en/media-centre/press-release/2025/pr_1841",
       "as_of": "2026-09-30"
