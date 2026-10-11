@@ -216,3 +216,43 @@ describe('owner rulings 2026-10-11', () => {
     expect(checkAsOfMonotonic(base, next).join()).toMatch(/changes\.almaty\.as_of/)
   })
 })
+
+describe('owner rulings 2026-10-12', () => {
+  it('upcoming needs a start_date (day, month or quarter); start_date only on upcoming', () => {
+    const f = fixture()
+    const d = f.airlines.cathay.destinations[0]
+    d.status = 'upcoming'
+    expect(issues(f).join()).toMatch(/start_date: start_date is required/)
+    for (const s of ['2026-12-03', '2027-01', '2027-Q1']) {
+      d.start_date = s
+      expect(issues(f)).toEqual([])
+    }
+    d.start_date = '2027-Q5'
+    expect(issues(f).join()).toMatch(/start_date/)
+    d.start_date = '2027-Q1'
+    d.status = 'new'
+    expect(issues(f).join()).toMatch(/start_date is only for status "upcoming"/)
+  })
+
+  it('iata may be null (then no code_source); a code needs code_source', () => {
+    const f = fixture()
+    const d = f.airlines.cathay.destinations[0]
+    d.iata = null
+    expect(issues(f).join()).toMatch(/code_source must be absent/)
+    delete d.code_source
+    expect(issues(f)).toEqual([])
+    const g = fixture()
+    delete g.airlines.cathay.destinations[0].code_source
+    expect(issues(g).join()).toMatch(/code_source is required/)
+    g.airlines.cathay.destinations[0].code_source = 'guess'
+    expect(issues(g).join()).toMatch(/code_source/)
+  })
+
+  it('destinations_partial is an optional flag', () => {
+    const f = fixture()
+    f.airlines.cathay.destinations_partial = true
+    expect(issues(f)).toEqual([])
+    f.airlines.cathay.destinations_partial = 'yes'
+    expect(issues(f).join()).toMatch(/destinations_partial/)
+  })
+})

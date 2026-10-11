@@ -103,6 +103,7 @@
         {
           "id": "lhr",
           "iata": "LHR",
+          "code_source": "iata",
           "city": {
             "en": "London",
             "zh-Hant": "倫敦"

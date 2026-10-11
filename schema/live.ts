@@ -77,7 +77,8 @@ export const REGIONS = [
 export const Region = z.enum(REGIONS)
 export type Region = z.infer<typeof Region>
 
-export const DESTINATION_STATUSES = ['current', 'new', 'suspended', 'resumed'] as const
+/** `new` only for a route already flying; an announced route not yet flying is `upcoming` (owner, 2026-10-12). */
+export const DESTINATION_STATUSES = ['current', 'new', 'upcoming', 'suspended', 'resumed'] as const
 export const DestinationStatus = z.enum(DESTINATION_STATUSES)
 export type DestinationStatus = z.infer<typeof DestinationStatus>
 
@@ -91,6 +92,22 @@ export const CHANGE_KINDS = [
 ] as const
 export const ChangeKind = z.enum(CHANGE_KINDS)
 export type ChangeKind = z.infer<typeof ChangeKind>
+
+/**
+ * Where a destination's airport code comes from (owner, 2026-10-12): `iata` — stated by an allowed source
+ * as the IATA code; `schedule` — the airline's own schedule / airport list; `editor` — filled in by the
+ * researcher (not checked against a source by verifiers).
+ */
+export const CODE_SOURCES = ['iata', 'schedule', 'editor'] as const
+export const CodeSource = z.enum(CODE_SOURCES)
+export type CodeSource = z.infer<typeof CodeSource>
+
+/** Start of an upcoming route as the source gives it: a day, a month, or a quarter ("2027-Q1"). */
+export const StartDate = z.union([
+  IsoDate,
+  z.string().regex(/^\d{4}-(0[1-9]|1[0-2])$/, 'expected YYYY-MM'),
+  z.string().regex(/^\d{4}-Q[1-4]$/, 'expected YYYY-Qn'),
+])
 
 export const DIGEST_CATEGORIES = ['fleet', 'route', 'recruitment', 'industry'] as const
 export const DigestCategory = z.enum(DIGEST_CATEGORIES)
@@ -190,16 +207,28 @@ export type FleetEntry = z.infer<typeof FleetEntry>
 export const Destination = z
   .object({
     id: Slug,
-    iata: Iata,
+    /** null when no allowed source gives a code (the UI shows the city alone). */
+    iata: Iata.nullable(),
+    /** Required with a code; absent when iata is null. */
+    code_source: CodeSource.optional(),
     city: BilingualText,
     region: Region,
     since_year: z.number().int().min(1900).max(2100).nullable(),
     status: DestinationStatus,
+    /** Required when status is "upcoming", not allowed otherwise. */
+    start_date: StartDate.optional(),
     /** Another airline that also serves this destination, as the source lists it (UI: 「與 HK Express 共用」). */
     shared_with: AirlineId.optional(),
     ...sourced,
   })
   .strict()
+  .superRefine((d, ctx) => {
+    const issue = (path: string, message: string) => ctx.addIssue({ code: z.ZodIssueCode.custom, message, path: [path] })
+    if (d.iata !== null && d.code_source === undefined) issue('code_source', 'code_source is required when iata is set')
+    if (d.iata === null && d.code_source !== undefined) issue('code_source', 'code_source must be absent when iata is null')
+    if (d.status === 'upcoming' && d.start_date === undefined) issue('start_date', 'start_date is required when status is "upcoming"')
+    if (d.status !== 'upcoming' && d.start_date !== undefined) issue('start_date', 'start_date is only for status "upcoming"')
+  })
 export type Destination = z.infer<typeof Destination>
 
 export const Change = z
@@ -223,6 +252,8 @@ export const Airline = z
       .array(Destination)
       .superRefine((xs, ctx) => uniqueBy(xs, (x) => x.id, ctx, 'destination id')),
     changes: z.array(Change).superRefine((xs, ctx) => uniqueBy(xs, (x) => x.id, ctx, 'change id')),
+    /** true when the list is compiled from releases and may be incomplete (UI: 「航點按官方新聞稿整理，未必完整」). */
+    destinations_partial: z.boolean().optional(),
   })
   .strict()
   .superRefine((a, ctx) => {
