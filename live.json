@@ -690,8 +690,8 @@
           },
           "region": "north-america",
           "since_year": null,
-          "status": "new",
-          "source_url": "https://news.cathaypacific.com/cathay-pacific-connects-hong-kong-and-seattle-with-a-five-times-weekly-direct-service",
+          "status": "resumed",
+          "source_url": "https://news.cathaypacific.com/cathay-pacific-returns-to-seattle-with-five-non-stop-return-flights-per-week-84glhv",
           "as_of": "2026-10-11"
         },
         {
@@ -1506,8 +1506,8 @@
           },
           "region": "middle-east",
           "since_year": null,
-          "status": "current",
-          "source_url": "https://flights.cathaypacific.com/en_HK/book-flights/global-network.html",
+          "status": "suspended",
+          "source_url": "https://www.cathaypacific.com/content/dam/cx/about-us/investor-relations/interim-annual-reports/en/2026_cx_interim_report_en.pdf",
           "as_of": "2026-10-11"
         },
         {
@@ -1519,8 +1519,8 @@
           },
           "region": "middle-east",
           "since_year": null,
-          "status": "current",
-          "source_url": "https://flights.cathaypacific.com/en_HK/book-flights/global-network.html",
+          "status": "suspended",
+          "source_url": "https://www.cathaypacific.com/content/dam/cx/about-us/investor-relations/interim-annual-reports/en/2026_cx_interim_report_en.pdf",
           "as_of": "2026-10-11"
         }
       ],
@@ -1550,10 +1550,10 @@
         {
           "id": "2026-03-30-seattle",
           "date": "2026-03-30",
-          "kind": "new-route",
+          "kind": "resumed",
           "text": {
-            "en": "Cathay Pacific launched a five-times-weekly non-stop service between Hong Kong and Seattle.",
-            "zh-Hant": "國泰航空開辦香港至西雅圖直航，每周五班"
+            "en": "Cathay Pacific resumed non-stop Hong Kong–Seattle flights, five times a week.",
+            "zh-Hant": "國泰航空恢復香港至西雅圖直航，每周五班"
           },
           "source_url": "https://news.cathaypacific.com/cathay-pacific-connects-hong-kong-and-seattle-with-a-five-times-weekly-direct-service",
           "as_of": "2026-10-11"
@@ -1578,6 +1578,61 @@
             "zh-Hant": "國泰航空宣布計劃於2027年第一季開辦往阿拉木圖航班，每周三班"
           },
           "source_url": "https://news.cathaypacific.com/cathay-pacific-announces-plans-to-launch-direct-flights-to-almaty",
+          "as_of": "2026-10-11"
+        },
+        {
+          "id": "2026-08-05-dubai-riyadh",
+          "date": "2026-08-05",
+          "kind": "cancelled",
+          "text": {
+            "en": "Dubai and Riyadh passenger flights temporarily suspended since March 2026 (reported in the 2026 interim report).",
+            "zh-Hant": "杜拜及利雅得客運航班自2026年3月起暫停（2026年中期報告）"
+          },
+          "source_url": "https://www.cathaypacific.com/content/dam/cx/about-us/investor-relations/interim-annual-reports/en/2026_cx_interim_report_en.pdf",
+          "as_of": "2026-10-11"
+        },
+        {
+          "id": "2026-08-05-cairns",
+          "date": "2026-08-05",
+          "kind": "cancelled",
+          "text": {
+            "en": "Winter service to Cairns to be suspended from October 2026 (announced in the 2026 interim report).",
+            "zh-Hant": "由2026年10月起暫停凱恩斯冬季航班（2026年中期報告公布）"
+          },
+          "source_url": "https://www.cathaypacific.com/content/dam/cx/about-us/investor-relations/interim-annual-reports/en/2026_cx_interim_report_en.pdf",
+          "as_of": "2026-10-11"
+        },
+        {
+          "id": "2026-08-05-kuala-lumpur",
+          "date": "2026-08-05",
+          "kind": "extra-frequency",
+          "text": {
+            "en": "Kuala Lumpur increased from three to four daily return flights from March 2026.",
+            "zh-Hant": "吉隆坡航班由2026年3月起由每日三班增至四班"
+          },
+          "source_url": "https://www.cathaypacific.com/content/dam/cx/about-us/investor-relations/interim-annual-reports/en/2026_cx_interim_report_en.pdf",
+          "as_of": "2026-10-11"
+        },
+        {
+          "id": "2026-08-05-seoul",
+          "date": "2026-08-05",
+          "kind": "extra-frequency",
+          "text": {
+            "en": "Seoul increased from four to five daily flights in March 2026.",
+            "zh-Hant": "首爾航班於2026年3月由每日四班增至五班"
+          },
+          "source_url": "https://www.cathaypacific.com/content/dam/cx/about-us/investor-relations/interim-annual-reports/en/2026_cx_interim_report_en.pdf",
+          "as_of": "2026-10-11"
+        },
+        {
+          "id": "2026-08-05-xian",
+          "date": "2026-08-05",
+          "kind": "extra-frequency",
+          "text": {
+            "en": "Xi'an to increase from a daily service to 12 return flights a week from 11 July 2026.",
+            "zh-Hant": "西安航班由2026年7月11日起由每日一班增至每周12班"
+          },
+          "source_url": "https://www.cathaypacific.com/content/dam/cx/about-us/investor-relations/interim-annual-reports/en/2026_cx_interim_report_en.pdf",
           "as_of": "2026-10-11"
         }
       ]
@@ -2211,6 +2266,28 @@
           },
           "source_url": "https://www.hkexpress.com/en-HK/About-Us/Media-Centre/HK-Express-Launches-New-Hefei-Route-on-3-December",
           "as_of": "2026-10-11"
+        },
+        {
+          "id": "2026-08-05-hualien-guiyang",
+          "date": "2026-08-05",
+          "kind": "cancelled",
+          "text": {
+            "en": "HK Express suspended Hualien from January 2026 and Guiyang from May 2026 (2026 interim report).",
+            "zh-Hant": "香港快運由2026年1月起暫停花蓮航線，5月起暫停貴陽航線（2026年中期報告）"
+          },
+          "source_url": "https://www.cathaypacific.com/content/dam/cx/about-us/investor-relations/interim-annual-reports/en/2026_cx_interim_report_en.pdf",
+          "as_of": "2026-10-11"
+        },
+        {
+          "id": "2026-08-05-nha-trang",
+          "date": "2026-08-05",
+          "kind": "cancelled",
+          "text": {
+            "en": "HK Express suspended Nha Trang from January 2026 (2026 interim report).",
+            "zh-Hant": "香港快運由2026年1月起暫停芽莊航線（2026年中期報告）"
+          },
+          "source_url": "https://www.cathaypacific.com/content/dam/cx/about-us/investor-relations/interim-annual-reports/en/2026_cx_interim_report_en.pdf",
+          "as_of": "2026-10-11"
         }
       ]
     },
@@ -2378,9 +2455,9 @@
             "zh-Hant": "馬累"
           },
           "region": "south-asia",
-          "since_year": null,
-          "status": "current",
-          "source_url": "https://www.greaterbay-airlines.com/hk/en_HK/book/flying-with-us/flight-schedule.html",
+          "since_year": 2026,
+          "status": "new",
+          "source_url": "https://www.greaterbay-airlines.com/hk/en_HK/about-us/media-room/greater-bay-airlines-launches-seasonal-flights-to-the-maldives-during-lunar-new-year-holiday.html",
           "as_of": "2026-10-11"
         },
         {
