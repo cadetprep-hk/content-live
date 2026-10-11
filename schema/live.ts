@@ -7,7 +7,7 @@
  *
  * Rules enforced here:
  * - every object is strict (unknown keys are errors);
- * - every data item carries source_url (https) and, except changes, as_of (YYYY-MM-DD, the day the source was read);
+ * - every data item carries source_url (https) and as_of (YYYY-MM-DD, the day the source was read);
  * - ids are unique within each list (hubs: unique iata);
  * - the file's as_of is not earlier than any item's as_of;
  * - changes[].date lies within the 12 months up to the file's as_of.
@@ -65,6 +65,7 @@ export type AirlineId = z.infer<typeof AirlineId>
 
 export const REGIONS = [
   'east-asia',
+  'central-asia',
   'southeast-asia',
   'south-asia',
   'middle-east',
@@ -98,6 +99,7 @@ export type DigestCategory = z.infer<typeof DigestCategory>
 /** UI labels (zh-Hant) for the enums above. */
 export const REGION_LABELS_ZH: Record<Region, string> = {
   'east-asia': '東亞',
+  'central-asia': '中亞',
   'southeast-asia': '東南亞',
   'south-asia': '南亞',
   'middle-east': '中東',
@@ -159,7 +161,8 @@ export const Profile = z
   .object({
     group: GroupProfile,
     hubs: z.array(Hub).min(1).superRefine((xs, ctx) => uniqueBy(xs, (x) => x.iata, ctx, 'hub')),
-    founded: Founded,
+    /** null when no allowed source states a founding year (the UI hides the row). */
+    founded: Founded.nullable(),
     cadet_programme: CadetProgramme.nullable(),
     milestones: z
       .array(Milestone)
@@ -175,8 +178,9 @@ export const FleetEntry = z
     id: Slug,
     type: z.string().min(1),
     variant: z.string().min(1),
-    in_service: z.number().int().min(0),
-    on_order: z.number().int().min(0),
+    /** null when the source names the type but gives no count (the UI shows 「—」). */
+    in_service: z.number().int().min(0).nullable(),
+    on_order: z.number().int().min(0).nullable(),
     first_delivery_year: z.number().int().min(1900).max(2100).nullable(),
     ...sourced,
   })
@@ -191,6 +195,8 @@ export const Destination = z
     region: Region,
     since_year: z.number().int().min(1900).max(2100).nullable(),
     status: DestinationStatus,
+    /** Another airline that also serves this destination, as the source lists it (UI: 「與 HK Express 共用」). */
+    shared_with: AirlineId.optional(),
     ...sourced,
   })
   .strict()
@@ -202,7 +208,7 @@ export const Change = z
     date: IsoDate,
     kind: ChangeKind,
     text: bilingualMaxZh(60),
-    source_url: HttpsUrl,
+    ...sourced,
   })
   .strict()
 export type Change = z.infer<typeof Change>
@@ -219,6 +225,17 @@ export const Airline = z
     changes: z.array(Change).superRefine((xs, ctx) => uniqueBy(xs, (x) => x.id, ctx, 'change id')),
   })
   .strict()
+  .superRefine((a, ctx) => {
+    a.destinations.forEach((d, i) => {
+      if (d.shared_with === a.id) {
+        ctx.addIssue({
+          code: z.ZodIssueCode.custom,
+          message: 'shared_with must name another airline, not the airline itself',
+          path: ['destinations', i, 'shared_with'],
+        })
+      }
+    })
+  })
 export type Airline = z.infer<typeof Airline>
 
 /* ---------------------------------------------------------------- digest */
@@ -255,11 +272,12 @@ export function datedItems(live: Pick<LiveContent, 'airlines' | 'digest'>): Date
     const p = a.profile
     out.push({ key: `airlines.${aid}.profile.group`, as_of: p.group.as_of })
     for (const h of p.hubs) out.push({ key: `airlines.${aid}.profile.hubs.${h.iata}`, as_of: h.as_of })
-    out.push({ key: `airlines.${aid}.profile.founded`, as_of: p.founded.as_of })
+    if (p.founded) out.push({ key: `airlines.${aid}.profile.founded`, as_of: p.founded.as_of })
     if (p.cadet_programme) out.push({ key: `airlines.${aid}.profile.cadet_programme`, as_of: p.cadet_programme.as_of })
     for (const m of p.milestones) out.push({ key: `airlines.${aid}.profile.milestones.${m.id}`, as_of: m.as_of })
     for (const f of a.fleet) out.push({ key: `airlines.${aid}.fleet.${f.id}`, as_of: f.as_of })
     for (const d of a.destinations) out.push({ key: `airlines.${aid}.destinations.${d.id}`, as_of: d.as_of })
+    for (const c of a.changes) out.push({ key: `airlines.${aid}.changes.${c.id}`, as_of: c.as_of })
   }
   for (const d of live.digest) out.push({ key: `digest.${d.id}`, as_of: d.as_of })
   return out

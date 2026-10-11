@@ -28,7 +28,7 @@ export function collectUrls(live: LiveContent): Map<string, string[]> {
     const p = a.profile
     add(p.group.source_url, `airlines.${aid}.profile.group`)
     p.hubs.forEach((h) => add(h.source_url, `airlines.${aid}.profile.hubs.${h.iata}`))
-    add(p.founded.source_url, `airlines.${aid}.profile.founded`)
+    if (p.founded) add(p.founded.source_url, `airlines.${aid}.profile.founded`)
     if (p.cadet_programme) {
       add(p.cadet_programme.source_url, `airlines.${aid}.profile.cadet_programme`)
       add(p.cadet_programme.url, `airlines.${aid}.profile.cadet_programme.url`)

@@ -35,7 +35,7 @@ describe('LiveContent schema', () => {
 
   it('rejects unknown region, status and change kind', () => {
     const f = fixture()
-    f.airlines.cathay.destinations[0].region = 'central-asia'
+    f.airlines.cathay.destinations[0].region = 'antarctica'
     f.airlines.cathay.destinations[0].status = 'closed'
     f.airlines.cathay.changes[0].kind = 'rumour'
     const out = issues(f).join('\n')
@@ -176,5 +176,43 @@ describe('as_of never earlier than main', () => {
     const next = fixture()
     next.digest = [{ ...next.digest[0], id: 'd2', as_of: '2026-01-01' }]
     expect(checkAsOfMonotonic(base, parse(next))).toEqual([])
+  })
+})
+
+describe('owner rulings 2026-10-11', () => {
+  it('allows a null founded year and null fleet counts', () => {
+    const f = fixture()
+    f.airlines.cathay.profile.founded = null
+    f.airlines.cathay.fleet[0].in_service = null
+    f.airlines.cathay.fleet[0].on_order = null
+    expect(issues(f)).toEqual([])
+  })
+
+  it('accepts central-asia and an optional shared_with airline', () => {
+    const f = fixture()
+    f.airlines.cathay.destinations[0].region = 'central-asia'
+    f.airlines.cathay.destinations[0].shared_with = 'hk-express'
+    expect(issues(f)).toEqual([])
+    f.airlines.cathay.destinations[0].shared_with = 'hkexpress'
+    expect(issues(f).join()).toMatch(/destinations\.0\.shared_with/)
+  })
+
+  it('rejects shared_with naming the airline itself', () => {
+    const f = fixture()
+    f.airlines.cathay.destinations[0].shared_with = 'cathay'
+    expect(issues(f).join()).toMatch(/shared_with.*itself/)
+  })
+
+  it('requires as_of on changes and counts it in the as_of rules', () => {
+    const f = fixture()
+    delete f.airlines.cathay.changes[0].as_of
+    expect(issues(f).join()).toMatch(/changes\.0\.as_of: Required/)
+    const g = fixture()
+    g.airlines.cathay.changes[0].as_of = '2099-01-01'
+    expect(issues(g).join()).toMatch(/changes\.almaty\.as_of 2099-01-01 is later/)
+    const base = fixture()
+    const next = fixture()
+    next.airlines.cathay.changes[0].as_of = '2026-01-01'
+    expect(checkAsOfMonotonic(base, next).join()).toMatch(/changes\.almaty\.as_of/)
   })
 })
