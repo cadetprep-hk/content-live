@@ -37,6 +37,7 @@ export function collectUrls(live: LiveContent): Map<string, string[]> {
     a.fleet.forEach((f) => add(f.source_url, `airlines.${aid}.fleet.${f.id}`))
     a.destinations.forEach((d) => add(d.source_url, `airlines.${aid}.destinations.${d.id}`))
     a.changes.forEach((c) => add(c.source_url, `airlines.${aid}.changes.${c.id}`))
+    a.maintenance_stations?.forEach((m) => add(m.source_url, `airlines.${aid}.maintenance_stations.${m.iata}`))
   }
   live.digest.forEach((d) => add(d.source_url, `digest.${d.id}`))
   return urls
