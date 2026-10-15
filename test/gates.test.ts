@@ -40,3 +40,23 @@ describe('release gates (Task 21: new live.json fields wait for an App Store bui
     for (const f of GATED_FIELDS) expect(g[f]).toBeDefined()
   })
 })
+
+describe('the gate runs at publish time only (owner, 2026-10-15)', () => {
+  const read = (p: string) => readFileSync(new URL(p, import.meta.url), 'utf8')
+
+  it('npm run validate does not check release gates', () => {
+    expect(read('../scripts/validate.ts')).not.toMatch(/gates/)
+  })
+
+  it('npm run publish:check runs scripts/publish-check.ts, which uses the gates', () => {
+    const pkg = JSON.parse(read('../package.json'))
+    expect(pkg.scripts['publish:check']).toBe('tsx scripts/publish-check.ts')
+    expect(read('../scripts/publish-check.ts')).toMatch(/gateViolations/)
+  })
+
+  it('a publish workflow runs publish:check on pushes to main', () => {
+    const wf = read('../.github/workflows/publish-check.yml')
+    expect(wf).toMatch(/branches: \[main\]/)
+    expect(wf).toMatch(/npm run publish:check/)
+  })
+})
