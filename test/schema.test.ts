@@ -256,3 +256,82 @@ describe('owner rulings 2026-10-12', () => {
     expect(issues(f).join()).toMatch(/destinations_partial/)
   })
 })
+
+describe('maintenance_stations (Task 21)', () => {
+  const station = () => ({
+    country: { en: 'Japan', 'zh-Hant': '日本' },
+    city: { en: 'Tokyo', 'zh-Hant': '東京' },
+    iata: 'NRT',
+    region: 'east-asia',
+    type: 'line',
+    provider: 'Cathay Pacific',
+    source_url: 'https://example.com/lm.pdf',
+    source_title: 'Line Maintenance Services Capability List S2026',
+    as_of: '2026-10-01',
+  })
+  const withStations = (xs: unknown[]) => {
+    const f = fixture()
+    f.airlines.cathay.maintenance_stations = xs
+    return f
+  }
+
+  it('accepts a valid station (line, base, both; any region incl. south-asia / middle-east)', () => {
+    expect(issues(withStations([station()]))).toEqual([])
+    expect(issues(withStations([{ ...station(), type: 'base' }]))).toEqual([])
+    expect(issues(withStations([{ ...station(), type: 'both', iata: 'DXB', region: 'middle-east' }]))).toEqual([])
+    expect(issues(withStations([{ ...station(), iata: 'BOM', region: 'south-asia' }]))).toEqual([])
+  })
+
+  it('rejects a missing required field', () => {
+    for (const k of ['country', 'city', 'iata', 'region', 'type', 'provider', 'source_url', 'source_title', 'as_of']) {
+      const s: Record<string, unknown> = station()
+      delete s[k]
+      expect(issues(withStations([s])).join('\n')).toMatch(new RegExp(`maintenance_stations\\.0\\.${k}`))
+    }
+  })
+
+  it('rejects a wrong type', () => {
+    const out = issues(withStations([{ ...station(), provider: 42, city: 'Tokyo' }])).join('\n')
+    expect(out).toMatch(/maintenance_stations\.0\.provider/)
+    expect(out).toMatch(/maintenance_stations\.0\.city/)
+  })
+
+  it('rejects a bad IATA code', () => {
+    for (const iata of ['nrt', 'NR', 'NRTX', '123']) {
+      expect(issues(withStations([{ ...station(), iata }])).join()).toMatch(/maintenance_stations\.0\.iata: expected a 3-letter IATA code/)
+    }
+  })
+
+  it('rejects a type outside line|base|both and an unknown region', () => {
+    const out = issues(withStations([{ ...station(), type: 'heavy', region: 'antarctica' }])).join('\n')
+    expect(out).toMatch(/maintenance_stations\.0\.type/)
+    expect(out).toMatch(/maintenance_stations\.0\.region/)
+  })
+
+  it('rejects a non-https source_url and a bad as_of', () => {
+    const out = issues(withStations([{ ...station(), source_url: 'http://example.com/x', as_of: '2026-02-30' }])).join('\n')
+    expect(out).toMatch(/maintenance_stations\.0\.source_url: must be an https URL/)
+    expect(out).toMatch(/maintenance_stations\.0\.as_of: not a real calendar date/)
+    expect(issues(withStations([{ ...station(), source_url: 'not a url' }])).join()).toMatch(/maintenance_stations\.0\.source_url/)
+  })
+
+  it('rejects unknown keys and duplicate iata within an airline', () => {
+    expect(issues(withStations([{ ...station(), retrieved_at: '2026-10-01' }])).join()).toMatch(/Unrecognized key/)
+    expect(issues(withStations([station(), station()])).join()).toMatch(/maintenance_stations\.1: duplicate maintenance station "NRT"/)
+  })
+
+  it('allows an empty array', () => {
+    expect(issues(withStations([]))).toEqual([])
+  })
+
+  it('is optional: an airline without the field is still valid', () => {
+    const f = fixture()
+    expect('maintenance_stations' in f.airlines.cathay).toBe(false)
+    expect(issues(f)).toEqual([])
+  })
+
+  it('counts station as_of in the as_of rules', () => {
+    const f = withStations([{ ...station(), as_of: '2026-12-01' }])
+    expect(issues(f).join()).toMatch(/airlines\.cathay\.maintenance_stations\.NRT\.as_of 2026-12-01 is later than the file's as_of/)
+  })
+})

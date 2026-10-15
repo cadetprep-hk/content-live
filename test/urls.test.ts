@@ -71,3 +71,11 @@ describe('checkUrls (mocked fetch)', () => {
     expect(failures[0]?.reason).toBe('HEAD: timed out after 0.02 s; GET: timed out after 0.02 s')
   })
 })
+
+describe('collectUrls maintenance_stations (Task 21)', () => {
+  it('includes station source_url', () => {
+    const live = JSON.parse(readFileSync(new URL('./fixtures/valid.json', import.meta.url), 'utf8'))
+    live.airlines.cathay.maintenance_stations = [{ country: { en: 'Japan', 'zh-Hant': '日本' }, city: { en: 'Tokyo', 'zh-Hant': '東京' }, iata: 'NRT', region: 'east-asia', type: 'line', provider: 'Cathay Pacific', source_url: 'https://example.com/lm.pdf', source_title: 'x', as_of: '2026-10-01' }]
+    expect(collectUrls(live).get('https://example.com/lm.pdf')).toEqual(['airlines.cathay.maintenance_stations.NRT'])
+  })
+})

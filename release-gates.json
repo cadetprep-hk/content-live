@@ -1,0 +1,6 @@
+{
+  "maintenance_stations": {
+    "app_build_live": false,
+    "requires": "a build containing cadetprep-app #5 (Task 21 維修站)"
+  }
+}
