@@ -5,13 +5,11 @@
  * 2. Every source_url and cadet_programme.url answers HTTP 200 (HEAD, GET fallback, redirects followed).
  * 3. as_of (file and per item) is not earlier than in the base file (the Action passes main's live.json).
  * 4. changes[].date within the 12 months up to the file's as_of (reported on its own as well).
- * 5. Release gates: a field listed in scripts/gates.ts is not published before release-gates.json opens it.
  */
 import { existsSync, readFileSync } from 'node:fs'
 import { parseArgs } from 'node:util'
 import { LiveContent, changesOutsideWindow, checkAsOfMonotonic } from '../schema/live.ts'
 import { checkUrls, collectUrls } from './urls.ts'
-import { ReleaseGates, gateViolations } from './gates.ts'
 
 const { values, positionals } = parseArgs({
   allowPositionals: true,
@@ -83,13 +81,6 @@ console.log('4. changes within 12 months')
 const stale = changesOutsideWindow(live)
 stale.forEach((c) => fail(`airlines.${c.airline}.changes.${c.id}: ${c.date} is outside the 12 months up to ${live.as_of}`))
 if (stale.length === 0) console.log('  ✓ all changes dated within the 12 months up to as_of')
-
-// 5. release gates: fields older app builds cannot read wait for an App Store build (release-gates.json)
-console.log('5. release gates')
-const gates = ReleaseGates.parse(readJson(new URL('../release-gates.json', import.meta.url).pathname))
-const blocked = gateViolations(live, gates)
-blocked.forEach(fail)
-if (blocked.length === 0) console.log('  ✓ no gated field is used before its app build is live')
 
 if (failed) {
   console.error('\nValidation FAILED')

@@ -6,7 +6,8 @@
   "scripts": {
     "validate": "tsx scripts/validate.ts",
     "test": "vitest run",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "publish:check": "tsx scripts/publish-check.ts"
   },
   "dependencies": {
     "zod": "^3.24.0"

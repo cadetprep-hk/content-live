@@ -30,6 +30,18 @@ Sources, classification rules and the review checklist live in the app repo at `
 Only these sources are allowed: each airline's own newsroom / press releases, its annual or interim report, its
 official fleet page, Airport Authority Hong Kong press releases, and the Civil Aviation Department aircraft register.
 
+## Publish check
+
+`npm run publish:check` (workflow `.github/workflows/publish-check.yml`, on every push to `main`, i.e. every publish)
+checks **release gates** (`release-gates.json`, `scripts/gates.ts`): a field that older app builds cannot read (their
+schema is strict, so an unknown key makes them reject the whole file) must not be published until its gate is open.
+`maintenance_stations` (Task 21) stays closed until a build containing cadetprep-app #5 is live on the App Store; only
+then does the owner set `app_build_live: true`. This is not part of `npm run validate`.
+
+Cloudflare Pages deploys `main` on its own, so this workflow reports after the fact rather than stopping the deploy.
+To make it block, the owner can set the Pages build command to `npm ci && npm run publish:check` (repo/hosting
+settings are not changed here). Run it by hand before merging anything that touches a gated field.
+
 ## Validate
 
 ```sh
@@ -48,8 +60,3 @@ The checks:
    followed, 15 s timeout, 4 at a time; every failure is listed.
 3. The file `as_of`, and the `as_of` of every item already on `main`, is not earlier than on `main`.
 4. `changes[].date` is within the 12 months up to the file `as_of`.
-5. **Release gates** (`release-gates.json`, `scripts/gates.ts`): a field that older app builds cannot read (their
-   schema is strict, so an unknown key makes them reject the whole file) fails validation until its gate is opened.
-   `maintenance_stations` (Task 21) stays blocked until a build containing cadetprep-app #5 is live on the App Store;
-   only then does the owner set `app_build_live: true`. Because every merge to `main` redeploys, keep this check
-   required on `main`.

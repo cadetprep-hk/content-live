@@ -1746,7 +1746,7 @@
           },
           "iata": "HKG",
           "region": "east-asia",
-          "type": "base",
+          "type": "both",
           "provider": "HAECO",
           "source_url": "https://www.haeco.com/en/media-centre/press-releases/haeco-commences-line-maintenance-support-for-cathay-pacifics-a-321-neo-in-hong-kong",
           "source_title": "HAECO commences line maintenance support for Cathay Pacific's A321neo in Hong Kong",

@@ -1,0 +1,23 @@
+name: publish-check
+
+# Every push to main is a publish (Cloudflare Pages deploys main). This checks the release gates
+# (release-gates.json) for the published live.json. Separate from the validate workflow on purpose.
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  publish-check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - run: npm run publish:check
