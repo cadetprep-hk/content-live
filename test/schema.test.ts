@@ -1,6 +1,7 @@
+import { station } from './maintenance-fixture.ts'
 import { readFileSync } from 'node:fs'
 import { describe, expect, it } from 'vitest'
-import { LiveContent, changesOutsideWindow, checkAsOfMonotonic, twelveMonthsBefore } from '../schema/live.ts'
+import { LiveContent, datedItems, MAINTENANCE_TYPES, MaintenanceType, MAINTENANCE_TYPE_LABELS_ZH, changesOutsideWindow, checkAsOfMonotonic, twelveMonthsBefore } from '../schema/live.ts'
 
 const fixture = () => JSON.parse(readFileSync(new URL('./fixtures/valid.json', import.meta.url), 'utf8'))
 const issues = (data: unknown) => {
@@ -254,5 +255,77 @@ describe('owner rulings 2026-10-12', () => {
     expect(issues(f)).toEqual([])
     f.airlines.cathay.destinations_partial = 'yes'
     expect(issues(f).join()).toMatch(/destinations_partial/)
+  })
+})
+
+describe('maintenance stations', () => {
+  const withStation = () => {
+    const f = fixture()
+    f.airlines.cathay.maintenance_stations = [station()]
+    return f
+  }
+
+  it.each(['line', 'base', 'both'])('accepts type %s', (type) => {
+    const f = withStation()
+    f.airlines.cathay.maintenance_stations[0].type = type
+    expect(issues(f)).toEqual([])
+  })
+  it.each(['south-asia', 'middle-east'])('accepts region %s', (region) => {
+    const f = withStation()
+    f.airlines.cathay.maintenance_stations[0].region = region
+    expect(issues(f)).toEqual([])
+  })
+  it.each(Object.keys(station()))('requires %s at its station path', (field) => {
+    const f = withStation()
+    delete f.airlines.cathay.maintenance_stations[0][field]
+    expect(issues(f).some((s) => s.startsWith(`airlines.cathay.maintenance_stations.0.${field}:`))).toBe(true)
+  })
+  it.each([
+    ['provider', 42], ['city', 'Tokyo'], ['iata', null],
+    ...['nrt', 'NR', 'NRTX', '123'].map((value) => ['iata', value]),
+    ['type', 'heavy'], ['region', 'antarctica'], ['source_url', 'http://example.com'],
+    ['source_url', 'not a URL'], ['as_of', '2026-02-30'], ['source_title', '   '],
+  ])('rejects invalid %s: %s', (field, value) => {
+    const f = withStation()
+    f.airlines.cathay.maintenance_stations[0][field as string] = value
+    expect(issues(f).some((s) => s.startsWith(`airlines.cathay.maintenance_stations.0.${field}:`))).toBe(true)
+  })
+  it('rejects unknown station keys', () => {
+    const f = withStation()
+    f.airlines.cathay.maintenance_stations[0].retrieved_at = '2026-10-01'
+    expect(issues(f).join()).toMatch(/Unrecognized key.*retrieved_at/)
+  })
+  it('rejects duplicate IATA within an airline', () => {
+    const f = withStation()
+    f.airlines.cathay.maintenance_stations.push(station())
+    expect(issues(f).join()).toContain('duplicate maintenance station "NRT"')
+  })
+  it('accepts empty and absent lists and an empty provider', () => {
+    const f = withStation()
+    f.airlines.cathay.maintenance_stations[0].provider = ''
+    expect(issues(f)).toEqual([])
+    f.airlines.cathay.maintenance_stations = []
+    expect(issues(f)).toEqual([])
+    delete f.airlines.cathay.maintenance_stations
+    expect(issues(f)).toEqual([])
+  })
+  it('includes stations in datedItems and rejects future dates', () => {
+    const f = withStation()
+    expect(datedItems(f)).toContainEqual({ key: 'airlines.cathay.maintenance_stations.NRT', as_of: '2026-10-01' })
+    f.airlines.cathay.maintenance_stations[0].as_of = '2026-10-06'
+    expect(issues(f).join()).toContain('maintenance_stations.NRT.as_of 2026-10-06 is later')
+  })
+  it('rejects station as_of moving backwards', () => {
+    const base = withStation()
+    const next = withStation()
+    next.airlines.cathay.maintenance_stations[0].as_of = '2026-09-30'
+    expect(checkAsOfMonotonic(base, next)).toEqual([
+      "airlines.cathay.maintenance_stations.NRT.as_of: 2026-09-30 is earlier than main's 2026-10-01",
+    ])
+  })
+  it('exports the maintenance enum and Chinese labels', () => {
+    expect(MAINTENANCE_TYPES).toEqual(['line', 'base', 'both'])
+    expect(MaintenanceType.options).toEqual(MAINTENANCE_TYPES)
+    expect(MAINTENANCE_TYPE_LABELS_ZH).toEqual({ line: '航線維修', base: '基地維修', both: '航線及基地維修' })
   })
 })
