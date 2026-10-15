@@ -82,6 +82,15 @@ export const DESTINATION_STATUSES = ['current', 'new', 'upcoming', 'suspended', 
 export const DestinationStatus = z.enum(DESTINATION_STATUSES)
 export type DestinationStatus = z.infer<typeof DestinationStatus>
 
+export const MAINTENANCE_TYPES = ['line', 'base', 'both'] as const
+export const MaintenanceType = z.enum(MAINTENANCE_TYPES)
+export type MaintenanceType = z.infer<typeof MaintenanceType>
+export const MAINTENANCE_TYPE_LABELS_ZH: Record<MaintenanceType, string> = {
+  line: '航線維修',
+  base: '基地維修',
+  both: '航線及基地維修',
+}
+
 export const CHANGE_KINDS = [
   'new-route',
   'cancelled',
@@ -231,6 +240,20 @@ export const Destination = z
   })
 export type Destination = z.infer<typeof Destination>
 
+export const MaintenanceStation = z
+  .object({
+    country: BilingualText,
+    city: BilingualText,
+    iata: Iata,
+    region: Region,
+    type: MaintenanceType,
+    provider: z.string(),
+    source_title: z.string().trim().min(1),
+    ...sourced,
+  })
+  .strict()
+export type MaintenanceStation = z.infer<typeof MaintenanceStation>
+
 export const Change = z
   .object({
     id: Slug,
@@ -251,6 +274,10 @@ export const Airline = z
     destinations: z
       .array(Destination)
       .superRefine((xs, ctx) => uniqueBy(xs, (x) => x.id, ctx, 'destination id')),
+    maintenance_stations: z
+      .array(MaintenanceStation)
+      .superRefine((xs, ctx) => uniqueBy(xs, (x) => x.iata, ctx, 'maintenance station'))
+      .optional(),
     changes: z.array(Change).superRefine((xs, ctx) => uniqueBy(xs, (x) => x.id, ctx, 'change id')),
     /** true when the list is compiled from releases and may be incomplete (UI: 「航點按官方新聞稿整理，未必完整」). */
     destinations_partial: z.boolean().optional(),
@@ -308,6 +335,9 @@ export function datedItems(live: Pick<LiveContent, 'airlines' | 'digest'>): Date
     for (const m of p.milestones) out.push({ key: `airlines.${aid}.profile.milestones.${m.id}`, as_of: m.as_of })
     for (const f of a.fleet) out.push({ key: `airlines.${aid}.fleet.${f.id}`, as_of: f.as_of })
     for (const d of a.destinations) out.push({ key: `airlines.${aid}.destinations.${d.id}`, as_of: d.as_of })
+    for (const m of a.maintenance_stations ?? []) {
+      out.push({ key: `airlines.${aid}.maintenance_stations.${m.iata}`, as_of: m.as_of })
+    }
     for (const c of a.changes) out.push({ key: `airlines.${aid}.changes.${c.id}`, as_of: c.as_of })
   }
   for (const d of live.digest) out.push({ key: `digest.${d.id}`, as_of: d.as_of })

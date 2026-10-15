@@ -282,7 +282,7 @@ describe('maintenance stations', () => {
   })
   it.each([
     ['provider', 42], ['city', 'Tokyo'], ['iata', null],
-    ...['nrt', 'NR', 'NRTX', '123'].map((value) => ['iata', value]),
+    ...['nrt', 'NR', 'NRTX', '123'].map((value): [string, string] => ['iata', value]),
     ['type', 'heavy'], ['region', 'antarctica'], ['source_url', 'http://example.com'],
     ['source_url', 'not a URL'], ['as_of', '2026-02-30'], ['source_title', '   '],
   ])('rejects invalid %s: %s', (field, value) => {
