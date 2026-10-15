@@ -1761,16 +1761,6 @@
         "cadet_programme": null,
         "milestones": [
           {
-            "id": "2013-low-cost-carrier",
-            "year": 2013,
-            "text": {
-              "en": "Became Hong Kong's sole low-cost carrier on 27 October 2013.",
-              "zh-Hant": "2013年10月27日起成為香港唯一的低成本航空公司"
-            },
-            "source_url": "https://www.hkexpress.com/en-HK/About-Us/10anniversary",
-            "as_of": "2026-10-11"
-          },
-          {
             "id": "2023-first-a321neo",
             "year": 2023,
             "text": {
@@ -2097,8 +2087,8 @@
           "since_year": null,
           "status": "upcoming",
           "start_date": "2026-12-03",
-          "source_url": "https://www.hkexpress.com/en-HK/About-Us/Media-Centre/HK-Express-Launches-New-Hefei-Route-on-3-December",
-          "as_of": "2026-10-11"
+          "source_url": "https://www.hkexpress.com/en/destinations",
+          "as_of": "2026-10-15"
         },
         {
           "id": "changzhou",
@@ -2388,17 +2378,6 @@
             "zh-Hant": "HK Express 開辦香港至無錫每日直航"
           },
           "source_url": "https://www.hkexpress.com/en-HK/About-Us/Media-Centre/HK-Express-Officially-Launches----New-Hong-Kong-Wuxi-Route",
-          "as_of": "2026-10-11"
-        },
-        {
-          "id": "2026-09-30-hefei",
-          "date": "2026-09-30",
-          "kind": "new-route",
-          "text": {
-            "en": "HK Express announced a new Hefei route from 3 December 2026, with four flights a week.",
-            "zh-Hant": "HK Express 宣布2026年12月3日起開辦合肥航線，每周四班"
-          },
-          "source_url": "https://www.hkexpress.com/en-HK/About-Us/Media-Centre/HK-Express-Launches-New-Hefei-Route-on-3-December",
           "as_of": "2026-10-11"
         },
         {
