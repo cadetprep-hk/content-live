@@ -1622,6 +1622,501 @@
           "as_of": "2026-10-11"
         }
       ],
+      "maintenance_stations": [
+        {
+          "country": {
+            "en": "Hong Kong SAR",
+            "zh-Hant": "香港特別行政區"
+          },
+          "city": {
+            "en": "Hong Kong",
+            "zh-Hant": "香港"
+          },
+          "iata": "HKG",
+          "region": "east-asia",
+          "type": "both",
+          "provider": "HAECO",
+          "source_url": "https://www.haeco.com/en/media-centre/press-releases/haeco-commences-line-maintenance-support-for-cathay-pacifics-a-321-neo-in-hong-kong",
+          "source_title": "HAECO commences line maintenance support for Cathay Pacific's A321neo in Hong Kong",
+          "as_of": "2026-10-15"
+        },
+        {
+          "country": {
+            "en": "United States",
+            "zh-Hant": "美國"
+          },
+          "city": {
+            "en": "Anchorage",
+            "zh-Hant": "安克雷奇"
+          },
+          "iata": "ANC",
+          "region": "north-america",
+          "type": "line",
+          "provider": "Cathay Pacific",
+          "source_url": "https://www.cathaypacific.com/content/dam/focal-point/cx/engineering/cx_lm_service_capability_list_w26.pdf",
+          "source_title": "Line Maintenance Services Capability List S2026",
+          "as_of": "2026-10-15"
+        },
+        {
+          "country": {
+            "en": "India",
+            "zh-Hant": "印度"
+          },
+          "city": {
+            "en": "Bengaluru",
+            "zh-Hant": "班加羅爾"
+          },
+          "iata": "BLR",
+          "region": "south-asia",
+          "type": "line",
+          "provider": "Cathay Pacific",
+          "source_url": "https://www.cathaypacific.com/content/dam/focal-point/cx/engineering/cx_lm_service_capability_list_w26.pdf",
+          "source_title": "Line Maintenance Services Capability List S2026",
+          "as_of": "2026-10-15"
+        },
+        {
+          "country": {
+            "en": "Australia",
+            "zh-Hant": "澳洲"
+          },
+          "city": {
+            "en": "Brisbane",
+            "zh-Hant": "布里斯本"
+          },
+          "iata": "BNE",
+          "region": "oceania",
+          "type": "line",
+          "provider": "Cathay Pacific",
+          "source_url": "https://www.cathaypacific.com/content/dam/focal-point/cx/engineering/cx_lm_service_capability_list_w26.pdf",
+          "source_title": "Line Maintenance Services Capability List S2026",
+          "as_of": "2026-10-15"
+        },
+        {
+          "country": {
+            "en": "India",
+            "zh-Hant": "印度"
+          },
+          "city": {
+            "en": "Mumbai",
+            "zh-Hant": "孟買"
+          },
+          "iata": "BOM",
+          "region": "south-asia",
+          "type": "line",
+          "provider": "Cathay Pacific",
+          "source_url": "https://www.cathaypacific.com/content/dam/focal-point/cx/engineering/cx_lm_service_capability_list_w26.pdf",
+          "source_title": "Line Maintenance Services Capability List S2026",
+          "as_of": "2026-10-15"
+        },
+        {
+          "country": {
+            "en": "Philippines",
+            "zh-Hant": "菲律賓"
+          },
+          "city": {
+            "en": "Cebu",
+            "zh-Hant": "宿霧"
+          },
+          "iata": "CEB",
+          "region": "southeast-asia",
+          "type": "line",
+          "provider": "Cathay Pacific",
+          "source_url": "https://www.cathaypacific.com/content/dam/focal-point/cx/engineering/cx_lm_service_capability_list_w26.pdf",
+          "source_title": "Line Maintenance Services Capability List S2026",
+          "as_of": "2026-10-15"
+        },
+        {
+          "country": {
+            "en": "India",
+            "zh-Hant": "印度"
+          },
+          "city": {
+            "en": "Delhi",
+            "zh-Hant": "德里"
+          },
+          "iata": "DEL",
+          "region": "south-asia",
+          "type": "line",
+          "provider": "Cathay Pacific",
+          "source_url": "https://www.cathaypacific.com/content/dam/focal-point/cx/engineering/cx_lm_service_capability_list_w26.pdf",
+          "source_title": "Line Maintenance Services Capability List S2026",
+          "as_of": "2026-10-15"
+        },
+        {
+          "country": {
+            "en": "United Arab Emirates",
+            "zh-Hant": "阿拉伯聯合酋長國"
+          },
+          "city": {
+            "en": "Dubai",
+            "zh-Hant": "杜拜"
+          },
+          "iata": "DWC",
+          "region": "middle-east",
+          "type": "line",
+          "provider": "Cathay Pacific",
+          "source_url": "https://www.cathaypacific.com/content/dam/focal-point/cx/engineering/cx_lm_service_capability_list_w26.pdf",
+          "source_title": "Line Maintenance Services Capability List S2026",
+          "as_of": "2026-10-15"
+        },
+        {
+          "country": {
+            "en": "United Arab Emirates",
+            "zh-Hant": "阿拉伯聯合酋長國"
+          },
+          "city": {
+            "en": "Dubai",
+            "zh-Hant": "杜拜"
+          },
+          "iata": "DXB",
+          "region": "middle-east",
+          "type": "line",
+          "provider": "Cathay Pacific",
+          "source_url": "https://www.cathaypacific.com/content/dam/focal-point/cx/engineering/cx_lm_service_capability_list_w26.pdf",
+          "source_title": "Line Maintenance Services Capability List S2026",
+          "as_of": "2026-10-15"
+        },
+        {
+          "country": {
+            "en": "Japan",
+            "zh-Hant": "日本"
+          },
+          "city": {
+            "en": "Fukuoka",
+            "zh-Hant": "福岡"
+          },
+          "iata": "FUK",
+          "region": "east-asia",
+          "type": "line",
+          "provider": "Cathay Pacific",
+          "source_url": "https://www.cathaypacific.com/content/dam/focal-point/cx/engineering/cx_lm_service_capability_list_w26.pdf",
+          "source_title": "Line Maintenance Services Capability List S2026",
+          "as_of": "2026-10-15"
+        },
+        {
+          "country": {
+            "en": "Japan",
+            "zh-Hant": "日本"
+          },
+          "city": {
+            "en": "Tokyo",
+            "zh-Hant": "東京"
+          },
+          "iata": "HND",
+          "region": "east-asia",
+          "type": "line",
+          "provider": "Cathay Pacific",
+          "source_url": "https://www.cathaypacific.com/content/dam/focal-point/cx/engineering/cx_lm_service_capability_list_w26.pdf",
+          "source_title": "Line Maintenance Services Capability List S2026",
+          "as_of": "2026-10-15"
+        },
+        {
+          "country": {
+            "en": "India",
+            "zh-Hant": "印度"
+          },
+          "city": {
+            "en": "Hyderabad",
+            "zh-Hant": "海得拉巴"
+          },
+          "iata": "HYD",
+          "region": "south-asia",
+          "type": "line",
+          "provider": "Cathay Pacific",
+          "source_url": "https://www.cathaypacific.com/content/dam/focal-point/cx/engineering/cx_lm_service_capability_list_w26.pdf",
+          "source_title": "Line Maintenance Services Capability List S2026",
+          "as_of": "2026-10-15"
+        },
+        {
+          "country": {
+            "en": "South Korea",
+            "zh-Hant": "南韓"
+          },
+          "city": {
+            "en": "Seoul",
+            "zh-Hant": "首爾"
+          },
+          "iata": "ICN",
+          "region": "east-asia",
+          "type": "line",
+          "provider": "Cathay Pacific",
+          "source_url": "https://www.cathaypacific.com/content/dam/focal-point/cx/engineering/cx_lm_service_capability_list_w26.pdf",
+          "source_title": "Line Maintenance Services Capability List S2026",
+          "as_of": "2026-10-15"
+        },
+        {
+          "country": {
+            "en": "Taiwan",
+            "zh-Hant": "台灣"
+          },
+          "city": {
+            "en": "Kaohsiung",
+            "zh-Hant": "高雄"
+          },
+          "iata": "KHH",
+          "region": "east-asia",
+          "type": "line",
+          "provider": "Cathay Pacific",
+          "source_url": "https://www.cathaypacific.com/content/dam/focal-point/cx/engineering/cx_lm_service_capability_list_w26.pdf",
+          "source_title": "Line Maintenance Services Capability List S2026",
+          "as_of": "2026-10-15"
+        },
+        {
+          "country": {
+            "en": "Japan",
+            "zh-Hant": "日本"
+          },
+          "city": {
+            "en": "Osaka",
+            "zh-Hant": "大阪"
+          },
+          "iata": "KIX",
+          "region": "east-asia",
+          "type": "line",
+          "provider": "Cathay Pacific",
+          "source_url": "https://www.cathaypacific.com/content/dam/focal-point/cx/engineering/cx_lm_service_capability_list_w26.pdf",
+          "source_title": "Line Maintenance Services Capability List S2026",
+          "as_of": "2026-10-15"
+        },
+        {
+          "country": {
+            "en": "United States",
+            "zh-Hant": "美國"
+          },
+          "city": {
+            "en": "Los Angeles",
+            "zh-Hant": "洛杉磯"
+          },
+          "iata": "LAX",
+          "region": "north-america",
+          "type": "line",
+          "provider": "Cathay Pacific",
+          "source_url": "https://www.cathaypacific.com/content/dam/focal-point/cx/engineering/cx_lm_service_capability_list_w26.pdf",
+          "source_title": "Line Maintenance Services Capability List S2026",
+          "as_of": "2026-10-15"
+        },
+        {
+          "country": {
+            "en": "United Kingdom",
+            "zh-Hant": "英國"
+          },
+          "city": {
+            "en": "London",
+            "zh-Hant": "倫敦"
+          },
+          "iata": "LHR",
+          "region": "europe",
+          "type": "line",
+          "provider": "Cathay Pacific",
+          "source_url": "https://www.cathaypacific.com/content/dam/focal-point/cx/engineering/cx_lm_service_capability_list_w26.pdf",
+          "source_title": "Line Maintenance Services Capability List S2026",
+          "as_of": "2026-10-15"
+        },
+        {
+          "country": {
+            "en": "India",
+            "zh-Hant": "印度"
+          },
+          "city": {
+            "en": "Chennai",
+            "zh-Hant": "真奈"
+          },
+          "iata": "MAA",
+          "region": "south-asia",
+          "type": "line",
+          "provider": "Cathay Pacific",
+          "source_url": "https://www.cathaypacific.com/content/dam/focal-point/cx/engineering/cx_lm_service_capability_list_w26.pdf",
+          "source_title": "Line Maintenance Services Capability List S2026",
+          "as_of": "2026-10-15"
+        },
+        {
+          "country": {
+            "en": "United Kingdom",
+            "zh-Hant": "英國"
+          },
+          "city": {
+            "en": "Manchester",
+            "zh-Hant": "曼徹斯特"
+          },
+          "iata": "MAN",
+          "region": "europe",
+          "type": "line",
+          "provider": "Cathay Pacific",
+          "source_url": "https://www.cathaypacific.com/content/dam/focal-point/cx/engineering/cx_lm_service_capability_list_w26.pdf",
+          "source_title": "Line Maintenance Services Capability List S2026",
+          "as_of": "2026-10-15"
+        },
+        {
+          "country": {
+            "en": "Australia",
+            "zh-Hant": "澳洲"
+          },
+          "city": {
+            "en": "Melbourne",
+            "zh-Hant": "墨爾本"
+          },
+          "iata": "MEL",
+          "region": "oceania",
+          "type": "line",
+          "provider": "Cathay Pacific",
+          "source_url": "https://www.cathaypacific.com/content/dam/focal-point/cx/engineering/cx_lm_service_capability_list_w26.pdf",
+          "source_title": "Line Maintenance Services Capability List S2026",
+          "as_of": "2026-10-15"
+        },
+        {
+          "country": {
+            "en": "Philippines",
+            "zh-Hant": "菲律賓"
+          },
+          "city": {
+            "en": "Manila",
+            "zh-Hant": "馬尼拉"
+          },
+          "iata": "MNL",
+          "region": "southeast-asia",
+          "type": "line",
+          "provider": "Cathay Pacific",
+          "source_url": "https://www.cathaypacific.com/content/dam/focal-point/cx/engineering/cx_lm_service_capability_list_w26.pdf",
+          "source_title": "Line Maintenance Services Capability List S2026",
+          "as_of": "2026-10-15"
+        },
+        {
+          "country": {
+            "en": "Japan",
+            "zh-Hant": "日本"
+          },
+          "city": {
+            "en": "Nagoya",
+            "zh-Hant": "名古屋"
+          },
+          "iata": "NGO",
+          "region": "east-asia",
+          "type": "line",
+          "provider": "Cathay Pacific",
+          "source_url": "https://www.cathaypacific.com/content/dam/focal-point/cx/engineering/cx_lm_service_capability_list_w26.pdf",
+          "source_title": "Line Maintenance Services Capability List S2026",
+          "as_of": "2026-10-15"
+        },
+        {
+          "country": {
+            "en": "Japan",
+            "zh-Hant": "日本"
+          },
+          "city": {
+            "en": "Tokyo",
+            "zh-Hant": "東京"
+          },
+          "iata": "NRT",
+          "region": "east-asia",
+          "type": "line",
+          "provider": "Cathay Pacific",
+          "source_url": "https://www.cathaypacific.com/content/dam/focal-point/cx/engineering/cx_lm_service_capability_list_w26.pdf",
+          "source_title": "Line Maintenance Services Capability List S2026",
+          "as_of": "2026-10-15"
+        },
+        {
+          "country": {
+            "en": "Australia",
+            "zh-Hant": "澳洲"
+          },
+          "city": {
+            "en": "Perth",
+            "zh-Hant": "珀斯"
+          },
+          "iata": "PER",
+          "region": "oceania",
+          "type": "line",
+          "provider": "Cathay Pacific",
+          "source_url": "https://www.cathaypacific.com/content/dam/focal-point/cx/engineering/cx_lm_service_capability_list_w26.pdf",
+          "source_title": "Line Maintenance Services Capability List S2026",
+          "as_of": "2026-10-15"
+        },
+        {
+          "country": {
+            "en": "United States",
+            "zh-Hant": "美國"
+          },
+          "city": {
+            "en": "San Francisco",
+            "zh-Hant": "三藩市"
+          },
+          "iata": "SFO",
+          "region": "north-america",
+          "type": "line",
+          "provider": "Cathay Pacific",
+          "source_url": "https://www.cathaypacific.com/content/dam/focal-point/cx/engineering/cx_lm_service_capability_list_w26.pdf",
+          "source_title": "Line Maintenance Services Capability List S2026",
+          "as_of": "2026-10-15"
+        },
+        {
+          "country": {
+            "en": "Australia",
+            "zh-Hant": "澳洲"
+          },
+          "city": {
+            "en": "Sydney",
+            "zh-Hant": "悉尼"
+          },
+          "iata": "SYD",
+          "region": "oceania",
+          "type": "line",
+          "provider": "Cathay Pacific",
+          "source_url": "https://www.cathaypacific.com/content/dam/focal-point/cx/engineering/cx_lm_service_capability_list_w26.pdf",
+          "source_title": "Line Maintenance Services Capability List S2026",
+          "as_of": "2026-10-15"
+        },
+        {
+          "country": {
+            "en": "Taiwan",
+            "zh-Hant": "台灣"
+          },
+          "city": {
+            "en": "Taipei",
+            "zh-Hant": "台北"
+          },
+          "iata": "TPE",
+          "region": "east-asia",
+          "type": "line",
+          "provider": "Cathay Pacific",
+          "source_url": "https://www.cathaypacific.com/content/dam/focal-point/cx/engineering/cx_lm_service_capability_list_w26.pdf",
+          "source_title": "Line Maintenance Services Capability List S2026",
+          "as_of": "2026-10-15"
+        },
+        {
+          "country": {
+            "en": "Canada",
+            "zh-Hant": "加拿大"
+          },
+          "city": {
+            "en": "Vancouver",
+            "zh-Hant": "溫哥華"
+          },
+          "iata": "YVR",
+          "region": "north-america",
+          "type": "line",
+          "provider": "Cathay Pacific",
+          "source_url": "https://www.cathaypacific.com/content/dam/focal-point/cx/engineering/cx_lm_service_capability_list_w26.pdf",
+          "source_title": "Line Maintenance Services Capability List S2026",
+          "as_of": "2026-10-15"
+        },
+        {
+          "country": {
+            "en": "Canada",
+            "zh-Hant": "加拿大"
+          },
+          "city": {
+            "en": "Toronto",
+            "zh-Hant": "多倫多"
+          },
+          "iata": "YYZ",
+          "region": "north-america",
+          "type": "line",
+          "provider": "Cathay Pacific",
+          "source_url": "https://www.cathaypacific.com/content/dam/focal-point/cx/engineering/cx_lm_service_capability_list_w26.pdf",
+          "source_title": "Line Maintenance Services Capability List S2026",
+          "as_of": "2026-10-15"
+        }
+      ],
       "changes": [
         {
           "id": "2025-11-04-changsha",
@@ -2357,6 +2852,7 @@
           "as_of": "2026-10-15"
         }
       ],
+      "maintenance_stations": [],
       "changes": [
         {
           "id": "2025-11-27-kota-kinabalu",
@@ -2870,6 +3366,7 @@
           "as_of": "2026-10-11"
         }
       ],
+      "maintenance_stations": [],
       "changes": [
         {
           "id": "da-nang-2025",
@@ -3391,6 +3888,7 @@
           "as_of": "2026-10-11"
         }
       ],
+      "maintenance_stations": [],
       "changes": [
         {
           "id": "hanoi-resumed-2025",
