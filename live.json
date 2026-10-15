@@ -1737,6 +1737,23 @@
       "maintenance_stations": [
         {
           "country": {
+            "en": "Hong Kong SAR",
+            "zh-Hant": "香港特別行政區"
+          },
+          "city": {
+            "en": "Hong Kong",
+            "zh-Hant": "香港"
+          },
+          "iata": "HKG",
+          "region": "east-asia",
+          "type": "base",
+          "provider": "HAECO",
+          "source_url": "https://www.haeco.com/en/media-centre/press-releases/haeco-commences-line-maintenance-support-for-cathay-pacifics-a-321-neo-in-hong-kong",
+          "source_title": "HAECO commences line maintenance support for Cathay Pacific's A321neo in Hong Kong",
+          "as_of": "2026-10-15"
+        },
+        {
+          "country": {
             "en": "United States",
             "zh-Hant": "美國"
           },

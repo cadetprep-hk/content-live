@@ -48,3 +48,8 @@ The checks:
    followed, 15 s timeout, 4 at a time; every failure is listed.
 3. The file `as_of`, and the `as_of` of every item already on `main`, is not earlier than on `main`.
 4. `changes[].date` is within the 12 months up to the file `as_of`.
+5. **Release gates** (`release-gates.json`, `scripts/gates.ts`): a field that older app builds cannot read (their
+   schema is strict, so an unknown key makes them reject the whole file) fails validation until its gate is opened.
+   `maintenance_stations` (Task 21) stays blocked until a build containing cadetprep-app #5 is live on the App Store;
+   only then does the owner set `app_build_live: true`. Because every merge to `main` redeploys, keep this check
+   required on `main`.
