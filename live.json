@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "as_of": "2026-10-11",
+  "as_of": "2026-10-15",
   "airlines": {
     "cathay": {
       "id": "cathay",
@@ -1886,8 +1886,8 @@
           "region": "east-asia",
           "since_year": null,
           "status": "current",
-          "source_url": "https://www.hkexpress.com/en-HK/Explore/Route-Map",
-          "as_of": "2026-10-11"
+          "source_url": "https://www.hkexpress.com/en/destinations",
+          "as_of": "2026-10-15"
         },
         {
           "id": "seoul",
@@ -1900,8 +1900,8 @@
           "region": "east-asia",
           "since_year": null,
           "status": "current",
-          "source_url": "https://www.hkexpress.com/en-HK/Explore/Route-Map",
-          "as_of": "2026-10-11"
+          "source_url": "https://www.hkexpress.com/en/destinations",
+          "as_of": "2026-10-15"
         },
         {
           "id": "daegu",
@@ -1914,8 +1914,8 @@
           "region": "east-asia",
           "since_year": null,
           "status": "current",
-          "source_url": "https://www.hkexpress.com/en-HK/Explore/Route-Map",
-          "as_of": "2026-10-11"
+          "source_url": "https://www.hkexpress.com/en/destinations",
+          "as_of": "2026-10-15"
         },
         {
           "id": "busan",
@@ -1928,8 +1928,8 @@
           "region": "east-asia",
           "since_year": null,
           "status": "current",
-          "source_url": "https://www.hkexpress.com/en-HK/Explore/Route-Map",
-          "as_of": "2026-10-11"
+          "source_url": "https://www.hkexpress.com/en/destinations",
+          "as_of": "2026-10-15"
         },
         {
           "id": "jeju",
@@ -1942,8 +1942,8 @@
           "region": "east-asia",
           "since_year": null,
           "status": "current",
-          "source_url": "https://www.hkexpress.com/en-HK/Explore/Route-Map",
-          "as_of": "2026-10-11"
+          "source_url": "https://www.hkexpress.com/en/destinations",
+          "as_of": "2026-10-15"
         },
         {
           "id": "sendai",
@@ -1956,8 +1956,8 @@
           "region": "east-asia",
           "since_year": null,
           "status": "current",
-          "source_url": "https://www.hkexpress.com/en-HK/Explore/Route-Map",
-          "as_of": "2026-10-11"
+          "source_url": "https://www.hkexpress.com/en/destinations",
+          "as_of": "2026-10-15"
         },
         {
           "id": "komatsu",
@@ -1970,8 +1970,8 @@
           "region": "east-asia",
           "since_year": null,
           "status": "current",
-          "source_url": "https://www.hkexpress.com/en-HK/Explore/Route-Map",
-          "as_of": "2026-10-11"
+          "source_url": "https://www.hkexpress.com/en/destinations",
+          "as_of": "2026-10-15"
         },
         {
           "id": "tokyo",
@@ -1984,8 +1984,8 @@
           "region": "east-asia",
           "since_year": null,
           "status": "current",
-          "source_url": "https://www.hkexpress.com/en-HK/Explore/Route-Map",
-          "as_of": "2026-10-11"
+          "source_url": "https://www.hkexpress.com/en/destinations",
+          "as_of": "2026-10-15"
         },
         {
           "id": "hiroshima",
@@ -1998,8 +1998,8 @@
           "region": "east-asia",
           "since_year": null,
           "status": "current",
-          "source_url": "https://www.hkexpress.com/en-HK/Explore/Route-Map",
-          "as_of": "2026-10-11"
+          "source_url": "https://www.hkexpress.com/en/destinations",
+          "as_of": "2026-10-15"
         },
         {
           "id": "osaka",
@@ -2012,8 +2012,8 @@
           "region": "east-asia",
           "since_year": null,
           "status": "current",
-          "source_url": "https://www.hkexpress.com/en-HK/Explore/Route-Map",
-          "as_of": "2026-10-11"
+          "source_url": "https://www.hkexpress.com/en/destinations",
+          "as_of": "2026-10-15"
         },
         {
           "id": "nagoya",
@@ -2026,8 +2026,8 @@
           "region": "east-asia",
           "since_year": null,
           "status": "current",
-          "source_url": "https://www.hkexpress.com/en-HK/Explore/Route-Map",
-          "as_of": "2026-10-11"
+          "source_url": "https://www.hkexpress.com/en/destinations",
+          "as_of": "2026-10-15"
         },
         {
           "id": "takamatsu",
@@ -2040,8 +2040,8 @@
           "region": "east-asia",
           "since_year": null,
           "status": "current",
-          "source_url": "https://www.hkexpress.com/en-HK/Explore/Route-Map",
-          "as_of": "2026-10-11"
+          "source_url": "https://www.hkexpress.com/en/destinations",
+          "as_of": "2026-10-15"
         },
         {
           "id": "fukuoka",
@@ -2054,8 +2054,8 @@
           "region": "east-asia",
           "since_year": null,
           "status": "current",
-          "source_url": "https://www.hkexpress.com/en-HK/Explore/Route-Map",
-          "as_of": "2026-10-11"
+          "source_url": "https://www.hkexpress.com/en/destinations",
+          "as_of": "2026-10-15"
         },
         {
           "id": "okinawa",
@@ -2068,8 +2068,8 @@
           "region": "east-asia",
           "since_year": null,
           "status": "current",
-          "source_url": "https://www.hkexpress.com/en-HK/Explore/Route-Map",
-          "as_of": "2026-10-11"
+          "source_url": "https://www.hkexpress.com/en/destinations",
+          "as_of": "2026-10-15"
         },
         {
           "id": "ishigaki",
@@ -2082,8 +2082,8 @@
           "region": "east-asia",
           "since_year": null,
           "status": "current",
-          "source_url": "https://www.hkexpress.com/en-HK/Explore/Route-Map",
-          "as_of": "2026-10-11"
+          "source_url": "https://www.hkexpress.com/en/destinations",
+          "as_of": "2026-10-15"
         },
         {
           "id": "hefei",
@@ -2111,8 +2111,8 @@
           "region": "east-asia",
           "since_year": null,
           "status": "current",
-          "source_url": "https://www.hkexpress.com/en-HK/Explore/Route-Map",
-          "as_of": "2026-10-11"
+          "source_url": "https://www.hkexpress.com/en/destinations",
+          "as_of": "2026-10-15"
         },
         {
           "id": "wuxi",
@@ -2139,8 +2139,8 @@
           "region": "east-asia",
           "since_year": null,
           "status": "current",
-          "source_url": "https://www.hkexpress.com/en-HK/Explore/Route-Map",
-          "as_of": "2026-10-11"
+          "source_url": "https://www.hkexpress.com/en/destinations",
+          "as_of": "2026-10-15"
         },
         {
           "id": "yiwu",
@@ -2153,8 +2153,8 @@
           "region": "east-asia",
           "since_year": null,
           "status": "current",
-          "source_url": "https://www.hkexpress.com/en-HK/Explore/Route-Map",
-          "as_of": "2026-10-11"
+          "source_url": "https://www.hkexpress.com/en/destinations",
+          "as_of": "2026-10-15"
         },
         {
           "id": "taipei",
@@ -2167,8 +2167,8 @@
           "region": "east-asia",
           "since_year": null,
           "status": "current",
-          "source_url": "https://www.hkexpress.com/en-HK/Explore/Route-Map",
-          "as_of": "2026-10-11"
+          "source_url": "https://www.hkexpress.com/en/destinations",
+          "as_of": "2026-10-15"
         },
         {
           "id": "taichung",
@@ -2181,8 +2181,8 @@
           "region": "east-asia",
           "since_year": null,
           "status": "current",
-          "source_url": "https://www.hkexpress.com/en-HK/Explore/Route-Map",
-          "as_of": "2026-10-11"
+          "source_url": "https://www.hkexpress.com/en/destinations",
+          "as_of": "2026-10-15"
         },
         {
           "id": "kaohsiung",
@@ -2195,8 +2195,8 @@
           "region": "east-asia",
           "since_year": null,
           "status": "current",
-          "source_url": "https://www.hkexpress.com/en-HK/Explore/Route-Map",
-          "as_of": "2026-10-11"
+          "source_url": "https://www.hkexpress.com/en/destinations",
+          "as_of": "2026-10-15"
         },
         {
           "id": "sanya",
@@ -2209,8 +2209,8 @@
           "region": "east-asia",
           "since_year": null,
           "status": "current",
-          "source_url": "https://www.hkexpress.com/en-HK/Explore/Route-Map",
-          "as_of": "2026-10-11"
+          "source_url": "https://www.hkexpress.com/en/destinations",
+          "as_of": "2026-10-15"
         },
         {
           "id": "hanoi",
@@ -2223,8 +2223,8 @@
           "region": "southeast-asia",
           "since_year": null,
           "status": "current",
-          "source_url": "https://www.hkexpress.com/en-HK/Explore/Route-Map",
-          "as_of": "2026-10-11"
+          "source_url": "https://www.hkexpress.com/en/destinations",
+          "as_of": "2026-10-15"
         },
         {
           "id": "chiang-mai",
@@ -2237,8 +2237,8 @@
           "region": "southeast-asia",
           "since_year": null,
           "status": "current",
-          "source_url": "https://www.hkexpress.com/en-HK/Explore/Route-Map",
-          "as_of": "2026-10-11"
+          "source_url": "https://www.hkexpress.com/en/destinations",
+          "as_of": "2026-10-15"
         },
         {
           "id": "bangkok",
@@ -2251,8 +2251,8 @@
           "region": "southeast-asia",
           "since_year": null,
           "status": "current",
-          "source_url": "https://www.hkexpress.com/en-HK/Explore/Route-Map",
-          "as_of": "2026-10-11"
+          "source_url": "https://www.hkexpress.com/en/destinations",
+          "as_of": "2026-10-15"
         },
         {
           "id": "da-nang",
@@ -2265,8 +2265,8 @@
           "region": "southeast-asia",
           "since_year": null,
           "status": "current",
-          "source_url": "https://www.hkexpress.com/en-HK/Explore/Route-Map",
-          "as_of": "2026-10-11"
+          "source_url": "https://www.hkexpress.com/en/destinations",
+          "as_of": "2026-10-15"
         },
         {
           "id": "phu-quoc",
@@ -2279,8 +2279,8 @@
           "region": "southeast-asia",
           "since_year": null,
           "status": "current",
-          "source_url": "https://www.hkexpress.com/en-HK/Explore/Route-Map",
-          "as_of": "2026-10-11"
+          "source_url": "https://www.hkexpress.com/en/destinations",
+          "as_of": "2026-10-15"
         },
         {
           "id": "phuket",
@@ -2293,8 +2293,8 @@
           "region": "southeast-asia",
           "since_year": null,
           "status": "current",
-          "source_url": "https://www.hkexpress.com/en-HK/Explore/Route-Map",
-          "as_of": "2026-10-11"
+          "source_url": "https://www.hkexpress.com/en/destinations",
+          "as_of": "2026-10-15"
         },
         {
           "id": "penang",
@@ -2307,8 +2307,8 @@
           "region": "southeast-asia",
           "since_year": null,
           "status": "current",
-          "source_url": "https://www.hkexpress.com/en-HK/Explore/Route-Map",
-          "as_of": "2026-10-11"
+          "source_url": "https://www.hkexpress.com/en/destinations",
+          "as_of": "2026-10-15"
         },
         {
           "id": "kuala-lumpur",
@@ -2321,8 +2321,8 @@
           "region": "southeast-asia",
           "since_year": null,
           "status": "current",
-          "source_url": "https://www.hkexpress.com/en-HK/Explore/Route-Map",
-          "as_of": "2026-10-11"
+          "source_url": "https://www.hkexpress.com/en/destinations",
+          "as_of": "2026-10-15"
         },
         {
           "id": "kota-kinabalu",
@@ -2349,8 +2349,8 @@
           "region": "southeast-asia",
           "since_year": null,
           "status": "current",
-          "source_url": "https://www.hkexpress.com/en-HK/Explore/Route-Map",
-          "as_of": "2026-10-11"
+          "source_url": "https://www.hkexpress.com/en/destinations",
+          "as_of": "2026-10-15"
         },
         {
           "id": "manila",
@@ -2363,8 +2363,8 @@
           "region": "southeast-asia",
           "since_year": null,
           "status": "current",
-          "source_url": "https://www.hkexpress.com/en-HK/Explore/Route-Map",
-          "as_of": "2026-10-11"
+          "source_url": "https://www.hkexpress.com/en/destinations",
+          "as_of": "2026-10-15"
         }
       ],
       "changes": [
