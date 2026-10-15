@@ -48,3 +48,24 @@ The checks:
    followed, 15 s timeout, 4 at a time; every failure is listed.
 3. The file `as_of`, and the `as_of` of every item already on `main`, is not earlier than on `main`.
 4. `changes[].date` is within the 12 months up to the file `as_of`.
+
+## Publish check
+
+```sh
+npm run publish:check                     # live.json by default
+npm run publish:check -- path/to/live.json
+```
+
+Release gates in `release-gates.json` prevent publishing fields that older strict app schemas reject.
+`maintenance_stations` is gated even when its value is an empty array. A missing gate is treated as closed.
+The owner may set `app_build_live` to `true` only after a build containing the Task 21 維修站 section
+is live on the App Store; TestFlight does not count. Once opened, the gate stays open.
+Future gated fields must be added to `GATED_FIELDS`, the gate schema and the configuration.
+
+Run this check manually before merging any PR that changes a gated field. `npm run validate` remains
+independent of release gates so content can be validated before the compatible app is released.
+The `publish-check` workflow runs on pushes to `main` and manual dispatch.
+
+Cloudflare Pages deploys `main` independently, so this workflow reports failures after the push and cannot
+stop that deployment. To enforce the gate before deployment, the owner must set the Pages build command
+to `npm ci && npm run publish:check`. This repository change does not modify hosting settings.

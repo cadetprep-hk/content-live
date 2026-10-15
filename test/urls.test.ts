@@ -1,3 +1,4 @@
+import { station } from './maintenance-fixture.ts'
 import { readFileSync } from 'node:fs'
 import { describe, expect, it, vi } from 'vitest'
 import { LiveContent } from '../schema/live.ts'
@@ -70,4 +71,10 @@ describe('checkUrls (mocked fetch)', () => {
     })
     expect(failures[0]?.reason).toBe('HEAD: timed out after 0.02 s; GET: timed out after 0.02 s')
   })
+})
+
+it('collects station sources at their stable IATA key', () => {
+  const raw = JSON.parse(JSON.stringify(live))
+  raw.airlines.cathay.maintenance_stations = [station()]
+  expect(collectUrls(raw).get(station().source_url)).toEqual(['airlines.cathay.maintenance_stations.NRT'])
 })

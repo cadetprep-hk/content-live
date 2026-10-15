@@ -1,0 +1,6 @@
+{
+  "maintenance_stations": {
+    "app_build_live": false,
+    "requires": "a build containing the Task 21 維修站 section (cadetprep-app), live on the App Store"
+  }
+}

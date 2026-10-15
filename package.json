@@ -4,6 +4,7 @@
   "type": "module",
   "description": "Cadet Dream live content (airlines, digest) served at https://content.cadetdream.com/live.json",
   "scripts": {
+    "publish:check": "tsx scripts/publish-check.ts",
     "validate": "tsx scripts/validate.ts",
     "test": "vitest run",
     "typecheck": "tsc --noEmit"
