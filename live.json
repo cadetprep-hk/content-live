@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "as_of": "2026-10-15",
+  "as_of": "2026-10-16",
   "airlines": {
     "cathay": {
       "id": "cathay",
@@ -1638,7 +1638,92 @@
           "provider": "HAECO",
           "source_url": "https://www.haeco.com/en/media-centre/press-releases/haeco-commences-line-maintenance-support-for-cathay-pacifics-a-321-neo-in-hong-kong",
           "source_title": "HAECO commences line maintenance support for Cathay Pacific's A321neo in Hong Kong",
-          "as_of": "2026-10-15"
+          "as_of": "2026-10-16"
+        },
+        {
+          "country": {
+            "en": "China",
+            "zh-Hant": "中國"
+          },
+          "city": {
+            "en": "Chongqing",
+            "zh-Hant": "重慶"
+          },
+          "iata": "CKG",
+          "region": "east-asia",
+          "type": "line",
+          "provider": "HAECO",
+          "source_url": "https://www.haeco.com/en/media-centre/press-releases/haeco-commences-line-maintenance-support-for-cathay-pacifics-a-321-neo-in-hong-kong",
+          "source_title": "HAECO commences line maintenance support for Cathay Pacific's A321neo in Hong Kong",
+          "as_of": "2026-10-16"
+        },
+        {
+          "country": {
+            "en": "China",
+            "zh-Hant": "中國"
+          },
+          "city": {
+            "en": "Nanjing",
+            "zh-Hant": "南京"
+          },
+          "iata": "NKG",
+          "region": "east-asia",
+          "type": "line",
+          "provider": "HAECO",
+          "source_url": "https://www.haeco.com/en/media-centre/press-releases/haeco-commences-line-maintenance-support-for-cathay-pacifics-a-321-neo-in-hong-kong",
+          "source_title": "HAECO commences line maintenance support for Cathay Pacific's A321neo in Hong Kong",
+          "as_of": "2026-10-16"
+        },
+        {
+          "country": {
+            "en": "China",
+            "zh-Hant": "中國"
+          },
+          "city": {
+            "en": "Wuhan",
+            "zh-Hant": "武漢"
+          },
+          "iata": "WUH",
+          "region": "east-asia",
+          "type": "line",
+          "provider": "HAECO",
+          "source_url": "https://www.haeco.com/en/media-centre/press-releases/haeco-commences-line-maintenance-support-for-cathay-pacifics-a-321-neo-in-hong-kong",
+          "source_title": "HAECO commences line maintenance support for Cathay Pacific's A321neo in Hong Kong",
+          "as_of": "2026-10-16"
+        },
+        {
+          "country": {
+            "en": "China",
+            "zh-Hant": "中國"
+          },
+          "city": {
+            "en": "Xiamen",
+            "zh-Hant": "廈門"
+          },
+          "iata": "XMN",
+          "region": "east-asia",
+          "type": "line",
+          "provider": "HAECO",
+          "source_url": "https://www.haeco.com/en/media-centre/press-releases/haeco-commences-line-maintenance-support-for-cathay-pacifics-a-321-neo-in-hong-kong",
+          "source_title": "HAECO commences line maintenance support for Cathay Pacific's A321neo in Hong Kong",
+          "as_of": "2026-10-16"
+        },
+        {
+          "country": {
+            "en": "China",
+            "zh-Hant": "中國"
+          },
+          "city": {
+            "en": "Zhengzhou",
+            "zh-Hant": "鄭州"
+          },
+          "iata": "CGO",
+          "region": "east-asia",
+          "type": "line",
+          "provider": "HAECO",
+          "source_url": "https://www.haeco.com/en/media-centre/press-releases/haeco-commences-line-maintenance-support-for-cathay-pacifics-a-321-neo-in-hong-kong",
+          "source_title": "HAECO commences line maintenance support for Cathay Pacific's A321neo in Hong Kong",
+          "as_of": "2026-10-16"
         },
         {
           "country": {
@@ -1655,7 +1740,7 @@
           "provider": "Cathay Pacific",
           "source_url": "https://www.cathaypacific.com/content/dam/focal-point/cx/engineering/cx_lm_service_capability_list_w26.pdf",
           "source_title": "Line Maintenance Services Capability List S2026",
-          "as_of": "2026-10-15"
+          "as_of": "2026-10-16"
         },
         {
           "country": {
@@ -1672,7 +1757,7 @@
           "provider": "Cathay Pacific",
           "source_url": "https://www.cathaypacific.com/content/dam/focal-point/cx/engineering/cx_lm_service_capability_list_w26.pdf",
           "source_title": "Line Maintenance Services Capability List S2026",
-          "as_of": "2026-10-15"
+          "as_of": "2026-10-16"
         },
         {
           "country": {
@@ -1689,7 +1774,7 @@
           "provider": "Cathay Pacific",
           "source_url": "https://www.cathaypacific.com/content/dam/focal-point/cx/engineering/cx_lm_service_capability_list_w26.pdf",
           "source_title": "Line Maintenance Services Capability List S2026",
-          "as_of": "2026-10-15"
+          "as_of": "2026-10-16"
         },
         {
           "country": {
@@ -1706,7 +1791,7 @@
           "provider": "Cathay Pacific",
           "source_url": "https://www.cathaypacific.com/content/dam/focal-point/cx/engineering/cx_lm_service_capability_list_w26.pdf",
           "source_title": "Line Maintenance Services Capability List S2026",
-          "as_of": "2026-10-15"
+          "as_of": "2026-10-16"
         },
         {
           "country": {
@@ -1723,7 +1808,7 @@
           "provider": "Cathay Pacific",
           "source_url": "https://www.cathaypacific.com/content/dam/focal-point/cx/engineering/cx_lm_service_capability_list_w26.pdf",
           "source_title": "Line Maintenance Services Capability List S2026",
-          "as_of": "2026-10-15"
+          "as_of": "2026-10-16"
         },
         {
           "country": {
@@ -1740,7 +1825,7 @@
           "provider": "Cathay Pacific",
           "source_url": "https://www.cathaypacific.com/content/dam/focal-point/cx/engineering/cx_lm_service_capability_list_w26.pdf",
           "source_title": "Line Maintenance Services Capability List S2026",
-          "as_of": "2026-10-15"
+          "as_of": "2026-10-16"
         },
         {
           "country": {
@@ -1757,7 +1842,7 @@
           "provider": "Cathay Pacific",
           "source_url": "https://www.cathaypacific.com/content/dam/focal-point/cx/engineering/cx_lm_service_capability_list_w26.pdf",
           "source_title": "Line Maintenance Services Capability List S2026",
-          "as_of": "2026-10-15"
+          "as_of": "2026-10-16"
         },
         {
           "country": {
@@ -1774,7 +1859,7 @@
           "provider": "Cathay Pacific",
           "source_url": "https://www.cathaypacific.com/content/dam/focal-point/cx/engineering/cx_lm_service_capability_list_w26.pdf",
           "source_title": "Line Maintenance Services Capability List S2026",
-          "as_of": "2026-10-15"
+          "as_of": "2026-10-16"
         },
         {
           "country": {
@@ -1791,7 +1876,7 @@
           "provider": "Cathay Pacific",
           "source_url": "https://www.cathaypacific.com/content/dam/focal-point/cx/engineering/cx_lm_service_capability_list_w26.pdf",
           "source_title": "Line Maintenance Services Capability List S2026",
-          "as_of": "2026-10-15"
+          "as_of": "2026-10-16"
         },
         {
           "country": {
@@ -1808,7 +1893,7 @@
           "provider": "Cathay Pacific",
           "source_url": "https://www.cathaypacific.com/content/dam/focal-point/cx/engineering/cx_lm_service_capability_list_w26.pdf",
           "source_title": "Line Maintenance Services Capability List S2026",
-          "as_of": "2026-10-15"
+          "as_of": "2026-10-16"
         },
         {
           "country": {
@@ -1825,7 +1910,7 @@
           "provider": "Cathay Pacific",
           "source_url": "https://www.cathaypacific.com/content/dam/focal-point/cx/engineering/cx_lm_service_capability_list_w26.pdf",
           "source_title": "Line Maintenance Services Capability List S2026",
-          "as_of": "2026-10-15"
+          "as_of": "2026-10-16"
         },
         {
           "country": {
@@ -1842,7 +1927,7 @@
           "provider": "Cathay Pacific",
           "source_url": "https://www.cathaypacific.com/content/dam/focal-point/cx/engineering/cx_lm_service_capability_list_w26.pdf",
           "source_title": "Line Maintenance Services Capability List S2026",
-          "as_of": "2026-10-15"
+          "as_of": "2026-10-16"
         },
         {
           "country": {
@@ -1859,7 +1944,7 @@
           "provider": "Cathay Pacific",
           "source_url": "https://www.cathaypacific.com/content/dam/focal-point/cx/engineering/cx_lm_service_capability_list_w26.pdf",
           "source_title": "Line Maintenance Services Capability List S2026",
-          "as_of": "2026-10-15"
+          "as_of": "2026-10-16"
         },
         {
           "country": {
@@ -1876,7 +1961,7 @@
           "provider": "Cathay Pacific",
           "source_url": "https://www.cathaypacific.com/content/dam/focal-point/cx/engineering/cx_lm_service_capability_list_w26.pdf",
           "source_title": "Line Maintenance Services Capability List S2026",
-          "as_of": "2026-10-15"
+          "as_of": "2026-10-16"
         },
         {
           "country": {
@@ -1893,7 +1978,7 @@
           "provider": "Cathay Pacific",
           "source_url": "https://www.cathaypacific.com/content/dam/focal-point/cx/engineering/cx_lm_service_capability_list_w26.pdf",
           "source_title": "Line Maintenance Services Capability List S2026",
-          "as_of": "2026-10-15"
+          "as_of": "2026-10-16"
         },
         {
           "country": {
@@ -1910,7 +1995,7 @@
           "provider": "Cathay Pacific",
           "source_url": "https://www.cathaypacific.com/content/dam/focal-point/cx/engineering/cx_lm_service_capability_list_w26.pdf",
           "source_title": "Line Maintenance Services Capability List S2026",
-          "as_of": "2026-10-15"
+          "as_of": "2026-10-16"
         },
         {
           "country": {
@@ -1927,7 +2012,7 @@
           "provider": "Cathay Pacific",
           "source_url": "https://www.cathaypacific.com/content/dam/focal-point/cx/engineering/cx_lm_service_capability_list_w26.pdf",
           "source_title": "Line Maintenance Services Capability List S2026",
-          "as_of": "2026-10-15"
+          "as_of": "2026-10-16"
         },
         {
           "country": {
@@ -1944,7 +2029,7 @@
           "provider": "Cathay Pacific",
           "source_url": "https://www.cathaypacific.com/content/dam/focal-point/cx/engineering/cx_lm_service_capability_list_w26.pdf",
           "source_title": "Line Maintenance Services Capability List S2026",
-          "as_of": "2026-10-15"
+          "as_of": "2026-10-16"
         },
         {
           "country": {
@@ -1961,7 +2046,7 @@
           "provider": "Cathay Pacific",
           "source_url": "https://www.cathaypacific.com/content/dam/focal-point/cx/engineering/cx_lm_service_capability_list_w26.pdf",
           "source_title": "Line Maintenance Services Capability List S2026",
-          "as_of": "2026-10-15"
+          "as_of": "2026-10-16"
         },
         {
           "country": {
@@ -1978,7 +2063,7 @@
           "provider": "Cathay Pacific",
           "source_url": "https://www.cathaypacific.com/content/dam/focal-point/cx/engineering/cx_lm_service_capability_list_w26.pdf",
           "source_title": "Line Maintenance Services Capability List S2026",
-          "as_of": "2026-10-15"
+          "as_of": "2026-10-16"
         },
         {
           "country": {
@@ -1995,7 +2080,7 @@
           "provider": "Cathay Pacific",
           "source_url": "https://www.cathaypacific.com/content/dam/focal-point/cx/engineering/cx_lm_service_capability_list_w26.pdf",
           "source_title": "Line Maintenance Services Capability List S2026",
-          "as_of": "2026-10-15"
+          "as_of": "2026-10-16"
         },
         {
           "country": {
@@ -2012,7 +2097,7 @@
           "provider": "Cathay Pacific",
           "source_url": "https://www.cathaypacific.com/content/dam/focal-point/cx/engineering/cx_lm_service_capability_list_w26.pdf",
           "source_title": "Line Maintenance Services Capability List S2026",
-          "as_of": "2026-10-15"
+          "as_of": "2026-10-16"
         },
         {
           "country": {
@@ -2029,7 +2114,7 @@
           "provider": "Cathay Pacific",
           "source_url": "https://www.cathaypacific.com/content/dam/focal-point/cx/engineering/cx_lm_service_capability_list_w26.pdf",
           "source_title": "Line Maintenance Services Capability List S2026",
-          "as_of": "2026-10-15"
+          "as_of": "2026-10-16"
         },
         {
           "country": {
@@ -2046,7 +2131,7 @@
           "provider": "Cathay Pacific",
           "source_url": "https://www.cathaypacific.com/content/dam/focal-point/cx/engineering/cx_lm_service_capability_list_w26.pdf",
           "source_title": "Line Maintenance Services Capability List S2026",
-          "as_of": "2026-10-15"
+          "as_of": "2026-10-16"
         },
         {
           "country": {
@@ -2063,7 +2148,7 @@
           "provider": "Cathay Pacific",
           "source_url": "https://www.cathaypacific.com/content/dam/focal-point/cx/engineering/cx_lm_service_capability_list_w26.pdf",
           "source_title": "Line Maintenance Services Capability List S2026",
-          "as_of": "2026-10-15"
+          "as_of": "2026-10-16"
         },
         {
           "country": {
@@ -2080,7 +2165,7 @@
           "provider": "Cathay Pacific",
           "source_url": "https://www.cathaypacific.com/content/dam/focal-point/cx/engineering/cx_lm_service_capability_list_w26.pdf",
           "source_title": "Line Maintenance Services Capability List S2026",
-          "as_of": "2026-10-15"
+          "as_of": "2026-10-16"
         },
         {
           "country": {
@@ -2097,7 +2182,7 @@
           "provider": "Cathay Pacific",
           "source_url": "https://www.cathaypacific.com/content/dam/focal-point/cx/engineering/cx_lm_service_capability_list_w26.pdf",
           "source_title": "Line Maintenance Services Capability List S2026",
-          "as_of": "2026-10-15"
+          "as_of": "2026-10-16"
         },
         {
           "country": {
@@ -2114,7 +2199,7 @@
           "provider": "Cathay Pacific",
           "source_url": "https://www.cathaypacific.com/content/dam/focal-point/cx/engineering/cx_lm_service_capability_list_w26.pdf",
           "source_title": "Line Maintenance Services Capability List S2026",
-          "as_of": "2026-10-15"
+          "as_of": "2026-10-16"
         }
       ],
       "changes": [
